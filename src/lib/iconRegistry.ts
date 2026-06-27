@@ -51,7 +51,6 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Footprints: LucideIcons.Footprints,
   Building2: LucideIcons.Building2,
   Crosshair: LucideIcons.Crosshair,
-  Shield: LucideIcons.Shield,
   Castle: LucideIcons.Castle,
   Sword: LucideIcons.Sword,
   Gavel: LucideIcons.Gavel,
