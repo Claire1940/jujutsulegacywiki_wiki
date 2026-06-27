@@ -1,10 +1,832 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Jujutsu Legacy - Kode, Teknik & Wadah",
+      "description": "Wiki Jujutsu Legacy dengan kode, teknik, wadah, bos, raid, tier list, tips pemula, dan panduan pembaruan Roblox untuk progres lebih cepat.",
+      "keywords": "jujutsu legacy, roblox, kode, teknik, wadah, raid, tier list, bos",
+      "ogTitle": "Wiki Jujutsu Legacy - Kode, Teknik & Wadah",
+      "ogDescription": "Wiki Jujutsu Legacy dengan kode, teknik, wadah, bos, raid, tier list, tips pemula, dan panduan pembaruan Roblox untuk progres lebih cepat.",
+      "twitterTitle": "Wiki Jujutsu Legacy - Kode, Teknik & Wadah",
+      "twitterDescription": "Wiki Jujutsu Legacy dengan kode, teknik, wadah, bos, raid, tier list, dan panduan pembaruan Roblox."
+    }
+  },
   "nav": {
     "codes": "Kode",
     "guide": "Panduan",
     "techniques": "Teknik",
-    "vessels": "Vessels",
+    "vessels": "Wadah",
     "clans": "Klan",
-    "builds": "Builds"
+    "builds": "Build"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Main di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Pengalaman Bertarung RPG Anime Roblox",
+    "title": "Wiki Jujutsu Legacy",
+    "description": "Kuasai teknik kutukan, tingkatkan level penyihirmu, kumpulkan wadah, lawan bos dan raid, serta gunakan kode untuk spin di RPG anime Roblox ini.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Main di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "27.7M+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "2000",
+        "label": "Batas Level"
+      },
+      "stat3": {
+        "value": "20+",
+        "label": "Teknik"
+      },
+      "stat4": {
+        "value": "84.36%",
+        "label": "Rating Pemain"
+      }
+    }
+  },
+  "tools": {
+    "title": "Jujutsu Legacy",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang Anda butuhkan untuk kode, teknik, wadah, spin, bos, dan raid di Jujutsu Legacy.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Kode Jujutsu Legacy",
+        "description": "Kode aktif dan kedaluwarsa untuk Spin Teknik dan Klan"
+      },
+      {
+        "icon": "Link2",
+        "title": "Link Jujutsu Legacy",
+        "description": "Roblox, Discord, dan Trello dalam satu tempat"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Panduan Pemula Jujutsu Legacy",
+        "description": "Langkah awal, leveling, dan cara cerdas menggunakan spin"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List Jujutsu Legacy",
+        "description": "Prioritas reroll untuk setiap teknik kutukan"
+      },
+      {
+        "icon": "Dices",
+        "title": "Spin Jujutsu Legacy",
+        "description": "Perencanaan reroll Teknik, Klan, dan Ras"
+      },
+      {
+        "icon": "Swords",
+        "title": "Wadah Jujutsu Legacy",
+        "description": "Sukuna, Ishigori, Uro, Mechamaru, dan Kashimo"
+      },
+      {
+        "icon": "Map",
+        "title": "Rute Leveling Jujutsu Legacy",
+        "description": "Quest, bos, dan rentang level hingga 2000"
+      },
+      {
+        "icon": "Gem",
+        "title": "Raid Jujutsu Legacy",
+        "description": "Swords, aksesori, dan drop late-game"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Kode Jujutsu Legacy",
+      "intro": "Kode terutama berguna untuk memutar ulang (reroll) sistem karakter yang paling penting di Jujutsu Legacy: teknik, klan, dan perkembangan terkait ras. Tukarkan kode yang aktif untuk mendapatkan Spin Teknik dan Spin Klan, capai Level 5 terlebih dahulu, lalu buka menu dalam game dan masukkan kode di kotak penukaran.",
+      "activeLabel": "Aktif",
+      "expiredLabel": "Kedaluwarsa",
+      "copyLabel": "Salin",
+      "redeemTitle": "Cara menukarkan kode Jujutsu Legacy",
+      "activeCodes": [
+        {
+          "code": "MutualLove",
+          "reward": "40 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "Dessert",
+          "reward": "Spin Teknik Gratis",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "Mahoraga",
+          "reward": "30 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "WUpd",
+          "reward": "30 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "Just This Once",
+          "reward": "10 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "Takaba",
+          "reward": "20 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "AlwaysBetOnHakari",
+          "reward": "20 Spin Klan",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "Sorry",
+          "reward": "20 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "SkyManipulation",
+          "reward": "20 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "Cursed",
+          "reward": "10 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        },
+        {
+          "code": "SkillIssue",
+          "reward": "3 Spin Teknik",
+          "requirement": "Capai Level 5 terlebih dahulu"
+        }
+      ],
+      "expiredGroups": [
+        {
+          "label": "Kode pencapaian yang kedaluwarsa",
+          "note": "Hadiah pencapaian sebelumnya, sebagian besar berupa Spin Teknik, Spin Ras, atau Spin Klan",
+          "codes": "1.5KLIKES, 2KLIKES, 2.5KLIKES, 3KLIKES, 3.5KLIKES, 4KLIKES, 4.5KLIKES, 5KLIKES, 5.5KLIKES, 6KLIKES, 6.5KLIKES, 7KLIKES, 7.5KLIKES, 8KLIKES, 8.5KLIKES, 9KLIKES, 9.5KLIKES, 10KLIKES, 11KLIKES, 12KLIKES"
+        },
+        {
+          "label": "Kode pembaruan dan acara yang kedaluwarsa",
+          "note": "Hadiah pembaruan, permintaan maaf, dan acara sebelumnya",
+          "codes": "Infinity, Hanami, Jackpot, BloodManipulation, DisasterFlames, Higuruma, Comedian, Ishigori, RaceSpin2, SorryShutdown, Gifts, SorryForGiveSpecialClan, SorryForInfBugs, Krampus Sukuna, Cat Gojo, WChristmas, Christmas1"
+        }
+      ],
+      "redeemSteps": [
+        "Luncurkan Jujutsu Legacy di Roblox.",
+        "Capai Level 5 sebelum mencoba menukarkan kode.",
+        "Tekan M atau klik tombol Menu di sisi kiri layar.",
+        "Masukkan kode di kotak penukaran.",
+        "Tekan OK atau Enter untuk mengklaim hadiah."
+      ]
+    },
+    "officialLinks": {
+      "title": "Tautan Trello dan Discord Jujutsu Legacy",
+      "intro": "Hub ini menyimpan tautan penting Jujutsu Legacy di satu tempat sehingga pemain dapat memainkan pengalaman Roblox, bergabung dengan komunitas resmi, memeriksa server Discord, dan membuka papan Trello tanpa harus mencari di antara undangan palsu dan papan yang sudah usang.",
+      "links": [
+        {
+          "label": "Pengalaman Roblox Jujutsu Legacy",
+          "href": "https://www.roblox.com/games/15694107053/Jujutsu-Legacy",
+          "category": "Tautan Bermain",
+          "note": "Mainkan game ini, periksa Level Cap saat ini yaitu 2000, dan tinjau kumpulan teknik serta wadah saat ini."
+        },
+        {
+          "label": "Komunitas Resmi Roblox Jujutsu Legacy",
+          "href": "https://www.roblox.com/communities/33596404/Jujutsu-Legacy-Official",
+          "category": "Grup Roblox",
+          "note": "Ikuti komunitas resmi Roblox yang terhubung dengan Jujutsu Legacy."
+        },
+        {
+          "label": "Server Discord Jujutsu Legacy",
+          "href": "https://discord.com/invite/jujutsu-legacy-beta-1247159977181708288",
+          "category": "Discord",
+          "note": "Kode, pengumuman, pemberitahuan server, pembahasan pembaruan, dan diskusi komunitas."
+        },
+        {
+          "label": "Papan Trello Jujutsu Legacy",
+          "href": "https://trello.com/b/432tpo1k/jujutsu-legacy",
+          "category": "Trello",
+          "note": "Referensi mekanik, sistem game, teknik, wadah, dan pelacakan pembaruan."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Panduan Pemula Jujutsu Legacy",
+      "intro": "Jujutsu Legacy memberikan beberapa sistem sekaligus kepada pemain baru: teknik, klan, wadah, spin, dan peningkatan level. Rute awal yang paling aman adalah mempelajari menu, membuka penukaran kode pada Level 5, and menggunakan spin pada sistem yang benar-benar membentuk build Anda alih-alih menghabiskannya secara acak.",
+      "steps": [
+        {
+          "title": "Luncurkan pengalaman resmi Roblox",
+          "description": "Buka Jujutsu Legacy dari halaman game Roblox dan mulai dari pengalaman langsung saat ini. Deskripsi resmi Roblox mencantumkan batas level saat ini adalah 2000.",
+          "goal": "Masuk ke dalam pengalaman yang benar sebelum mengikuti panduan atau daftar kode apa pun."
+        },
+        {
+          "title": "Pelajari menunya terlebih dahulu",
+          "description": "Gunakan tombol Menu atau tombol M untuk mengakses opsi utama, termasuk kotak penukaran kode. Menu ini adalah tempat pemain baru mulai menyadari sistem build di Jujutsu Legacy.",
+          "goal": "Ketahui di mana letak kode dan sistem karakter sebelum menggunakan spin."
+        },
+        {
+          "title": "Capai Level 5 sebelum menukarkan kode",
+          "description": "Penukaran kode memerlukan Level 5 di Jujutsu Legacy. Kalahkan musuh awal dan selesaikan progresi pemula hingga kotak penukaran menerima kode.",
+          "goal": "Buka Spin Teknik dan Spin Klan gratis secepat mungkin."
+        },
+        {
+          "title": "Gunakan spin dengan rencana build",
+          "description": "Spin Teknik memutar ulang teknik terkutuk Anda, sedangkan Spin Klan menargetkan progresi klan. Simpan tumpukan spin yang lebih besar untuk upaya putar ulang yang serius alih-alih menghabiskan satu kode dalam satu waktu.",
+          "goal": "Hindari mengganti teknik langka yang berguna terlalu cepat."
+        },
+        {
+          "title": "Pilih target teknik pertama",
+          "description": "Kumpulan teknik saat ini di Jujutsu Legacy meliputi Limitless, Rika, Cursed Manipulation, Sky Manipulation, Ice Formation, Disaster Flames, Ten Shadows, Idle Transfiguration, Mythical Beast Amber V2, Ten Shadows V2, dan Heian Shrine.",
+          "goal": "Incar teknik yang membantu dalam grinding, bos, atau PvP."
+        },
+        {
+          "title": "Pahami wadah sebagai sistem yang terpisah",
+          "description": "Wadah saat ini di Jujutsu Legacy adalah Sukuna, Ishigori, Uro, Mechamaru, dan Kashimo. Perlakukan wadah sebagai lapisan kekuatan yang terpisah dari teknik saat merencanakan build Anda.",
+          "goal": "Jangan bingung membedakan hasil spin teknik yang bagus dengan setup yang lengkap."
+        },
+        {
+          "title": "Periksa Discord dan Trello sebelum melakukan putar ulang besar-besaran",
+          "description": "Gunakan Discord untuk kode dan pengumuman, serta Trello untuk referensi mekanik terstruktur sebelum menghabiskan tumpukan spin yang besar di Jujutsu Legacy.",
+          "goal": "Buat keputusan putar ulang dengan informasi game saat ini."
+        }
+      ]
+    },
+    "techniqueTierList": {
+      "title": "Daftar Tingkat Teknik Jujutsu Legacy",
+      "intro": "Daftar tingkat teknik Jujutsu Legacy ini berfokus pada teknik terkutuk mana yang layak dipertahankan saat Anda menggunakan Spin Teknik. Tingkat yang lebih tinggi mengutamakan nilai akhir game yang kuat, kegunaan melawan bos, tekanan PvP, dan penggunaan yang fleksibel di lebih dari satu mode.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Target putar ulang terbaik",
+          "summary": "Pertahankan teknik-teknik ini untuk progresi serius, melawan bos, dan build yang berfokus pada PvP di Jujutsu Legacy.",
+          "techniques": [
+            "Heian Shrine",
+            "Ten Shadows V2",
+            "Limitless",
+            "Rika"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Pilihan kuat untuk dipertahankan",
+          "summary": "Teknik luar biasa yang layak dijadikan dasar build sebelum mengejar hasil spin akhir game yang paling sulit.",
+          "techniques": [
+            "Cursed Manipulation",
+            "Mythical Beast Amber V2",
+            "Idle Transfiguration",
+            "Sky Manipulation",
+            "Projection",
+            "Disaster Flames"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Bagus dan dapat digunakan",
+          "summary": "Teknik solid yang menopang progresi awal dan pertengahan game, biasanya digantikan oleh opsi langka atau V2 yang lebih kuat nantinya.",
+          "techniques": [
+            "Ice Formation",
+            "Disaster Tides",
+            "Ten Shadows",
+            "Puppet Manipulation",
+            "Cursed Speech",
+            "Anti Gravity",
+            "Moon Dregs",
+            "Boogie Woogie"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Pilihan pemula atau khusus (niche)",
+          "summary": "Teknik-teknik ini berfungsi saat meningkatkan level, tetapi bukan alasan utama untuk menghabiskan tumpukan Spin Teknik yang besar.",
+          "techniques": [
+            "Divergent Fist",
+            "Missile Fists",
+            "Death Sentence",
+            "Ratio"
+          ]
+        }
+      ]
+    },
+    "spinsClanAndRaceRerolls": {
+      "title": "Spin, Reroll Klan, dan Reroll Ras Jujutsu Legacy",
+      "intro": "Spin adalah sumber daya progresi utama di Jujutsu Legacy. Spin Teknik mengubah perlengkapan tempur Anda, Spin Klan menyesuaikan identitas stat berbasis klan, dan Spin Ras memengaruhi arah stat jangka panjang, sehingga masing-masing harus diperlakukan sebagai keputusan build daripada sekadar menekan tombol tanpa tujuan.",
+      "bestForLabel": "Terbaik untuk",
+      "planLabel": "Rencana pengeluaran",
+      "avoidLabel": "Hindari",
+      "rows": [
+        {
+          "icon": "Wand2",
+          "type": "Spin Teknik",
+          "affects": "Pemilihan Teknik Kutukan dan perlengkapan skill utama Anda.",
+          "bestFor": "Mengejar gaya bertarung inti seperti Limitless, Rika, Cursed Manipulation, Sky Manipulation, Ice Formation, Disaster Flames, Ten Shadows, Puppet Manipulation, Cursed Speech, Anti Gravity, Mythical Beast Amber V2, Ten Shadows V2, atau Heian Shrine.",
+          "plan": "Gunakan setelah memutuskan apakah akun tersebut ditujukan untuk farming boss, damage raid, mobilitas, atau pengaturan yang terhubung dengan wadah.",
+          "avoid": "Jangan menghabiskan Spin Teknik sebelum memeriksa apakah teknik saat ini terhubung dengan wadah, rute V2, atau rencana penyimpanan."
+        },
+        {
+          "icon": "Users",
+          "type": "Spin Klan",
+          "affects": "Identitas klan dan nilai build pasif.",
+          "bestFor": "Menyesuaikan akun yang sudah selesai atau hampir selesai setelah arah teknik dan wadah ditentukan.",
+          "plan": "Simpan Spin Klan sampai teknik utama stabil, lalu lakukan reroll untuk klan yang mendukung rencana stat yang dipilih.",
+          "avoid": "Jangan menganggap Spin Klan sebagai pengisi awal permainan saat build belum memilih jalur tekniknya."
+        },
+        {
+          "icon": "Dna",
+          "type": "Spin Ras",
+          "affects": "Profil stat berbasis ras dan arah penskalaan jangka panjang.",
+          "bestFor": "Menyelesaikan build yang sudah memiliki peran jelas, seperti penskalaan damage pedang, damage teknik, atau damage wadah.",
+          "plan": "Gunakan Spin Ras lebih lambat daripada Spin Teknik karena nilai ras bergantung pada target build akhir.",
+          "avoid": "Jangan mengganti ras yang berguna begitu saja jika akun sudah bisa melakukan farming boss atau raid dengan nyaman."
+        },
+        {
+          "icon": "Gift",
+          "type": "Hadiah Spin Kode",
+          "affects": "Stok reroll gratis dari rilis kode resmi Jujutsu Legacy.",
+          "bestFor": "Menyimpan sejumlah besar reroll sebelum melakukan reset build besar-besaran.",
+          "plan": "Klaim hadiah kode yang tersedia terlebih dahulu, lalu lakukan reroll dalam satu sesi terencana sehingga Anda dapat berhenti setelah target tercapai.",
+          "avoid": "Jangan membagi batch kecil untuk reroll acak kecuali jika pengaturan saat ini tidak dapat digunakan."
+        }
+      ]
+    },
+    "vesselsAndBuilds": {
+      "title": "Wadah dan Build Jujutsu Legacy",
+      "intro": "Jujutsu Legacy mencantumkan Sukuna, Ishigori, Uro, Mechamaru, dan Kashimo sebagai wadah saat ini. Setiap wadah paling baik dipahami sebagai jangkar build: wadah paling penting ketika terhubung dengan jelas dengan jalur teknik, target farming boss, atau rencana raid akhir permainan.",
+      "techniquesLabel": "Teknik yang terhubung",
+      "focusLabel": "Fokus build",
+      "progressionLabel": "Penggunaan progresi",
+      "tipLabel": "Tip pemain",
+      "vessels": [
+        {
+          "icon": "Crown",
+          "name": "Sukuna",
+          "role": "Jalur wadah damage tinggi",
+          "techniques": [
+            "Kuil Heian",
+            "Sepuluh Bayangan V2"
+          ],
+          "focus": "Damage agresif, tekanan domain, dan penskalaan wadah akhir permainan.",
+          "progression": "Paling baik diperlakukan sebagai target build jangka panjang daripada hasil reroll awal yang biasa saja.",
+          "tip": "Pasangkan perencanaan Sukuna dengan penyimpanan teknik dan penyimpanan reroll sebelum melakukan reset akun penuh."
+        },
+        {
+          "icon": "Bomb",
+          "name": "Ishigori",
+          "role": "Jalur wadah damage burst",
+          "techniques": [
+            "Pelepasan Energi Terkutuk"
+          ],
+          "focus": "Tekanan jarak jauh langsung dan jendela burst besar untuk farming boss.",
+          "progression": "Berguna untuk pemain yang menginginkan output damage sederhana tanpa mengandalkan rantai pengaturan yang rumit.",
+          "tip": "Prioritaskan stat damage yang stabil dan konsistensi farming boss sebelum mengejar hadiah kosmetik."
+        },
+        {
+          "icon": "Wind",
+          "name": "Uro",
+          "role": "Jalur wadah sinergi teknik dan pengaturan jarak",
+          "techniques": [
+            "Manipulasi Langit"
+          ],
+          "focus": "Mobilitas, pengaturan jarak, dan kontrol berbasis teknik.",
+          "progression": "Sangat cocok untuk pemain yang lebih menyukai kontrol jarak jauh dan posisi boss yang lebih aman.",
+          "tip": "Ingatlah Sky Manipulation sebelum menggunakan Spin Teknik, karena nilai Uro terikat dengan gaya tersebut."
+        },
+        {
+          "icon": "Bot",
+          "name": "Mechamaru",
+          "role": "Jalur wadah berbasis boneka",
+          "techniques": [
+            "Manipulasi Boneka"
+          ],
+          "focus": "Tekanan mekanis, nilai transformasi, dan rute peningkatan Puppet Manipulation.",
+          "progression": "Bekerja paling baik ketika akun sudah dibangun di sekitar Puppet Manipulation daripada sebagai pertukaran mandiri.",
+          "tip": "Jangan menilai Mechamaru hanya dari slot wadah dasar; nilainya berasal dari pengaturan lengkap Puppet Manipulation."
+        },
+        {
+          "icon": "Zap",
+          "name": "Kashimo",
+          "role": "Jalur wadah serbuan petir",
+          "techniques": [
+            "Binatang Mitos Amber V2"
+          ],
+          "focus": "Tekanan cepat, pergerakan agresif, dan damage burst berbasis petir.",
+          "progression": "Bagus untuk pemain yang menginginkan pertempuran tempo tinggi dan tekanan boss setelah level dasar stabil.",
+          "tip": "Simpan reroll yang cukup sebelum mengejar pengaturan yang terhubung dengan Kashimo, karena build petir parsial terasa lebih lemah daripada yang sudah selesai."
+        }
+      ]
+    },
+    "questsBossesAndLevelingRoute": {
+      "title": "Quest, Bos, dan Rute Leveling Jujutsu Legacy",
+      "intro": "Batas level Jujutsu Legacy saat ini adalah 2000, jadi rute teraman adalah melewati rentang quest daripada berkeliaran di antara bos secara acak. Gunakan quest untuk mendapatkan experience yang stabil, lalu beralih ke farming bos dan raid setelah akun memiliki damage, health, dan pengaturan teknik-wadah yang stabil.",
+      "areaLabel": "Area",
+      "targetsLabel": "Target",
+      "routeLabel": "Rute",
+      "priorityLabel": "Prioritas",
+      "bands": [
+        {
+          "icon": "Sprout",
+          "section": "Progres Awal",
+          "levelRange": "Pemula hingga 125+",
+          "area": "Jujutsu High dan rute awal Shibuya",
+          "targets": [
+            "Quest pemula",
+            "musuh kutukan awal",
+            "rute Takuma Ino"
+          ],
+          "route": "Buat build teknik yang bisa digunakan terlebih dahulu, selesaikan quest terdekat untuk mendapatkan experience yang dapat diulang, dan hindari farming drop langka sebelum akun dapat mengalahkan musuh dasar dengan cepat.",
+          "priority": "Buka damage dan pergerakan yang andal sebelum mengejar pedang atau aksesori."
+        },
+        {
+          "icon": "Footprints",
+          "section": "Pengaturan Midgame",
+          "levelRange": "125 hingga 275+",
+          "area": "Pendekatan Shibuya dan jalur quest yang terhubung",
+          "targets": [
+            "Rute Eso",
+            "quest area pemakaman",
+            "leveling pra-Metro"
+          ],
+          "route": "Tetap berada pada rantai quest yang berdekatan dan hanya maju setelah musuh tidak lagi membutuhkan waktu terlalu lama untuk dikalahkan.",
+          "priority": "Tingkatkan stat, stabilkan teknik utama, dan bersiaplah untuk bos Metro."
+        },
+        {
+          "icon": "Building2",
+          "section": "Progres Metro",
+          "levelRange": "300 hingga 450+",
+          "area": "Metro Shibuya",
+          "targets": [
+            "Choso",
+            "Mahito",
+            "Jogo",
+            "Kenjaku"
+          ],
+          "route": "Gunakan rentang Metro sebagai jembatan utama dari leveling dasar ke progres yang berfokus pada bos. Choso dan Mahito adalah bos checkpoint yang umum sebelum target Metro yang lebih tinggi.",
+          "priority": "Farm experience terlebih dahulu, lalu kembali untuk drop tertentu setelah pembersihan konsisten."
+        },
+        {
+          "icon": "Crosshair",
+          "section": "Masuk Culling Games",
+          "levelRange": "500 hingga 575+",
+          "area": "Culling Games",
+          "targets": [
+            "JudgeMan",
+            "Rute Zenin",
+            "Naoya",
+            "Higuruma"
+          ],
+          "route": "Rute Culling Games memperkenalkan target bos yang lebih berharga dan farming terkait pedang. JudgeMan sangat penting untuk rute pengumpulan pedang.",
+          "priority": "Mulai lacak drop bos, tetapi terus lakukan leveling jika kecepatan membunuh masih lambat."
+        },
+        {
+          "icon": "Shield",
+          "section": "Target Wadah Culling Games",
+          "levelRange": "625 hingga 700+",
+          "area": "Rute lanjutan Culling Games",
+          "targets": [
+            "Uro",
+            "Ishigori",
+            "Yuta",
+            "Charles"
+          ],
+          "route": "Rentang ini penting untuk jalur wadah dan build late-game. Uro dan Ishigori sangat relevan karena keduanya terhubung langsung ke perencanaan wadah.",
+          "priority": "Pilih apakah akun akan melakukan farming unlock wadah, drop pedang, atau murni experience sebelum mengulang bos."
+        },
+        {
+          "icon": "Castle",
+          "section": "Late Game dan Persiapan Raid",
+          "levelRange": "1000 hingga 2000",
+          "area": "Shinjuku dan konten raid",
+          "targets": [
+            "Kashimo",
+            "Bos terkait Sukuna",
+            "Raid Terkuat",
+            "Raid Divine General"
+          ],
+          "route": "Pada titik ini, kualitas build lebih penting daripada urutan rute mentah. Masuki raid dengan teknik yang stabil, rencana wadah, arah aksesori, dan stat yang cukup untuk bertahan dari gelombang yang berulang.",
+          "priority": "Farm raid untuk drop penentu build hanya setelah akun dapat mengalahkan bos late-game dengan andal."
+        }
+      ]
+    },
+    "raidsDropsSwordsAndAccessories": {
+      "title": "Raid, Drop, Swords, dan Aksesori Jujutsu Legacy",
+      "intro": "Setelah tahap pemula, progresi Jujutsu Legacy bergeser dari peningkatan level biasa menjadi farming terarget. Boss dan raid seperti Megumi, JudgeMan, Uro, Ishigori, Kashimo, dan sumber raid late-game menjadi penting karena hadiahnya dapat membuka Sword, vessel, aksesori, trait, ras, atau peningkatan gaya bertarung.",
+      "locationLabel": "Lokasi",
+      "rewardsLabel": "Hadiah menarik",
+      "valueLabel": "Nilai farming",
+      "bestForLabel": "Terbaik untuk",
+      "drops": [
+        {
+          "icon": "Sword",
+          "source": "Megumi",
+          "area": "Dekat rute jembatan Shibuya",
+          "rewardTypes": [
+            "Sword",
+            "Gelar"
+          ],
+          "rewards": [
+            "Dark Surge",
+            "Shadow Title"
+          ],
+          "value": "Target Sword awal yang bagus untuk pemain yang mulai melampaui leveling quest dasar.",
+          "bestFor": "Koleksi Sword dan perencanaan progresi terkait Ten Shadows."
+        },
+        {
+          "icon": "Swords",
+          "source": "Toji Reincarnation",
+          "area": "Rute samping Jujutsu High",
+          "rewardTypes": [
+            "Sword"
+          ],
+          "rewards": [
+            "Playful Cloud",
+            "Inverted Spear of Heaven"
+          ],
+          "value": "Farming senjata yang berguna untuk pemain yang menginginkan opsi melee lebih kuat sebelum farming Culling Games yang lebih mendalam.",
+          "bestFor": "Pengguna Sword dan pemain yang membangun koleksi senjata yang lebih luas."
+        },
+        {
+          "icon": "Gavel",
+          "source": "JudgeMan",
+          "area": "Culling Games",
+          "rewardTypes": [
+            "Sword"
+          ],
+          "rewards": [
+            "Gavel Hammer",
+            "Executioner Sword"
+          ],
+          "value": "Target Culling Games prioritas tinggi karena kedua hadiah yang tercantum adalah peningkatan senjata yang terikat dengan rute JudgeMan.",
+          "bestFor": "Pemain yang menginginkan Sword langka dan tujuan farming Culling Games yang jelas."
+        },
+        {
+          "icon": "Cloud",
+          "source": "Uro",
+          "area": "Culling Games",
+          "rewardTypes": [
+            "Item vessel",
+            "Item pendukung teknik"
+          ],
+          "rewards": [
+            "Sky Fragment"
+          ],
+          "value": "Penting untuk pemain yang merencanakan progresi terkait Uro Vessel dan Sky Manipulation.",
+          "bestFor": "Pengguna Sky Manipulation dan build yang berfokus pada Uro."
+        },
+        {
+          "icon": "Flame",
+          "source": "Ishigori Reincarnated Sorcerer route",
+          "area": "Culling Games",
+          "rewardTypes": [
+            "Item vessel"
+          ],
+          "rewards": [
+            "Ishigori Hair"
+          ],
+          "value": "Farming inti untuk pemain yang ingin membuka atau membuat build di sekitar Ishigori Vessel.",
+          "bestFor": "Build vessel burst-damage."
+        },
+        {
+          "icon": "Activity",
+          "source": "Kashimo",
+          "area": "Rute Shinjuku",
+          "rewardTypes": [
+            "Item vessel",
+            "Sword",
+            "Item gaya bertarung"
+          ],
+          "rewards": [
+            "Kashimo Head",
+            "Electric Pole",
+            "Thunder Spirit"
+          ],
+          "value": "Target late-game yang kuat untuk pemain yang membangun tekanan petir atau rute Kashimo Vessel.",
+          "bestFor": "Akun yang berfokus pada Mythical Beast Amber dan rushdown."
+        },
+        {
+          "icon": "Medal",
+          "source": "Strongest Raid",
+          "area": "Konten raid",
+          "rewardTypes": [
+            "Aksesori",
+            "Gelar",
+            "Trait"
+          ],
+          "rewards": [
+            "Nah I'd Win",
+            "Honored One",
+            "Strongest of Today",
+            "Six Eyes"
+          ],
+          "value": "Target raid late-game untuk pemain yang mencari prestise penentu build dan hadiah trait.",
+          "bestFor": "Akun tingkat lanjut dengan damage dan kelangsungan hidup yang cukup untuk menyelesaikan raid berulang kali."
+        },
+        {
+          "icon": "Skull",
+          "source": "Divine General Raid",
+          "area": "Rute raid Culling Games",
+          "rewardTypes": [
+            "Gaya bertarung",
+            "Aksesori",
+            "Gelar",
+            "Trait",
+            "Item ras"
+          ],
+          "rewards": [
+            "Imperial Curse Arts",
+            "Sukuna Heian Haori",
+            "King of Curses",
+            "Strongest in History",
+            "Demonic Usurpation",
+            "Heian Emperor"
+          ],
+          "value": "Salah satu farming raid late-game paling penting karena kumpulan hadiahnya terhubung langsung dengan gaya Sukuna dan build berskala tinggi.",
+          "bestFor": "Pemain yang berfokus pada Sukuna, farmer raid, dan akun progresi endgame."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan Umum",
+    "subtitle": "Semua yang perlu Anda ketahui tentang Jujutsu Legacy",
+    "titleHighlight": "Pertanyaan",
+    "questions": [
+      {
+        "question": "Apa itu Jujutsu Legacy?",
+        "answer": "Jujutsu Legacy adalah pengalaman bertarung RPG anime Roblox di mana Anda menguasai teknik kutukan, mengumpulkan wadah, melawan bos dan raid, serta menggunakan kode untuk Spin Teknik dan Spin Klan."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode di Jujutsu Legacy?",
+        "answer": "Capai Level 5 in Jujutsu Legacy, tekan M atau klik tombol Menu, masukkan kode yang aktif di kotak penukaran, dan tekan OK untuk mengklaim Spin Teknik atau Spin Klan."
+      },
+      {
+        "question": "Berapa batas level di Jujutsu Legacy?",
+        "answer": "Batas level Jujutsu Legacy saat ini adalah 2000, dan halaman resmi Roblox mencantumkan ini secara langsung di deskripsi game."
+      },
+      {
+        "question": "Apa itu Spin Teknik di Jujutsu Legacy?",
+        "answer": "Spin Teknik memutar ulang teknik kutukan Anda di Jujutsu Legacy, jadi Anda sebaiknya menyimpan dalam jumlah banyak untuk percobaan putar ulang yang serius daripada menghabiskannya satu per satu."
+      },
+      {
+        "question": "Di mana saya bisa bermain Jujutsu Legacy?",
+        "answer": "Anda dapat bermain Jujutsu Legacy di Roblox melalui halaman pengalaman resmi, dan komunitas resmi Roblox serta server Discord membagikan kode dan pengumuman."
+      },
+      {
+        "question": "Wadah apa saja yang tersedia di Jujutsu Legacy?",
+        "answer": "Wadah Jujutsu Legacy saat ini adalah Sukuna, Ishigori, Uro, Mechamaru, dan Kashimo, dan masing-masing paling cocok dipadukan dengan jalur teknik yang sesuai."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Menguasai Jujutsu Legacy?",
+    "description": "Bergabunglah dengan komunitas Jujutsu Legacy di Discord untuk mendapatkan kode, panduan, daftar tingkatan (tier list), dan diskusi pembaruan!",
+    "joinCommunity": "Gabung Discord",
+    "joinGame": "Main di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Jujutsu Legacy",
+    "description": "Pusat sumber daya lengkap Anda untuk kode, teknik, wadah, bos, raid, daftar tingkatan (tier list), dan panduan pemula Jujutsu Legacy.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "robloxGame": "Game Roblox",
+    "robloxCommunity": "Komunitas Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Wiki Jujutsu Legacy. Tidak berafiliasi dengan pengembang Jujutsu Legacy, Roblox Corporation, atau pemilik IP Jujutsu Kaisen.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Jujutsu Legacy",
+      "description": "Kode Jujutsu Legacy aktif dan kedaluwarsa untuk Spin Teknik dan Spin Klan, dengan langkah penukaran dan persyaratan untuk setiap hadiah.",
+      "metaTitle": "Kode Jujutsu Legacy - Spin Teknik & Spin Klan Gratis",
+      "metaDescription": "Tukarkan kode Jujutsu Legacy yang aktif untuk mendapatkan Spin Teknik dan Spin Klan gratis. Daftar kode terbaru dengan langkah penukaran Level 5 dan pelacakan kode kedaluwarsa.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode Jujutsu Legacy?",
+      "whatIsDescription": "Kode Jujutsu Legacy adalah string penukaran gratis yang dirilis oleh pengembang yang memberikan Spin Teknik dan Spin Klan, sumber daya utama untuk memutar ulang teknik dan klan. Sebagian besar kode memerlukan Level 5 dan dimasukkan dalam kotak penukaran Menu di dalam game.",
+      "why": "Mengapa menukarkan kode?",
+      "whySteps": {
+        "step1Title": "Sumber Daya Putar Ulang Gratis",
+        "step1Description": "Setiap kode aktif memberikan Spin Teknik atau Spin Klan tanpa menghabiskan Robux",
+        "step2Title": "Build Lebih Cepat",
+        "step2Description": "Kumpulkan spin dari kode sebelum sesi pemutaran ulang teknik atau klan yang direncanakan",
+        "step3Title": "Hindari Pemborosan",
+        "step3Description": "Lacak kode yang kedaluwarsa agar Anda tidak membuang waktu pada string penukaran yang sudah mati"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Jujutsu Legacy",
+      "description": "Panduan lengkap Jujutsu Legacy mulai dari dasar-dasar pemula hingga rute peningkatan level, lokasi misi, kontrol, dan jalur perkembangan Level 2000.",
+      "metaTitle": "Panduan Jujutsu Legacy - Perkembangan Pemula hingga Level 2000",
+      "metaDescription": "Panduan lengkap Jujutsu Legacy yang mencakup tips pemula, rute peningkatan level, lokasi misi, kontrol PC, dan jalur perkembangan Level 2000 untuk RPG anime Roblox.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu Panduan Jujutsu Legacy?",
+      "whatIsDescription": "Panduan komprehensif Jujutsu Legacy yang mencakup menu, rute peningkatan level, rantai misi, kontrol, dan strategi perkembangan dari login pertama Anda hingga batas Level 2000.",
+      "why": "Mengapa membaca panduan?",
+      "whySteps": {
+        "step1Title": "Pelajari Mekanisme Inti",
+        "step1Description": "Pahami menu, kode, spin, dan alur peningkatan level di Jujutsu Legacy",
+        "step2Title": "Perkembangan Cepat",
+        "step2Description": "Ikuti rute peningkatan level dan misi yang terbukti hingga batas Level 2000",
+        "step3Title": "Temukan Setiap Misi",
+        "step3Description": "Temukan NPC misi, lokasi, dan rentang level tanpa harus berkeliaran"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "techniques": {
+      "title": "Teknik Jujutsu Legacy",
+      "description": "Kuasai teknik kutukan di Jujutsu Legacy dengan rincian peran, tier list, upgrade V2, dan prioritas reroll untuk setiap teknik.",
+      "metaTitle": "Teknik Jujutsu Legacy - Tier List & Panduan Teknik Kutukan",
+      "metaDescription": "Kuasai teknik kutukan Jujutsu Legacy. Pelajari peran teknik, peringkat tier, upgrade V2, dan prioritas reroll di seluruh kumpulan teknik.",
+      "categoryLabel": "TEKNIK KUTUKAN",
+      "whatIs": "Apa itu Teknik?",
+      "whatIsDescription": "Teknik kutukan adalah perlengkapan tempur utama di Jujutsu Legacy. Setiap teknik memengaruhi performa grinding, bos, dan PvP Anda, dan Spin Teknik melakukan reroll pada teknik yang Anda miliki. Banyak teknik juga membuka versi V2 yang lebih kuat.",
+      "why": "Mengapa membandingkan teknik?",
+      "whySteps": {
+        "step1Title": "Pilih Perlengkapan yang Tepat",
+        "step1Description": "Sesuaikan teknik dengan tujuan grinding, melawan bos, atau PvP",
+        "step2Title": "Rencanakan Reroll",
+        "step2Description": "Simpan Spin Teknik untuk target tier S dan A yang bernilai tinggi",
+        "step3Title": "Kejar Upgrade V2",
+        "step3Description": "Pahami teknik mana yang membuka versi V2 yang lebih kuat untuk build late-game"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Teknik"
+    },
+    "vessels": {
+      "title": "Wadah Jujutsu Legacy",
+      "description": "Panduan lengkap wadah Jujutsu Legacy yang mencakup Sukuna, Kashimo, Kenjaku, Rika, dan lainnya, dengan tier list, rute pembukaan, dan sinergi build.",
+      "metaTitle": "Wadah Jujutsu Legacy - Tier List Sukuna, Kashimo & Wadah",
+      "metaDescription": "Kuasai wadah Jujutsu Legacy termasuk Sukuna, Heian Sukuna, Kashimo, Kenjaku, dan Rika. Bandingkan peringkat tier wadah, rute pembukaan, dan sinergi teknik.",
+      "categoryLabel": "WADAH",
+      "whatIs": "Apa itu Wadah?",
+      "whatIsDescription": "Wadah adalah lapisan kekuatan terpisah di Jujutsu Legacy yang menjadi jangkar build Anda bersama teknik kutukan. Setiap wadah seperti Sukuna, Kashimo, Kenjaku, atau Rika berpasangan paling baik dengan jalur teknik yang cocok dan membuka penskalaan late-game.",
+      "why": "Mengapa membandingkan wadah?",
+      "whySteps": {
+        "step1Title": "Pilih Jangkar Build",
+        "step1Description": "Pilih wadah yang sesuai dengan teknik dan gaya bertarung Anda",
+        "step2Title": "Rencanakan Rute Pembukaan",
+        "step2Description": "Farm bos dan drop yang tepat untuk wadah target Anda",
+        "step3Title": "Sinergikan dengan Teknik",
+        "step3Description": "Pasangkan wadah dengan teknik dan klan yang saling melengkapi untuk nilai maksimal"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Wadah"
+    },
+    "clans": {
+      "title": "Klan Jujutsu Legacy",
+      "description": "Panduan lengkap klan Jujutsu Legacy yang mencakup klan terbaik, tier list, Zenin, Sugawara, dan strategi reroll klan untuk setiap build.",
+      "metaTitle": "Klan Jujutsu Legacy - Panduan Klan Terbaik & Tier List Klan",
+      "metaDescription": "Bandingkan klan Jujutsu Legacy dengan tier list klan lengkap, pilihan klan terbaik, detail Zenin dan Sugawara, serta strategi reroll klan untuk build Anda.",
+      "categoryLabel": "KLAN",
+      "whatIs": "Apa itu Klan?",
+      "whatIsDescription": "Klan di Jujutsu Legacy menentukan identitas stat pasif dan nilai build Anda. Spin Klan melakukan reroll pada klan Anda, dan pilihan seperti Zenin atau Sugawara dapat membentuk progres jangka panjang jika dipadukan dengan teknik dan wadah yang tepat.",
+      "why": "Mengapa membandingkan klan?",
+      "whySteps": {
+        "step1Title": "Sesuaikan Klan dengan Build",
+        "step1Description": "Pilih klan yang mendukung teknik dan arah stat Anda",
+        "step2Title": "Baca Tier List",
+        "step2Description": "Bandingkan peringkat klan sebelum menggunakan Spin Klan",
+        "step3Title": "Reroll di Waktu yang Tepat",
+        "step3Description": "Simpan reroll klan sampai jalur teknik dan wadah Anda stabil"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Klan"
+    },
+    "builds": {
+      "title": "Build Jujutsu Legacy",
+      "description": "Kuasai perencanaan build Jujutsu Legacy dengan build terbaik, trait, sinergi wadah dan teknik, serta arah stat untuk setiap gaya bermain.",
+      "metaTitle": "Build Jujutsu Legacy - Panduan Build & Trait Terbaik",
+      "metaDescription": "Kuasai build Jujutsu Legacy dengan pengaturan build terbaik, pilihan trait, sinergi wadah dan teknik, serta perencanaan stat untuk grinding, melawan bos, dan PvP.",
+      "categoryLabel": "BUILD",
+      "whatIs": "Apa itu Build?",
+      "whatIsDescription": "Build Jujutsu Legacy menggabungkan teknik kutukan, wadah, klan, ras, trait, dan stat Anda ke dalam satu pengaturan yang terkoordinasi. Build yang terencana mengungguli reroll acak dalam grinding, melawan bos, dan PvP.",
+      "why": "Mengapa merencanakan build?",
+      "whySteps": {
+        "step1Title": "Gabungkan Bagian yang Tepat",
+        "step1Description": "Sesuaikan teknik, wadah, klan, dan trait ke dalam satu pengaturan yang terfokus",
+        "step2Title": "Pilih Trait Terbaik",
+        "step2Description": "Pilih trait yang memperkuat tipe kerusakan dan penskalaan yang Anda pilih",
+        "step3Title": "Gunakan Spin dengan Bijak",
+        "step3Description": "Simpan reroll untuk reset build bernilai tinggi daripada roll acak"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Build"
+    }
   }
 }

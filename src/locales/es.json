@@ -1,10 +1,832 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Jujutsu Legacy - Códigos, técnicas y recipientes",
+      "description": "Wiki de Jujutsu Legacy con códigos, técnicas, recipientes, jefes, raids, tier lists, consejos para principiantes y guías de actualización de Roblox para progresar más rápido.",
+      "keywords": "jujutsu legacy, roblox, códigos, técnicas, recipientes, raids, tier list, jefes",
+      "ogTitle": "Wiki de Jujutsu Legacy - Códigos, técnicas y recipientes",
+      "ogDescription": "Wiki de Jujutsu Legacy con códigos, técnicas, recipientes, jefes, raids, tier lists, consejos para principiantes y guías de actualización de Roblox para progresar más rápido.",
+      "twitterTitle": "Wiki de Jujutsu Legacy - Códigos, técnicas y recipientes",
+      "twitterDescription": "Wiki de Jujutsu Legacy con códigos, técnicas, recipientes, jefes, raids, tier lists y guías de actualización de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
     "techniques": "Técnicas",
-    "vessels": "Vessels",
+    "vessels": "Recipientes",
     "clans": "Clanes",
     "builds": "Builds"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Experiencia de lucha RPG de anime en Roblox",
+    "title": "Wiki de Jujutsu Legacy",
+    "description": "Domina técnicas malditas, sube de nivel a tu hechicero, colecciona recipientes, lucha contra jefes y raids, y usa códigos para obtener giros en este RPG de anime en Roblox.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "27.7M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "2000",
+        "label": "Límite de nivel"
+      },
+      "stat3": {
+        "value": "20+",
+        "label": "Técnicas"
+      },
+      "stat4": {
+        "value": "84.36%",
+        "label": "Calificación de jugadores"
+      }
+    }
+  },
+  "tools": {
+    "title": "Jujutsu Legacy",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para códigos, técnicas, recipientes, giros, jefes y raids en Jujutsu Legacy.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de Jujutsu Legacy",
+        "description": "Códigos activos y expirados para giros de técnica y de clan"
+      },
+      {
+        "icon": "Link2",
+        "title": "Enlaces de Jujutsu Legacy",
+        "description": "Roblox, Discord y Trello en un solo lugar"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía de inicio de Jujutsu Legacy",
+        "description": "Primeros pasos, nivelación y cómo gastar giros de forma inteligente"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Jujutsu Legacy",
+        "description": "Prioridad de reroll para cada técnica maldita"
+      },
+      {
+        "icon": "Dices",
+        "title": "Giros de Jujutsu Legacy",
+        "description": "Planificación de reroll de técnica, clan y raza"
+      },
+      {
+        "icon": "Swords",
+        "title": "Recipientes de Jujutsu Legacy",
+        "description": "Sukuna, Ishigori, Uro, Mechamaru y Kashimo"
+      },
+      {
+        "icon": "Map",
+        "title": "Ruta de nivelación de Jujutsu Legacy",
+        "description": "Misiones, jefes y rangos de nivel hasta el 2000"
+      },
+      {
+        "icon": "Gem",
+        "title": "Raids de Jujutsu Legacy",
+        "description": "Espadas, accesorios y drops de final de juego"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos de Jujutsu Legacy",
+      "intro": "Los códigos son útiles principalmente para hacer reroll en los sistemas de personajes que más importan en Jujutsu Legacy: técnicas, clanes y progresión relacionada con la raza. Canjea códigos activos para obtener giros de técnica y giros de clan; primero llega al nivel 5, luego abre el menú del juego e introduce el código en la casilla de canje.",
+      "activeLabel": "Activos",
+      "expiredLabel": "Expirados",
+      "copyLabel": "Copiar",
+      "redeemTitle": "Cómo canjear códigos de Jujutsu Legacy",
+      "activeCodes": [
+        {
+          "code": "MutualLove",
+          "reward": "40 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "Dessert",
+          "reward": "Giros de técnica gratis",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "Mahoraga",
+          "reward": "30 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "WUpd",
+          "reward": "30 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "Just This Once",
+          "reward": "10 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "Takaba",
+          "reward": "20 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "AlwaysBetOnHakari",
+          "reward": "20 giros de clan",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "Sorry",
+          "reward": "20 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "SkyManipulation",
+          "reward": "20 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "Cursed",
+          "reward": "10 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        },
+        {
+          "code": "SkillIssue",
+          "reward": "3 giros de técnica",
+          "requirement": "Primero llega al nivel 5"
+        }
+      ],
+      "expiredGroups": [
+        {
+          "label": "Códigos de metas expirados",
+          "note": "Recompensas de metas anteriores, en su mayoría giros de técnica, giros de raza o giros de clan",
+          "codes": "1.5KLIKES, 2KLIKES, 2.5KLIKES, 3KLIKES, 3.5KLIKES, 4KLIKES, 4.5KLIKES, 5KLIKES, 5.5KLIKES, 6KLIKES, 6.5KLIKES, 7KLIKES, 7.5KLIKES, 8KLIKES, 8.5KLIKES, 9KLIKES, 9.5KLIKES, 10KLIKES, 11KLIKES, 12KLIKES"
+        },
+        {
+          "label": "Códigos de actualización y eventos expirados",
+          "note": "Recompensas de actualizaciones anteriores, disculpas y eventos",
+          "codes": "Infinity, Hanami, Jackpot, BloodManipulation, DisasterFlames, Higuruma, Comedian, Ishigori, RaceSpin2, SorryShutdown, Gifts, SorryForGiveSpecialClan, SorryForInfBugs, Krampus Sukuna, Cat Gojo, WChristmas, Christmas1"
+        }
+      ],
+      "redeemSteps": [
+        "Inicia Jujutsu Legacy en Roblox.",
+        "Llega al nivel 5 antes de intentar canjear códigos.",
+        "Presiona M o haz clic en el botón de Menú en el lado izquierdo de la pantalla.",
+        "Introduce el código en la casilla de canje.",
+        "Presiona OK o Enter para reclamar la recompensa."
+      ]
+    },
+    "officialLinks": {
+      "title": "Enlaces de Trello y Discord de Jujutsu Legacy",
+      "intro": "Este centro reúne los enlaces útiles de Jujutsu Legacy en un solo lugar para que los jugadores puedan jugar la experiencia de Roblox, unirse a la comunidad oficial, revisar el servidor de Discord y abrir el tablero de Trello sin tener que buscar entre invitaciones falsas y tableros desactualizados.",
+      "links": [
+        {
+          "label": "Experiencia de Roblox de Jujutsu Legacy",
+          "href": "https://www.roblox.com/games/15694107053/Jujutsu-Legacy",
+          "category": "Play Link",
+          "note": "Juega al juego, consulta el límite de nivel actual de 2000 y revisa el repertorio actual de técnicas y recipientes."
+        },
+        {
+          "label": "Comunidad oficial de Roblox de Jujutsu Legacy",
+          "href": "https://www.roblox.com/communities/33596404/Jujutsu-Legacy-Official",
+          "category": "Roblox Group",
+          "note": "Sigue a la comunidad oficial de Roblox vinculada a Jujutsu Legacy."
+        },
+        {
+          "label": "Servidor de Discord de Jujutsu Legacy",
+          "href": "https://discord.com/invite/jujutsu-legacy-beta-1247159977181708288",
+          "category": "Discord",
+          "note": "Códigos, anuncios, avisos del servidor, charlas sobre actualizaciones y debates de la comunidad."
+        },
+        {
+          "label": "Tablero de Trello de Jujutsu Legacy",
+          "href": "https://trello.com/b/432tpo1k/jujutsu-legacy",
+          "category": "Trello",
+          "note": "Referencia de mecánicas, sistemas de juego, técnicas, recipientes y seguimiento de actualizaciones."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guía de inicio de Jujutsu Legacy",
+      "intro": "Jujutsu Legacy ofrece a los nuevos jugadores varios sistemas a la vez: técnicas, clanes, recipientes, giros y subida de nivel. La ruta inicial más segura es aprender a usar el menú, desbloquear el canje de códigos en el nivel 5 y usar los giros en los sistemas que realmente definen tu build en lugar de gastarlos al azar.",
+      "steps": [
+        {
+          "title": "Inicia la experiencia oficial de Roblox",
+          "description": "Abre Jujutsu Legacy desde la página del juego en Roblox y comienza desde la experiencia en vivo actual. La descripción oficial de Roblox indica que el límite de nivel actual es 2000.",
+          "goal": "Entra en la experiencia correcta antes de seguir cualquier guía o lista de códigos."
+        },
+        {
+          "title": "Aprende a usar el menú primero",
+          "description": "Usa el botón de Menú o la tecla M para acceder a las opciones principales, incluida la casilla para canjear códigos. En este menú es donde los nuevos jugadores comienzan a notar los sistemas de build en Jujutsu Legacy.",
+          "goal": "Saber dónde están los códigos y los sistemas de personajes antes de gastar giros."
+        },
+        {
+          "title": "Alcanza el nivel 5 antes de canjear códigos",
+          "description": "El canje de códigos requiere el nivel 5 en Jujutsu Legacy. Derrota a los primeros enemigos y completa la progresión inicial hasta que la casilla de canje acepte los códigos.",
+          "goal": "Desbloquear giros de técnica y giros de clan gratuitos lo antes posible."
+        },
+        {
+          "title": "Usa los giros con un plan de build",
+          "description": "Los giros de técnica cambian tu técnica maldita, mientras que los giros de clan se centran en la progresión del clan. Guarda lotes más grandes de giros para intentos serios de cambio en lugar de gastar un código a la vez.",
+          "goal": "Evitar reemplazar una técnica rara y útil demasiado pronto."
+        },
+        {
+          "title": "Elige un primer objetivo de técnica",
+          "description": "El repertorio actual de técnicas en Jujutsu Legacy incluye Limitless, Rika, Manipulación de Maldiciones, Manipulación del Cielo, Formación de Hielo, Llamas del Desastre, Diez Sombras, Transfiguración Ociosa, Bestia Mítica Ámbar V2, Diez Sombras V2 y Santuario de Heian.",
+          "goal": "Apuntar a una técnica que ayude con el farmeo, los jefes o el PvP."
+        },
+        {
+          "title": "Entiende los recipientes como un sistema independiente",
+          "description": "Los recipientes actuales en Jujutsu Legacy son Sukuna, Ishigori, Uro, Mechamaru y Kashimo. Trata a los recipientes como una capa de poder independiente de las técnicas al planificar tu build.",
+          "goal": "No confundas un buen giro de técnica con una configuración completa."
+        },
+        {
+          "title": "Consulta Discord y Trello antes de realizar cambios importantes",
+          "description": "Usa Discord para códigos y anuncios, y Trello para referencias estructuradas de mecánicas antes de gastar una gran cantidad de giros en Jujutsu Legacy.",
+          "goal": "Toma decisiones de giros con la información actual del juego."
+        }
+      ]
+    },
+    "techniqueTierList": {
+      "title": "Tier List de técnicas de Jujutsu Legacy",
+      "intro": "Esta tier list de técnicas de Jujutsu Legacy se centra en qué técnicas malditas vale la pena conservar al gastar giros de técnica. Los niveles más altos priorizan un gran valor en el juego tardío, utilidad contra jefes, presión en PvP y un uso flexible en más de un modo.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Mejores objetivos de reroll",
+          "summary": "Conserva estas técnicas para una progresión seria, combates contra jefes y builds enfocadas en PvP en Jujutsu Legacy.",
+          "techniques": [
+            "Santuario de Heian",
+            "Diez Sombras V2",
+            "Ilimitado",
+            "Rika"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Opciones sólidas para mantener",
+          "summary": "Excelentes técnicas en torno a las cuales vale la pena crear una build antes de buscar los giros más difíciles del juego tardío.",
+          "techniques": [
+            "Manipulación Maldita",
+            "Bestia Mítica Ámbar V2",
+            "Transfiguración Inactiva",
+            "Manipulación del Cielo",
+            "Proyección",
+            "Llamas del Desastre"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Buenas y utilizables",
+          "summary": "Técnicas sólidas que sirven para la progresión en el juego temprano y medio, generalmente reemplazadas más adelante por opciones raras o V2 más fuertes.",
+          "techniques": [
+            "Formación de Hielo",
+            "Mareas del Desastre",
+            "Diez Sombras",
+            "Manipulación de Marionetas",
+            "Discurso Maldito",
+            "Antigravedad",
+            "Moon Dregs",
+            "Boogie Woogie"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Opciones iniciales o de nicho",
+          "summary": "Estas funcionan mientras subes de nivel, pero no son la razón principal para gastar una gran cantidad de giros de técnica.",
+          "techniques": [
+            "Puño Divergente",
+            "Puños Misil",
+            "Sentencia de Muerte",
+            "Proporción"
+          ]
+        }
+      ]
+    },
+    "spinsClanAndRaceRerolls": {
+      "title": "Giros, Rerolls de Clan y Rerolls de Raza de Jujutsu Legacy",
+      "intro": "Los giros son un recurso de progresión principal en Jujutsu Legacy. Los giros de técnica cambian tu kit de combate, los giros de clan ajustan la identidad de estadísticas basada en el clan y los giros de raza afectan la dirección de las estadísticas a largo plazo, por lo que cada uno debe tratarse como una decisión de build en lugar de presionar un botón al azar.",
+      "bestForLabel": "Ideal para",
+      "planLabel": "Plan de gasto",
+      "avoidLabel": "Evitar",
+      "rows": [
+        {
+          "icon": "Wand2",
+          "type": "Giros de técnica",
+          "affects": "La selección de técnica maldita y tu kit de habilidades principal.",
+          "bestFor": "Buscar un estilo de combate principal como Limitless, Rika, Manipulación de Maldiciones, Manipulación del Cielo, Formación de Hielo, Llamas del Desastre, Diez Sombras, Manipulación de Marionetas, Discurso Maldito, Antigravedad, Ámbar de la Bestia Mítica V2, Diez Sombras V2 o Santuario de Heian.",
+          "plan": "Gastar después de decidir si la cuenta se centrará en farmear jefes, daño de incursión, movilidad o una configuración vinculada a un recipiente.",
+          "avoid": "No gastes giros de técnica antes de verificar si la técnica actual se conecta con un recipiente, una ruta V2 o un plan de almacenamiento."
+        },
+        {
+          "icon": "Users",
+          "type": "Giros de clan",
+          "affects": "La identidad del clan y el valor pasivo de la build.",
+          "bestFor": "Ajustar una cuenta terminada o casi terminada después de definir la dirección de la técnica y del recipiente.",
+          "plan": "Guarda los giros de clan hasta que la técnica principal sea estable, luego haz reroll para obtener un clan que sea compatible con el plan de estadísticas elegido.",
+          "avoid": "No consideres los giros de clan como relleno para el juego temprano si la build aún no ha elegido su ruta de técnica."
+        },
+        {
+          "icon": "Dna",
+          "type": "Giros de raza",
+          "affects": "El perfil de estadísticas basado en la raza y la dirección de escalado a largo plazo.",
+          "bestFor": "Terminar una build que ya tiene un rol claro, como escalado de daño de espada, daño de técnica o daño de recipiente.",
+          "plan": "Usa los giros de raza después de los giros de técnica, ya que el valor de la raza depende del objetivo final de la build.",
+          "avoid": "No reemplaces una raza útil a la ligera si la cuenta ya está farmeando jefes o incursiones cómodamente."
+        },
+        {
+          "icon": "Gift",
+          "type": "Recompensas de giros por código",
+          "affects": "Reserva de rerolls gratuitos de los lanzamientos de códigos oficiales de Jujutsu Legacy.",
+          "bestFor": "Guardar un gran lote de rerolls antes de realizar un reinicio importante de la build.",
+          "plan": "Canjea primero las recompensas de códigos disponibles, luego haz reroll en una sola sesión planificada para que puedas detenerte una vez que alcances el objetivo.",
+          "avoid": "No dividas lotes pequeños en rerolls aleatorios a menos que la configuración actual sea inutilizable."
+        }
+      ]
+    },
+    "vesselsAndBuilds": {
+      "title": "Recipientes y Builds de Jujutsu Legacy",
+      "intro": "Jujutsu Legacy incluye a Sukuna, Ishigori, Uro, Mechamaru y Kashimo como recipientes actuales. Cada recipiente se entiende mejor como un ancla para la build: el recipiente es más importante cuando se conecta directamente con una ruta de técnica, un objetivo de farmear jefes o un plan de incursión para el juego tardío.",
+      "techniquesLabel": "Técnicas vinculadas",
+      "focusLabel": "Enfoque de la build",
+      "progressionLabel": "Uso en progresión",
+      "tipLabel": "Consejo para el jugador",
+      "vessels": [
+        {
+          "icon": "Crown",
+          "name": "Sukuna",
+          "role": "Ruta de recipiente de alto daño",
+          "techniques": [
+            "Santuario de Heian",
+            "Diez Sombras V2"
+          ],
+          "focus": "Daño agresivo, presión de dominio y escalado de recipiente en el juego tardío.",
+          "progression": "Es mejor tratarlo como un objetivo de build a largo plazo en lugar de un resultado casual de reroll al principio.",
+          "tip": "Combina la planificación de Sukuna con el almacenamiento de técnicas y el ahorro de rerolls antes de comprometerte a un reinicio completo de la cuenta."
+        },
+        {
+          "icon": "Bomb",
+          "name": "Ishigori",
+          "role": "Ruta de recipiente de daño de ráfaga",
+          "techniques": [
+            "Descarga de Energía Maldita"
+          ],
+          "focus": "Presión directa a distancia y ventanas de gran daño de ráfaga para farmear jefes.",
+          "progression": "Útil para jugadores que quieren una producción de daño simple sin depender de cadenas de configuración complejas.",
+          "tip": "Prioriza estadísticas de daño estables y la consistencia al farmear jefes antes de buscar recompensas cosméticas."
+        },
+        {
+          "icon": "Wind",
+          "name": "Uro",
+          "role": "Ruta de recipiente de espaciado y sinergia de técnicas",
+          "techniques": [
+            "Manipulación del Cielo"
+          ],
+          "focus": "Movilidad, espaciado y control basado en técnicas.",
+          "progression": "Excelente opción para jugadores que prefieren el control a distancia y un posicionamiento más seguro frente a los jefes.",
+          "tip": "Ten en cuenta la Manipulación del Cielo antes de gastar giros de técnica, ya que el valor de Uro está ligado a ese estilo."
+        },
+        {
+          "icon": "Bot",
+          "name": "Mechamaru",
+          "role": "Ruta de recipiente basada en marionetas",
+          "techniques": [
+            "Manipulación de Marionetas"
+          ],
+          "focus": "Presión mecánica, valor de transformación y ruta de mejora de Manipulación de Marionetas.",
+          "progression": "Funciona mejor cuando la cuenta ya está construida en torno a la Manipulación de Marionetas en lugar de como un cambio independiente.",
+          "tip": "No juzgues a Mechamaru solo por la ranura base del recipiente; su valor proviene de la configuración completa de Manipulación de Marionetas."
+        },
+        {
+          "icon": "Zap",
+          "name": "Kashimo",
+          "role": "Ruta de recipiente de embestida de rayo",
+          "techniques": [
+            "Ámbar de la Bestia Mítica V2"
+          ],
+          "focus": "Presión rápida, movimiento agresivo y daño de ráfaga basado en rayos.",
+          "progression": "Bueno para jugadores que quieren un combate de ritmo rápido y presión sobre los jefes después de que el nivel básico sea estable.",
+          "tip": "Guarda suficientes rerolls antes de buscar configuraciones vinculadas a Kashimo, ya que las builds de rayo parciales se sienten más débiles que una terminada."
+        }
+      ]
+    },
+    "questsBossesAndLevelingRoute": {
+      "title": "Misiones, jefes y ruta de nivelación de Jujutsu Legacy",
+      "intro": "El límite de nivel actual de Jujutsu Legacy es 2000, por lo que la ruta más segura es avanzar a través de rangos de misiones en lugar de deambular entre jefes al azar. Usa las misiones para obtener experiencia constante, y luego cambia al farmeo de jefes y raids una vez que la cuenta tenga suficiente daño, vida y una configuración estable de técnica y vasija.",
+      "areaLabel": "Área",
+      "targetsLabel": "Objetivos",
+      "routeLabel": "Ruta",
+      "priorityLabel": "Prioridad",
+      "bands": [
+        {
+          "icon": "Sprout",
+          "section": "Progresión temprana",
+          "levelRange": "Principiante a 125+",
+          "area": "Jujutsu High y ruta temprana de Shibuya",
+          "targets": [
+            "Misiones iniciales",
+            "enemigos malditos tempranos",
+            "ruta de Takuma Ino"
+          ],
+          "route": "Desarrolla una técnica útil primero, completa misiones cercanas para obtener experiencia repetible y evita farmear drops raros antes de que la cuenta pueda derrotar a los enemigos básicos rápidamente.",
+          "priority": "Desbloquea daño y movimiento confiables antes de buscar espadas o accesorios."
+        },
+        {
+          "icon": "Footprints",
+          "section": "Configuración de mitad de juego",
+          "levelRange": "125 a 275+",
+          "area": "Aproximación a Shibuya y rutas de misiones conectadas",
+          "targets": [
+            "Ruta de Eso",
+            "misiones del lado del cementerio",
+            "nivelación pre-Metro"
+          ],
+          "route": "Mantente en cadenas de misiones que estén cerca unas de otras y solo avanza una vez que los enemigos dejen de tardar demasiado en ser derrotados.",
+          "priority": "Aumenta las estadísticas, estabiliza la técnica principal y prepárate para los jefes del Metro."
+        },
+        {
+          "icon": "Building2",
+          "section": "Progresión del Metro",
+          "levelRange": "300 a 450+",
+          "area": "Metro de Shibuya",
+          "targets": [
+            "Choso",
+            "Mahito",
+            "Jogo",
+            "Kenjaku"
+          ],
+          "route": "Usa el rango del Metro como el puente principal desde la nivelación básica hacia la progresión centrada en jefes. Choso y Mahito son jefes de control comunes antes de los objetivos más altos del Metro.",
+          "priority": "Farmea experiencia primero, luego regresa por drops específicos una vez que las derrotas sean constantes."
+        },
+        {
+          "icon": "Crosshair",
+          "section": "Entrada a los Culling Games",
+          "levelRange": "500 a 575+",
+          "area": "Culling Games",
+          "targets": [
+            "JudgeMan",
+            "ruta Zenin",
+            "Naoya",
+            "Higuruma"
+          ],
+          "route": "La ruta de los Culling Games introduce objetivos de jefes más valiosos y farmeo relacionado con espadas. JudgeMan es especialmente importante para las rutas de recolección de espadas.",
+          "priority": "Comienza a rastrear los drops de los jefes, pero sigue subiendo de nivel si la velocidad de eliminación es baja."
+        },
+        {
+          "icon": "Shield",
+          "section": "Objetivos de vasija de los Culling Games",
+          "levelRange": "625 a 700+",
+          "area": "Ruta avanzada de los Culling Games",
+          "targets": [
+            "Uro",
+            "Ishigori",
+            "Yuta",
+            "Charles"
+          ],
+          "route": "Este rango es importante para las rutas de vasijas y las builds de juego tardío. Uro e Ishigori son especialmente relevantes porque ambos se conectan directamente con la planificación de vasijas.",
+          "priority": "Elige si la cuenta farmeará desbloqueos de vasijas, drops de espadas o experiencia pura antes de repetir jefes."
+        },
+        {
+          "icon": "Castle",
+          "section": "Juego tardío y preparación para raids",
+          "levelRange": "1000 a 2000",
+          "area": "Shinjuku y contenido de raids",
+          "targets": [
+            "Kashimo",
+            "jefes relacionados con Sukuna",
+            "Raid del más fuerte",
+            "Raid del General Divino"
+          ],
+          "route": "En este punto, la calidad de la build importa más que el orden puro de la ruta. Entra a las raids con una técnica estable, un plan de vasija, una dirección de accesorios y suficientes estadísticas para sobrevivir a oleadas repetidas.",
+          "priority": "Farmea raids para obtener drops que definan tu build solo después de que la cuenta pueda derrotar a los jefes del juego tardío de manera confiable."
+        }
+      ]
+    },
+    "raidsDropsSwordsAndAccessories": {
+      "title": "Incursiones, drops, Swords y accesorios de Jujutsu Legacy",
+      "intro": "Después de la etapa de principiante, la progresión en Jujutsu Legacy pasa de una simple subida de nivel a un farmeo específico. Los jefes y las incursiones como Megumi, JudgeMan, Uro, Ishigori, Kashimo y las fuentes de incursiones del juego tardío se vuelven importantes porque sus recompensas pueden desbloquear Swords, vasijas, accesorios, rasgos, razas o mejoras de estilo de pelea.",
+      "locationLabel": "Ubicación",
+      "rewardsLabel": "Recompensas notables",
+      "valueLabel": "Valor de farmeo",
+      "bestForLabel": "Ideal para",
+      "drops": [
+        {
+          "icon": "Sword",
+          "source": "Megumi",
+          "area": "Cerca de la ruta del puente de Shibuya",
+          "rewardTypes": [
+            "Sword",
+            "Título"
+          ],
+          "rewards": [
+            "Oleada Oscura",
+            "Título de Sombra"
+          ],
+          "value": "Buen objetivo de Sword al inicio del juego para jugadores que avanzan más allá del nivel de misiones básicas.",
+          "bestFor": "Colección de Swords y planificación de progresión relacionada con las Diez Sombras."
+        },
+        {
+          "icon": "Swords",
+          "source": "Toji Reincarnation",
+          "area": "Ruta secundaria de la Academia Jujutsu",
+          "rewardTypes": [
+            "Sword"
+          ],
+          "rewards": [
+            "Playful Cloud",
+            "Lanza Invertida del Cielo"
+          ],
+          "value": "Farmeo de armas útil para jugadores que quieren opciones de cuerpo a cuerpo más fuertes antes de un farmeo más profundo en el Juego del Sacrificio.",
+          "bestFor": "Usuarios de Sword y jugadores que construyen una colección de armas más amplia."
+        },
+        {
+          "icon": "Gavel",
+          "source": "JudgeMan",
+          "area": "Juego del Sacrificio",
+          "rewardTypes": [
+            "Sword"
+          ],
+          "rewards": [
+            "Martillo Gavel",
+            "Sword del Ejecutor"
+          ],
+          "value": "Objetivo de alta prioridad en el Juego del Sacrificio porque ambas recompensas enumeradas son mejoras de armas vinculadas a la ruta de JudgeMan.",
+          "bestFor": "Jugadores que quieren Swords raras y un objetivo claro de farmeo en el Juego del Sacrificio."
+        },
+        {
+          "icon": "Cloud",
+          "source": "Uro",
+          "area": "Juego del Sacrificio",
+          "rewardTypes": [
+            "Objeto de vasija",
+            "Objeto de soporte de técnica"
+          ],
+          "rewards": [
+            "Fragmento de Cielo"
+          ],
+          "value": "Importante para jugadores que planean la progresión relacionada con la vasija de Uro y la Manipulación del Cielo.",
+          "bestFor": "Usuarios de Manipulación del Cielo y builds enfocadas en Uro."
+        },
+        {
+          "icon": "Flame",
+          "source": "Ruta del Hechicero Reencarnado Ishigori",
+          "area": "Juego del Sacrificio",
+          "rewardTypes": [
+            "Objeto de vasija"
+          ],
+          "rewards": [
+            "Cabello de Ishigori"
+          ],
+          "value": "Farmeo esencial para jugadores que quieren desbloquear o armar su build alrededor de la vasija de Ishigori.",
+          "bestFor": "Builds de vasija de daño explosivo."
+        },
+        {
+          "icon": "Activity",
+          "source": "Kashimo",
+          "area": "Ruta de Shinjuku",
+          "rewardTypes": [
+            "Objeto de vasija",
+            "Sword",
+            "Objeto de estilo de pelea"
+          ],
+          "rewards": [
+            "Cabeza de Kashimo",
+            "Poste Eléctrico",
+            "Espíritu del Trueno"
+          ],
+          "value": "Objetivo fuerte para el juego tardío para jugadores que construyen presión de rayo o rutas de la vasija de Kashimo.",
+          "bestFor": "Cuentas enfocadas en Ámbar de la Bestia Mítica y estilo agresivo (rushdown)."
+        },
+        {
+          "icon": "Medal",
+          "source": "Incursión del Más Fuerte",
+          "area": "Contenido de incursión",
+          "rewardTypes": [
+            "Accesorio",
+            "Título",
+            "Rasgo"
+          ],
+          "rewards": [
+            "Nah I'd Win",
+            "El Honrado",
+            "El Más Fuerte de Hoy",
+            "Seis Ojos"
+          ],
+          "value": "Objetivo de incursión para el juego tardío para jugadores que buscan prestigio que defina su build y recompensas de rasgos.",
+          "bestFor": "Cuentas avanzadas con suficiente daño y supervivencia para completar incursiones repetidamente."
+        },
+        {
+          "icon": "Skull",
+          "source": "Incursión del General Divino",
+          "area": "Ruta de incursión del Juego del Sacrificio",
+          "rewardTypes": [
+            "Estilo de pelea",
+            "Accesorio",
+            "Título",
+            "Rasgo",
+            "Objeto de raza"
+          ],
+          "rewards": [
+            "Artes de Maldición Imperial",
+            "Haori de Sukuna Heian",
+            "Rey de las Maldiciones",
+            "El Más Fuerte de la Historia",
+            "Usurpación Demoniaca",
+            "Emperador Heian"
+          ],
+          "value": "Uno de los farmeos de incursión más importantes del juego tardío porque su grupo de recompensas se conecta directamente con el estilo de Sukuna y builds de alta escala.",
+          "bestFor": "Jugadores enfocados en Sukuna, farmeadores de incursiones y cuentas de progresión del juego final."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Jujutsu Legacy",
+    "titleHighlight": "Preguntas",
+    "questions": [
+      {
+        "question": "¿Qué es Jujutsu Legacy?",
+        "answer": "Jujutsu Legacy es una experiencia de lucha RPG de anime en Roblox donde dominas técnicas malditas, recolectas recipientes, luchas contra jefes y raids, y usas códigos para giros de técnica y de clan."
+      },
+      {
+        "question": "¿Cómo canjeo códigos en Jujutsu Legacy?",
+        "answer": "Alcanza el nivel 5 en Jujutsu Legacy, presiona M o haz clic en el botón de Menú, ingresa un código activo en el cuadro de canje y presiona OK para reclamar giros de técnica o giros de clan."
+      },
+      {
+        "question": "¿Cuál es el límite de nivel en Jujutsu Legacy?",
+        "answer": "El límite de nivel actual de Jujutsu Legacy es 2000, y la página oficial de Roblox lo indica directamente en la descripción del juego."
+      },
+      {
+        "question": "¿Qué son los giros de técnica en Jujutsu Legacy?",
+        "answer": "Los giros de técnica restablecen tu técnica maldita en Jujutsu Legacy, por lo que deberías guardar grandes cantidades para intentos serios de cambio en lugar de gastarlos uno por uno."
+      },
+      {
+        "question": "¿Dónde puedo jugar Jujutsu Legacy?",
+        "answer": "Puedes jugar Jujutsu Legacy en Roblox a través de la página oficial de la experiencia, y la comunidad oficial de Roblox y el servidor de Discord comparten códigos y anuncios."
+      },
+      {
+        "question": "¿Qué recipientes están disponibles en Jujutsu Legacy?",
+        "answer": "Los recipientes actuales de Jujutsu Legacy son Sukuna, Ishigori, Uro, Mechamaru y Kashimo, y cada uno se adapta mejor a una ruta de técnica correspondiente."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar Jujutsu Legacy?",
+    "description": "¡Únete a la comunidad de Jujutsu Legacy en Discord para obtener códigos, guías, listas de niveles y discusiones sobre actualizaciones!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Jujutsu Legacy Wiki",
+    "description": "Tu centro de recursos completo para códigos, técnicas, recipientes, jefes, raids, listas de niveles y guías para principiantes de Jujutsu Legacy.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "robloxGame": "Juego de Roblox",
+    "robloxCommunity": "Comunidad de Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Jujutsu Legacy Wiki. No afiliado con los desarrolladores de Jujutsu Legacy, Roblox Corporation, ni con los propietarios de la propiedad intelectual de Jujutsu Kaisen.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Jujutsu Legacy",
+      "description": "Códigos de Jujutsu Legacy activos y expirados para Spins de Técnica y Spins de Clan, con pasos de canje y requisitos para cada recompensa.",
+      "metaTitle": "Códigos de Jujutsu Legacy - Spins de Técnica y Clan Gratis",
+      "metaDescription": "Canjea códigos de Jujutsu Legacy funcionales para obtener Spins de Técnica y Spins de Clan gratis. Lista de códigos actualizada con pasos de canje de Nivel 5 y seguimiento de códigos expirados.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Jujutsu Legacy?",
+      "whatIsDescription": "Los códigos de Jujutsu Legacy son cadenas de canje gratuitas lanzadas por el desarrollador que otorgan Spins de Técnica y Spins de Clan, los principales recursos de relanzamiento para técnicas y clanes. La mayoría de los códigos requieren Nivel 5 y se ingresan en el cuadro de canje del Menú del juego.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Recursos de relanzamiento gratuitos",
+        "step1Description": "Cada código activo otorga Spins de Técnica o de Clan sin gastar Robux",
+        "step2Title": "Crea tu Build más rápido",
+        "step2Description": "Acumula spins de los códigos antes de una sesión planificada de relanzamiento de técnica o clan",
+        "step3Title": "Evita perder tiempo",
+        "step3Description": "Rastrea los códigos expirados para no perder tiempo con cadenas de canje inactivas"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Códigos"
+    },
+    "guide": {
+      "title": "Guías de Jujutsu Legacy",
+      "description": "Guías completas de Jujutsu Legacy, desde conceptos básicos para principiantes hasta rutas de leveo, ubicaciones de misiones, controles y la ruta de progresión al Nivel 2000.",
+      "metaTitle": "Guías de Jujutsu Legacy - Progresión de Principiante a Nivel 2000",
+      "metaDescription": "Guías completas de Jujutsu Legacy que cubren consejos para principiantes, rutas de leveo, ubicaciones de misiones, controles de PC y la ruta de progresión al Nivel 2000 para el RPG de anime en Roblox.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías de Jujutsu Legacy?",
+      "whatIsDescription": "Guías exhaustivas de Jujutsu Legacy que cubren el menú, rutas de leveo, cadenas de misiones, controles y estrategia de progresión desde tu primer inicio de sesión hasta el límite de Nivel 2000.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Entiende el menú, los códigos, los spins y el flujo de leveo en Jujutsu Legacy",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas de leveo y misiones probadas hasta el límite de Nivel 2000",
+        "step3Title": "Encuentra cada misión",
+        "step3Description": "Localiza NPCs de misiones, ubicaciones y rangos de nivel sin dar vueltas"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías"
+    },
+    "techniques": {
+      "title": "Técnicas de Jujutsu Legacy",
+      "description": "Domina las técnicas malditas en Jujutsu Legacy con desgloses de roles, tier lists, mejoras V2 y prioridades de reroll para cada técnica.",
+      "metaTitle": "Técnicas de Jujutsu Legacy - Tier List y Guía de Técnicas Malditas",
+      "metaDescription": "Domina las técnicas malditas de Jujutsu Legacy. Conoce los roles de las técnicas, clasificaciones de tier, mejoras V2 y prioridades de reroll en todo el repertorio de técnicas.",
+      "categoryLabel": "TÉCNICAS MALDITAS",
+      "whatIs": "¿Qué son las Técnicas?",
+      "whatIsDescription": "Las técnicas malditas son el kit de combate principal en Jujutsu Legacy. Cada técnica define tu rendimiento en el farmeo, jefes y PvP, y los giros de técnica sirven para hacer reroll de la que posees. Muchas técnicas también desbloquean versiones V2 más fuertes.",
+      "why": "¿Por qué comparar técnicas?",
+      "whySteps": {
+        "step1Title": "Elige el kit adecuado",
+        "step1Description": "Adapta una técnica a tus objetivos de farmeo, jefes o PvP",
+        "step2Title": "Planifica tus rerolls",
+        "step2Description": "Guarda tus giros de técnica para objetivos de tier S y A de alto valor",
+        "step3Title": "Busca mejoras V2",
+        "step3Description": "Comprende qué técnicas desbloquean versiones V2 más fuertes para builds de late-game"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las guías de técnicas"
+    },
+    "vessels": {
+      "title": "Recipientes de Jujutsu Legacy",
+      "description": "Guías completas de recipientes de Jujutsu Legacy que cubren a Sukuna, Kashimo, Kenjaku, Rika y más, con tier lists, rutas de desbloqueo y sinergia de builds.",
+      "metaTitle": "Recipientes de Jujutsu Legacy - Tier List de Sukuna, Kashimo y Recipientes",
+      "metaDescription": "Domina los recipientes de Jujutsu Legacy, incluidos Sukuna, Heian Sukuna, Kashimo, Kenjaku y Rika. Compara clasificaciones de tier de recipientes, rutas de desbloqueo y sinergia con técnicas.",
+      "categoryLabel": "RECIPIENTES",
+      "whatIs": "¿Qué son los Recipientes?",
+      "whatIsDescription": "Los recipientes son una capa de poder independiente en Jujutsu Legacy que sirve de base para tu build junto con las técnicas malditas. Cada recipiente, como Sukuna, Kashimo, Kenjaku o Rika, se complementa mejor con una ruta de técnica específica y desbloquea el escalado en el late-game.",
+      "why": "¿Por qué comparar recipientes?",
+      "whySteps": {
+        "step1Title": "Elige una base para tu build",
+        "step1Description": "Elige un recipiente que se adapte a tu técnica y estilo de combate",
+        "step2Title": "Planifica rutas de desbloqueo",
+        "step2Description": "Farmea los jefes y drops adecuados para conseguir el recipiente que buscas",
+        "step3Title": "Crea sinergia con técnicas",
+        "step3Description": "Combina recipientes con técnicas y clanes complementarios para obtener el máximo valor"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las guías de recipientes"
+    },
+    "clans": {
+      "title": "Clanes de Jujutsu Legacy",
+      "description": "Guías completas de clanes de Jujutsu Legacy que cubren los mejores clanes, tier lists, Zenin, Sugawara y estrategias de reroll de clan para cada build.",
+      "metaTitle": "Clanes de Jujutsu Legacy - Guía de los mejores clanes y Tier List",
+      "metaDescription": "Compara los clanes de Jujutsu Legacy con una tier list completa, los mejores clanes, detalles de Zenin y Sugawara, y estrategias de reroll para tu build.",
+      "categoryLabel": "CLANES",
+      "whatIs": "¿Qué son los Clanes?",
+      "whatIsDescription": "Los clanes en Jujutsu Legacy definen tu identidad de estadísticas pasivas y el valor de tu build. Los Clan Spins permiten cambiar tu clan, y opciones como Zenin o Sugawara pueden definir tu progresión a largo plazo al combinarse con la técnica y el recipiente maldito adecuados.",
+      "why": "¿Por qué comparar clanes?",
+      "whySteps": {
+        "step1Title": "Combina el clan con tu build",
+        "step1Description": "Elige un clan que potencie tu técnica y la dirección de tus estadísticas",
+        "step2Title": "Consulta la Tier List",
+        "step2Description": "Compara los rangos de los clanes antes de gastar tus Clan Spins",
+        "step3Title": "Haz reroll en el momento adecuado",
+        "step3Description": "Guarda tus rerolls de clan hasta que tu técnica y tu camino de recipiente maldito sean estables"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las guías de clanes"
+    },
+    "builds": {
+      "title": "Builds de Jujutsu Legacy",
+      "description": "Domina la planificación de builds en Jujutsu Legacy con las mejores configuraciones, rasgos, sinergia entre recipientes malditos y técnicas, y dirección de estadísticas para cada estilo de juego.",
+      "metaTitle": "Builds de Jujutsu Legacy - Guía de las mejores builds y rasgos",
+      "metaDescription": "Domina las builds de Jujutsu Legacy con las mejores configuraciones, selección de rasgos, sinergia de recipientes malditos y técnicas, y planificación de estadísticas para farmear, jefes y PvP.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "¿Qué son las Builds?",
+      "whatIsDescription": "Las builds de Jujutsu Legacy combinan tu técnica maldita, recipiente maldito, clan, raza, rasgos y estadísticas en una configuración coordinada. Una build planificada supera a los rerolls aleatorios al farmear, enfrentar jefes o en PvP.",
+      "why": "¿Por qué planificar builds?",
+      "whySteps": {
+        "step1Title": "Combina las piezas correctas",
+        "step1Description": "Sincroniza técnica, recipiente maldito, clan y rasgos en una configuración enfocada",
+        "step2Title": "Elige los mejores rasgos",
+        "step2Description": "Elige rasgos que amplifiquen tu tipo de daño y escalado seleccionados",
+        "step3Title": "Gasta tus Spins con sabiduría",
+        "step3Description": "Guarda tus rerolls para reinicios de build de alto valor en lugar de lanzamientos aleatorios"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las guías de builds"
+    }
   }
 }

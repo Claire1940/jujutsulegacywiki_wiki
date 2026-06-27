@@ -1,10 +1,832 @@
 {
+  "seo": {
+    "home": {
+      "title": "Jujutsu Legacy Wiki - Códigos, Técnicas & Receptáculos",
+      "description": "Jujutsu Legacy Wiki com códigos, técnicas, receptáculos, chefes, raids, tier lists, dicas para iniciantes e guias de atualização do Roblox para uma progressão mais rápida.",
+      "keywords": "jujutsu legacy, roblox, códigos, técnicas, receptáculos, raids, tier list, chefes",
+      "ogTitle": "Jujutsu Legacy Wiki - Códigos, Técnicas & Receptáculos",
+      "ogDescription": "Jujutsu Legacy Wiki com códigos, técnicas, receptáculos, chefes, raids, tier lists, dicas para iniciantes e guias de atualização do Roblox para uma progressão mais rápida.",
+      "twitterTitle": "Jujutsu Legacy Wiki - Códigos, Técnicas & Receptáculos",
+      "twitterDescription": "Jujutsu Legacy Wiki com códigos, técnicas, receptáculos, chefes, raids, tier lists e guias de atualização do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
     "techniques": "Técnicas",
-    "vessels": "Vessels",
+    "vessels": "Receptáculos",
     "clans": "Clãs",
     "builds": "Builds"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Experiência de Luta RPG de Anime no Roblox",
+    "title": "Jujutsu Legacy Wiki",
+    "description": "Domine técnicas amaldiçoadas, suba o nível do seu feiticeiro, colete receptáculos, enfrente chefes e raids, e use códigos para giros neste RPG de anime no Roblox.",
+    "getFreeCodesCTA": "Obter Códigos Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "27.7M+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "2000",
+        "label": "Limite de Nível"
+      },
+      "stat3": {
+        "value": "20+",
+        "label": "Técnicas"
+      },
+      "stat4": {
+        "value": "84.36%",
+        "label": "Avaliação dos Jogadores"
+      }
+    }
+  },
+  "tools": {
+    "title": "Jujutsu Legacy",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para códigos, técnicas, receptáculos, giros, chefes e raids em Jujutsu Legacy.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de Jujutsu Legacy",
+        "description": "Códigos ativos e expirados para Giros de Técnica e Clã"
+      },
+      {
+        "icon": "Link2",
+        "title": "Links de Jujutsu Legacy",
+        "description": "Roblox, Discord e Trello em um só lugar"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia de Iniciante de Jujutsu Legacy",
+        "description": "Primeiros passos, subida de nível e como gastar giros de forma inteligente"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Jujutsu Legacy",
+        "description": "Prioridade de reroll para cada técnica amaldiçoada"
+      },
+      {
+        "icon": "Dices",
+        "title": "Giros de Jujutsu Legacy",
+        "description": "Planejamento de reroll de Técnica, Clã e Raça"
+      },
+      {
+        "icon": "Swords",
+        "title": "Receptáculos de Jujutsu Legacy",
+        "description": "Sukuna, Ishigori, Uro, Mechamaru e Kashimo"
+      },
+      {
+        "icon": "Map",
+        "title": "Rota de Leveling de Jujutsu Legacy",
+        "description": "Missões, chefes e faixas de nível até 2000"
+      },
+      {
+        "icon": "Gem",
+        "title": "Raids de Jujutsu Legacy",
+        "description": "Espadas, acessórios e drops de fim de jogo"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos de Jujutsu Legacy",
+      "intro": "Os códigos são úteis principalmente para fazer reroll nos sistemas de personagem que mais importam no Jujutsu Legacy: técnicas, clãs e progressão relacionada a raças. Resgate códigos ativos para Giros de Técnica e Giros de Clã, alcance o Nível 5 primeiro, depois abra o menu do jogo e insira o código na caixa de resgate.",
+      "activeLabel": "Ativos",
+      "expiredLabel": "Expirados",
+      "copyLabel": "Copiar",
+      "redeemTitle": "Como resgatar códigos de Jujutsu Legacy",
+      "activeCodes": [
+        {
+          "code": "MutualLove",
+          "reward": "40 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "Dessert",
+          "reward": "Giros de Técnica Grátis",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "Mahoraga",
+          "reward": "30 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "WUpd",
+          "reward": "30 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "Just This Once",
+          "reward": "10 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "Takaba",
+          "reward": "20 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "AlwaysBetOnHakari",
+          "reward": "20 Giros de Clã",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "Sorry",
+          "reward": "20 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "SkyManipulation",
+          "reward": "20 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "Cursed",
+          "reward": "10 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        },
+        {
+          "code": "SkillIssue",
+          "reward": "3 Giros de Técnica",
+          "requirement": "Alcance o Nível 5 primeiro"
+        }
+      ],
+      "expiredGroups": [
+        {
+          "label": "Códigos de metas expirados",
+          "note": "Antigas recompensas de metas, a maioria Giros de Técnica, Giros de Raça ou Giros de Clã",
+          "codes": "1.5KLIKES, 2KLIKES, 2.5KLIKES, 3KLIKES, 3.5KLIKES, 4KLIKES, 4.5KLIKES, 5KLIKES, 5.5KLIKES, 6KLIKES, 6.5KLIKES, 7KLIKES, 7.5KLIKES, 8KLIKES, 8.5KLIKES, 9KLIKES, 9.5KLIKES, 10KLIKES, 11KLIKES, 12KLIKES"
+        },
+        {
+          "label": "Códigos de atualizações e eventos expirados",
+          "note": "Antigas recompensas de atualizações, desculpas e eventos",
+          "codes": "Infinity, Hanami, Jackpot, BloodManipulation, DisasterFlames, Higuruma, Comedian, Ishigori, RaceSpin2, SorryShutdown, Gifts, SorryForGiveSpecialClan, SorryForInfBugs, Krampus Sukuna, Cat Gojo, WChristmas, Christmas1"
+        }
+      ],
+      "redeemSteps": [
+        "Inicie o Jujutsu Legacy no Roblox.",
+        "Alcance o Nível 5 antes de tentar resgatar os códigos.",
+        "Pressione M ou clique no botão Menu no lado esquerdo da tela.",
+        "Insira o código na caixa de resgate.",
+        "Pressione OK ou Enter para resgatar a recompensa."
+      ]
+    },
+    "officialLinks": {
+      "title": "Links do Trello e Discord de Jujutsu Legacy",
+      "intro": "Este hub reúne os links úteis de Jujutsu Legacy em um só lugar para que os jogadores possam jogar a experiência no Roblox, juntar-se à comunidade oficial, conferir o servidor do Discord e abrir o quadro do Trello sem precisar procurar em convites falsos e quadros desatualizados.",
+      "links": [
+        {
+          "label": "Experiência de Jujutsu Legacy no Roblox",
+          "href": "https://www.roblox.com/games/15694107053/Jujutsu-Legacy",
+          "category": "Link para Jogar",
+          "note": "Jogue o jogo, confira o Level Cap atual de 2000 e veja a lista atual de técnicas e receptáculos."
+        },
+        {
+          "label": "Comunidade Oficial de Jujutsu Legacy no Roblox",
+          "href": "https://www.roblox.com/communities/33596404/Jujutsu-Legacy-Official",
+          "category": "Grupo do Roblox",
+          "note": "Siga a comunidade oficial do Roblox vinculada ao Jujutsu Legacy."
+        },
+        {
+          "label": "Servidor do Discord de Jujutsu Legacy",
+          "href": "https://discord.com/invite/jujutsu-legacy-beta-1247159977181708288",
+          "category": "Discord",
+          "note": "Códigos, anúncios, avisos do servidor, conversas sobre atualizações e discussões da comunidade."
+        },
+        {
+          "label": "Quadro do Trello de Jujutsu Legacy",
+          "href": "https://trello.com/b/432tpo1k/jujutsu-legacy",
+          "category": "Trello",
+          "note": "Referência de mecânicas, sistemas de jogo, técnicas, receptáculos e acompanhamento de atualizações."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guia de Iniciante de Jujutsu Legacy",
+      "intro": "Jujutsu Legacy apresenta vários sistemas aos novos jogadores de uma só vez: técnicas, clãs, receptáculos, giros e evolução de nível. O caminho inicial mais seguro é aprender a usar o menu, desbloquear o resgate de códigos no Nível 5 e usar seus giros em sistemas que realmente definem sua build, em vez de gastá-los aleatoriamente.",
+      "steps": [
+        {
+          "title": "Inicie a experiência oficial no Roblox",
+          "description": "Abra o Jujutsu Legacy a partir da página do jogo no Roblox e comece na experiência ativa atual. A descrição oficial no Roblox lista o Level Cap atual como 2000.",
+          "goal": "Entre na experiência correta antes de seguir qualquer guia ou lista de códigos."
+        },
+        {
+          "title": "Aprenda a usar o menu primeiro",
+          "description": "Use o botão Menu ou a tecla M para acessar as opções principais, incluindo a caixa de resgate de códigos. É neste menu que os novos jogadores começam a notar os sistemas de build em Jujutsu Legacy.",
+          "goal": "Saiba onde ficam os códigos e os sistemas de personagem antes de gastar seus giros."
+        },
+        {
+          "title": "Alcance o Nível 5 antes de resgatar códigos",
+          "description": "O resgate de códigos exige o Nível 5 em Jujutsu Legacy. Derrote os primeiros inimigos e conclua a progressão inicial até que a caixa de resgate aceite os códigos.",
+          "goal": "Desbloqueie giros de técnica e giros de clã gratuitos o quanto antes."
+        },
+        {
+          "title": "Use os giros com um plano de build em mente",
+          "description": "Os giros de técnica alteram sua técnica amaldiçoada, enquanto os giros de clã focam na progressão do clã. Guarde lotes maiores de giros para tentativas sérias de mudança, em vez de gastar um código de cada vez.",
+          "goal": "Evite substituir uma técnica rara e útil cedo demais."
+        },
+        {
+          "title": "Escolha um primeiro objetivo de técnica",
+          "description": "A lista atual de técnicas em Jujutsu Legacy inclui Limitless, Rika, Manipulação de Maldições, Manipulação do Céu, Formação de Gelo, Chamas do Desastre, Dez Sombras, Transfiguração Inerte, Besta Mítica Âmbar V2, Dez Sombras V2 e Santuário Heian.",
+          "goal": "Busque uma técnica que ajude no farm, contra chefes ou no PvP."
+        },
+        {
+          "title": "Entenda os receptáculos como um sistema separado",
+          "description": "Os receptáculos atuais em Jujutsu Legacy são Sukuna, Ishigori, Uro, Mechamaru e Kashimo. Trate os receptáculos como uma camada de poder separada das técnicas ao planejar sua build.",
+          "goal": "Não confunda um bom giro de técnica com uma build completa."
+        },
+        {
+          "title": "Confira o Discord e o Trello antes de fazer grandes mudanças",
+          "description": "Use o Discord para códigos e anúncios, e o Trello para referências estruturadas de mecânicas antes de gastar uma grande quantidade de giros em Jujutsu Legacy.",
+          "goal": "Tome decisões de mudança com as informações mais recentes do jogo."
+        }
+      ]
+    },
+    "techniqueTierList": {
+      "title": "Tier List de Técnicas de Jujutsu Legacy",
+      "intro": "Esta tier list de técnicas de Jujutsu Legacy foca em quais técnicas amaldiçoadas valem a pena manter ao gastar Giros de Técnica. Tiers mais altos favorecem um forte valor no late-game, utilidade contra chefes, pressão em PvP e uso flexível em mais de um modo.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Melhores alvos de reroll",
+          "summary": "Mantenha estas técnicas para uma progressão séria, enfrentar chefes e builds focadas em PvP no Jujutsu Legacy.",
+          "techniques": [
+            "Santuário Heian",
+            "Dez Sombras V2",
+            "Ilimitado",
+            "Rika"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Fortes para manter",
+          "summary": "Técnicas excelentes que valem a pena usar como base antes de buscar os giros mais difíceis do late-game.",
+          "techniques": [
+            "Manipulação Amaldiçoada",
+            "Besta Mítica Âmbar V2",
+            "Transfiguração Inerte",
+            "Manipulação do Céu",
+            "Projeção",
+            "Chamas do Desastre"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Boas e utilizáveis",
+          "summary": "Técnicas sólidas que sustentam a progressão no early e mid-game, geralmente substituídas por opções raras ou V2 mais fortes posteriormente.",
+          "techniques": [
+            "Formação de Gelo",
+            "Marés do Desastre",
+            "Dez Sombras",
+            "Manipulação de Marionetes",
+            "Fala Amaldiçoada",
+            "Antigravidade",
+            "Resíduos da Lua",
+            "Boogie Woogie"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Escolhas iniciais ou de nicho",
+          "summary": "Estas funcionam durante o nivelamento, mas não são o motivo principal para gastar um grande acúmulo de Giros de Técnica.",
+          "techniques": [
+            "Punho Divergente",
+            "Punhos de Míssil",
+            "Sentença de Morte",
+            "Proporção"
+          ]
+        }
+      ]
+    },
+    "spinsClanAndRaceRerolls": {
+      "title": "Giros, Rerolls de Clã e Rerolls de Raça de Jujutsu Legacy",
+      "intro": "Os Giros são o principal recurso de progressão em Jujutsu Legacy. Os Giros de Técnica mudam seu kit de combate, os Giros de Clã ajustam a identidade de atributos baseada no clã, e os Giros de Raça afetam a direção dos atributos a longo prazo, portanto, cada um deve ser tratado como uma decisão de build em vez de um simples clique de botão.",
+      "bestForLabel": "Melhor para",
+      "planLabel": "Plano de gastos",
+      "avoidLabel": "Evitar",
+      "rows": [
+        {
+          "icon": "Wand2",
+          "type": "Giros de Técnica",
+          "affects": "Seleção de Técnica Amaldiçoada e seu kit principal de habilidades.",
+          "bestFor": "Buscar um estilo de combate principal como Limitless, Rika, Manipulação Amaldiçoada, Manipulação do Céu, Formação de Gelo, Chamas do Desastre, Dez Sombras, Manipulação de Marionetes, Fala Amaldiçoada, Antigravidade, Mythical Beast Amber V2, Dez Sombras V2 ou Santuário Heian.",
+          "plan": "Gaste após decidir se a conta visa farm de chefes, dano em raid, mobilidade ou uma configuração vinculada a um receptáculo.",
+          "avoid": "Não gaste Giros de Técnica antes de verificar se a técnica atual se conecta a um receptáculo, rota V2 ou plano de armazenamento."
+        },
+        {
+          "icon": "Users",
+          "type": "Giros de Clã",
+          "affects": "Identidade do clã e valor passivo da build.",
+          "bestFor": "Ajustar uma conta finalizada ou quase finalizada após a definição da técnica e do receptáculo.",
+          "plan": "Economize Giros de Clã até que a técnica principal esteja estável e, em seguida, use o reroll para um clã que suporte o plano de atributos escolhido.",
+          "avoid": "Não trate os Giros de Clã como preenchimento de início de jogo quando a build ainda não escolheu seu caminho de técnica."
+        },
+        {
+          "icon": "Dna",
+          "type": "Giros de Raça",
+          "affects": "Perfil de atributos baseado na raça e direção de escalonamento a longo prazo.",
+          "bestFor": "Finalizar uma build que já possui uma função clara, como escalonamento de dano de espada, dano de técnica ou dano de receptáculo.",
+          "plan": "Use Giros de Raça depois dos Giros de Técnica, pois o valor da raça depende do objetivo final da build.",
+          "avoid": "Não substitua uma raça útil casualmente se a conta já estiver farmando chefes ou raids confortavelmente."
+        },
+        {
+          "icon": "Gift",
+          "type": "Recompensas de Giros por Código",
+          "affects": "Estoque de rerolls gratuitos dos lançamentos oficiais de códigos de Jujutsu Legacy.",
+          "bestFor": "Economizar um grande lote de rerolls antes de fazer um reset importante na build.",
+          "plan": "Resgate as recompensas de códigos disponíveis primeiro e, em seguida, use o reroll em uma sessão planejada para parar assim que o objetivo for alcançado.",
+          "avoid": "Não divida pequenos lotes em rerolls aleatórios, a menos que a configuração atual seja inutilizável."
+        }
+      ]
+    },
+    "vesselsAndBuilds": {
+      "title": "Receptáculos e Builds de Jujutsu Legacy",
+      "intro": "Jujutsu Legacy lista Sukuna, Ishigori, Uro, Mechamaru e Kashimo como receptáculos atuais. Cada receptáculo é melhor compreendido como uma âncora de build: o receptáculo importa mais quando se conecta perfeitamente com um caminho de técnica, objetivo de farm de chefe ou plano de raid de fim de jogo.",
+      "techniquesLabel": "Técnicas vinculadas",
+      "focusLabel": "Foco da build",
+      "progressionLabel": "Uso na progressão",
+      "tipLabel": "Dica de jogador",
+      "vessels": [
+        {
+          "icon": "Crown",
+          "name": "Sukuna",
+          "role": "Caminho de receptáculo de alto dano",
+          "techniques": [
+            "Santuário Heian",
+            "Dez Sombras V2"
+          ],
+          "focus": "Dano agressivo, pressão de domínio e escalonamento de receptáculo no fim de jogo.",
+          "progression": "Melhor tratado como um objetivo de build a longo prazo do que como um resultado casual de reroll inicial.",
+          "tip": "Combine o planejamento de Sukuna com o armazenamento de técnicas e economia de rerolls antes de se comprometer com um reset total da conta."
+        },
+        {
+          "icon": "Bomb",
+          "name": "Ishigori",
+          "role": "Caminho de receptáculo de dano explosivo",
+          "techniques": [
+            "Descarga de Energia Amaldiçoada"
+          ],
+          "focus": "Pressão direta à distância e janelas de dano explosivo pesado para farm de chefes.",
+          "progression": "Útil para jogadores que desejam uma saída de dano simples sem depender de cadeias de configuração complexas.",
+          "tip": "Priorize atributos de dano estáveis e consistência no farm de chefes antes de buscar recompensas cosméticas."
+        },
+        {
+          "icon": "Wind",
+          "name": "Uro",
+          "role": "Caminho de receptáculo de espaçamento e sinergia de técnica",
+          "techniques": [
+            "Manipulação do Céu"
+          ],
+          "focus": "Mobilidade, espaçamento e controle baseado em técnica.",
+          "progression": "Ótima escolha para jogadores que preferem controle à distância e posicionamento mais seguro contra chefes.",
+          "tip": "Mantenha a Manipulação do Céu em mente antes de gastar Giros de Técnica, pois o valor de Uro está ligado a esse estilo."
+        },
+        {
+          "icon": "Bot",
+          "name": "Mechamaru",
+          "role": "Caminho de receptáculo baseado em marionetes",
+          "techniques": [
+            "Manipulação de Marionetes"
+          ],
+          "focus": "Pressão mecânica, valor de transformação e roteamento de upgrade de Manipulação de Marionetes.",
+          "progression": "Funciona melhor quando a conta já está construída em torno da Manipulação de Marionetes, em vez de uma troca isolada.",
+          "tip": "Não julgue Mechamaru apenas pelo slot base do receptáculo; seu valor vem de toda a configuração de Manipulação de Marionetes."
+        },
+        {
+          "icon": "Zap",
+          "name": "Kashimo",
+          "role": "Caminho de receptáculo de investida elétrica",
+          "techniques": [
+            "Mythical Beast Amber V2"
+          ],
+          "focus": "Pressão rápida, movimento agressivo e dano explosivo baseado em eletricidade.",
+          "progression": "Bom para jogadores que desejam combate de alto ritmo e pressão em chefes após o nivelamento básico estar estável.",
+          "tip": "Economize rerolls suficientes antes de buscar configurações vinculadas ao Kashimo, pois builds elétricas parciais parecem mais fracas do que uma finalizada."
+        }
+      ]
+    },
+    "questsBossesAndLevelingRoute": {
+      "title": "Missões, Chefes e Rota de Nivelamento de Jujutsu Legacy",
+      "intro": "O limite de nível atual de Jujutsu Legacy é 2000, então a rota mais segura é avançar pelas faixas de missões em vez de vagar entre chefes aleatoriamente. Use missões para obter experiência constante e, em seguida, mude para o farm de chefes e raids assim que a conta tiver dano, vida e uma configuração estável de técnica e receptáculo suficientes.",
+      "areaLabel": "Área",
+      "targetsLabel": "Alvos",
+      "routeLabel": "Rota",
+      "priorityLabel": "Prioridade",
+      "bands": [
+        {
+          "icon": "Sprout",
+          "section": "Progressão Inicial",
+          "levelRange": "Iniciante a 125+",
+          "area": "Jujutsu High e rota inicial de Shibuya",
+          "targets": [
+            "Missões iniciais",
+            "inimigos amaldiçoados iniciais",
+            "rota do Takuma Ino"
+          ],
+          "route": "Monte uma técnica utilizável primeiro, complete missões próximas para obter experiência repetível e evite farmar drops raros antes que a conta consiga derrotar inimigos básicos rapidamente.",
+          "priority": "Desbloqueie dano e movimentação confiáveis antes de ir atrás de espadas ou acessórios."
+        },
+        {
+          "icon": "Footprints",
+          "section": "Configuração de Meio de Jogo",
+          "levelRange": "125 a 275+",
+          "area": "Aproximação de Shibuya e caminhos de missões conectados",
+          "targets": [
+            "Rota do Eso",
+            "missões do lado do cemitério",
+            "nivelamento pré-Metrô"
+          ],
+          "route": "Permaneça em cadeias de missões que estejam próximas umas das outras e só avance quando os inimigos deixarem de demorar muito para serem derrotados.",
+          "priority": "Aumente os atributos, estabilize a técnica principal e prepare-se para os chefes do Metrô."
+        },
+        {
+          "icon": "Building2",
+          "section": "Progressão no Metrô",
+          "levelRange": "300 a 450+",
+          "area": "Metrô de Shibuya",
+          "targets": [
+            "Choso",
+            "Mahito",
+            "Jogo",
+            "Kenjaku"
+          ],
+          "route": "Use a faixa do Metrô como a principal ponte do nivelamento básico para a progressão focada em chefes. Choso e Mahito são chefes de ponto de controle comuns antes de alvos mais altos do Metrô.",
+          "priority": "Farme experiência primeiro e depois retorne para drops específicos assim que as eliminações forem consistentes."
+        },
+        {
+          "icon": "Crosshair",
+          "section": "Entrada no Jogo do Abate",
+          "levelRange": "500 a 575+",
+          "area": "Jogo do Abate",
+          "targets": [
+            "JudgeMan",
+            "Rota Zenin",
+            "Naoya",
+            "Higuruma"
+          ],
+          "route": "A rota do Jogo do Abate introduz alvos de chefes mais valiosos e farm relacionado a espadas. O JudgeMan é especialmente importante para rotas de coleta de espadas.",
+          "priority": "Comece a rastrear os drops de chefes, mas continue subindo de nível se a velocidade de eliminação for baixa."
+        },
+        {
+          "icon": "Shield",
+          "section": "Alvos de Receptáculo do Jogo do Abate",
+          "levelRange": "625 a 700+",
+          "area": "Rota avançada do Jogo do Abate",
+          "targets": [
+            "Uro",
+            "Ishigori",
+            "Yuta",
+            "Charles"
+          ],
+          "route": "Esta faixa é importante para caminhos de receptáculo e builds de fim de jogo. Uro e Ishigori são especialmente relevantes porque ambos se conectam diretamente ao planejamento de receptáculo.",
+          "priority": "Escolha se a conta deve farmar desbloqueios de receptáculo, drops de espadas ou experiência pura antes de repetir os chefes."
+        },
+        {
+          "icon": "Castle",
+          "section": "Fim de Jogo e Preparação para Raids",
+          "levelRange": "1000 a 2000",
+          "area": "Shinjuku e conteúdo de raid",
+          "targets": [
+            "Kashimo",
+            "Chefes relacionados ao Sukuna",
+            "Raid do Mais Forte",
+            "Raid do General Divino"
+          ],
+          "route": "Neste ponto, a qualidade da build importa mais do que a ordem bruta da rota. Entre em raids com uma técnica estável, planejamento de receptáculo, direção de acessórios e atributos suficientes para subir de nível e sobreviver a ondas repetidas.",
+          "priority": "Farme raids para obter drops que definem a build apenas depois que a conta conseguir derrotar os chefes de fim de jogo de forma confiável."
+        }
+      ]
+    },
+    "raidsDropsSwordsAndAccessories": {
+      "title": "Raids, Drops, Espadas e Acessórios de Jujutsu Legacy",
+      "intro": "Após a fase de iniciante, a progressão em Jujutsu Legacy muda de um simples aumento de nível para um farm direcionado. Chefes e raids como Megumi, JudgeMan, Uro, Ishigori, Kashimo e fontes de raid de fim de jogo tornam-se importantes porque suas recompensas podem desbloquear espadas, receptáculos, acessórios, características (traits), raças ou melhorias de estilo de luta.",
+      "locationLabel": "Localização",
+      "rewardsLabel": "Recompensas notáveis",
+      "valueLabel": "Valor de farm",
+      "bestForLabel": "Melhor para",
+      "drops": [
+        {
+          "icon": "Sword",
+          "source": "Megumi",
+          "area": "Perto da rota da ponte de Shibuya",
+          "rewardTypes": [
+            "Espada",
+            "Título"
+          ],
+          "rewards": [
+            "Dark Surge",
+            "Título da Sombra"
+          ],
+          "value": "Um bom objetivo de espada inicial para jogadores que estão indo além do nivelamento básico de missões.",
+          "bestFor": "Coleção de espadas e planejamento de progressão relacionado às Dez Sombras (Ten Shadows)."
+        },
+        {
+          "icon": "Swords",
+          "source": "Toji Reincarnation",
+          "area": "Rota lateral da Jujutsu High",
+          "rewardTypes": [
+            "Espada"
+          ],
+          "rewards": [
+            "Nuvem Brincalhona",
+            "Lança Invertida do Céu"
+          ],
+          "value": "Farm de arma útil para jogadores que querem opções de combate corpo a corpo mais fortes antes de um farm mais profundo no Culling Games.",
+          "bestFor": "Usuários de espada e jogadores que estão construindo uma coleção de armas mais ampla."
+        },
+        {
+          "icon": "Gavel",
+          "source": "JudgeMan",
+          "area": "Culling Games",
+          "rewardTypes": [
+            "Espada"
+          ],
+          "rewards": [
+            "Martelo Gavel",
+            "Espada do Carrasco"
+          ],
+          "value": "Alvo de alta prioridade no Culling Games porque ambas as recompensas listadas são melhorias de armas vinculadas à rota do JudgeMan.",
+          "bestFor": "Jogadores que querem espadas raras e um objetivo claro de farm no Culling Games."
+        },
+        {
+          "icon": "Cloud",
+          "source": "Uro",
+          "area": "Culling Games",
+          "rewardTypes": [
+            "Item de receptáculo",
+            "Item de suporte de técnica"
+          ],
+          "rewards": [
+            "Fragmento do Céu"
+          ],
+          "value": "Importante para jogadores que planejam a progressão relacionada ao Receptáculo da Uro e à Manipulação do Céu.",
+          "bestFor": "Usuários de Manipulação do Céu e builds focadas em Uro."
+        },
+        {
+          "icon": "Flame",
+          "source": "Ishigori Reincarnated Sorcerer route",
+          "area": "Culling Games",
+          "rewardTypes": [
+            "Item de receptáculo"
+          ],
+          "rewards": [
+            "Cabelo do Ishigori"
+          ],
+          "value": "Farm essencial para jogadores que querem desbloquear ou criar uma build em torno do Receptáculo do Ishigori.",
+          "bestFor": "Builds de receptáculo focadas em dano explosivo."
+        },
+        {
+          "icon": "Activity",
+          "source": "Kashimo",
+          "area": "Rota de Shinjuku",
+          "rewardTypes": [
+            "Item de receptáculo",
+            "Espada",
+            "Item de estilo de luta"
+          ],
+          "rewards": [
+            "Cabeça do Kashimo",
+            "Bastão Elétrico",
+            "Espírito do Trovão"
+          ],
+          "value": "Alvo forte de fim de jogo para jogadores que constroem pressão de raio ou rotas do Receptáculo do Kashimo.",
+          "bestFor": "Contas focadas em Mythical Beast Amber e estilo de jogo agressivo (rushdown)."
+        },
+        {
+          "icon": "Medal",
+          "source": "Strongest Raid",
+          "area": "Conteúdo de Raid",
+          "rewardTypes": [
+            "Acessório",
+            "Título",
+            "Característica (Trait)"
+          ],
+          "rewards": [
+            "Nah I'd Win",
+            "Honored One",
+            "Strongest of Today",
+            "Seis Olhos"
+          ],
+          "value": "Alvo de raid de fim de jogo para jogadores que buscam prestígio que define a build e recompensas de características (traits).",
+          "bestFor": "Contas avançadas com dano e sobrevivência suficientes para conclusões repetidas de raid."
+        },
+        {
+          "icon": "Skull",
+          "source": "Divine General Raid",
+          "area": "Rota de raid do Culling Games",
+          "rewardTypes": [
+            "Estilo de luta",
+            "Acessório",
+            "Título",
+            "Característica (Trait)",
+            "Item de raça"
+          ],
+          "rewards": [
+            "Técnicas Amaldiçoadas Imperiais",
+            "Sukuna Heian Haori",
+            "Rei das Maldições",
+            "O Mais Forte da História",
+            "Usurpação Demônica",
+            "Imperador Heian"
+          ],
+          "value": "Um dos farms de raid de fim de jogo mais importantes, pois seu conjunto de recompensas se conecta diretamente ao estilo Sukuna e a builds de alto escalonamento.",
+          "bestFor": "Jogadores focados em Sukuna, farmers de raid e contas de progressão de fim de jogo."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "subtitle": "Tudo o que você precisa saber sobre Jujutsu Legacy",
+    "titleHighlight": "Frequentes",
+    "questions": [
+      {
+        "question": "O que é Jujutsu Legacy?",
+        "answer": "Jujutsu Legacy é uma experiência de luta RPG de anime no Roblox onde você domina técnicas amaldiçoadas, coleta receptáculos, luta contra chefes e raids, e usa códigos para Giros de Técnica e de Clã."
+      },
+      {
+        "question": "Como resgato códigos no Jujutsu Legacy?",
+        "answer": "Alcance o Nível 5 no Jujutsu Legacy, pressione M ou clique no botão Menu, insira um código funcional na caixa de resgate e pressione OK para reivindicar Giros de Técnica ou Giros de Clã."
+      },
+      {
+        "question": "Qual é o nível máximo no Jujutsu Legacy?",
+        "answer": "O nível máximo atual do Jujutsu Legacy é 2000, e a página oficial do Roblox lista isso diretamente na descrição do jogo."
+      },
+      {
+        "question": "O que são Giros de Técnica no Jujutsu Legacy?",
+        "answer": "Giros de Técnica rolam novamente sua técnica amaldiçoada no Jujutsu Legacy, então você deve guardar grandes quantidades para tentativas sérias de reroll em vez de gastá-los um por um."
+      },
+      {
+        "question": "Onde posso jogar Jujutsu Legacy?",
+        "answer": "Você pode jogar Jujutsu Legacy no Roblox através da página oficial da experiência, e a comunidade oficial do Roblox e o servidor do Discord compartilham códigos e anúncios."
+      },
+      {
+        "question": "Quais receptáculos estão disponíveis no Jujutsu Legacy?",
+        "answer": "Os receptáculos atuais do Jujutsu Legacy são Sukuna, Ishigori, Uro, Mechamaru e Kashimo, e cada um combina melhor com um caminho de técnica correspondente."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar o Jujutsu Legacy?",
+    "description": "Junte-se à comunidade do Jujutsu Legacy no Discord para códigos, guias, tier lists e discussões sobre atualizações!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Jujutsu Legacy Wiki",
+    "description": "Seu hub de recursos completo para códigos, técnicas, receptáculos, chefes, raids, tier lists e guias para iniciantes de Jujutsu Legacy.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "robloxGame": "Jogo no Roblox",
+    "robloxCommunity": "Comunidade no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Jujutsu Legacy Wiki. Não afiliado aos desenvolvedores de Jujutsu Legacy, Roblox Corporation ou aos proprietários da PI de Jujutsu Kaisen.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos Jujutsu Legacy",
+      "description": "Códigos ativos e expirados de Jujutsu Legacy para Giros de Técnica e Giros de Clã, com passos de resgate e requisitos para cada recompensa.",
+      "metaTitle": "Códigos Jujutsu Legacy - Giros de Técnica e Clã Grátis",
+      "metaDescription": "Resgate códigos de Jujutsu Legacy ativos para Giros de Técnica e Giros de Clã grátis. Lista de códigos atualizada com passos de resgate de Nível 5 e rastreamento de códigos expirados.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os Códigos de Jujutsu Legacy?",
+      "whatIsDescription": "Os códigos de Jujutsu Legacy são strings de resgate gratuitas lançadas pelo desenvolvedor que concedem Giros de Técnica e Giros de Clã, os principais recursos de reroll para técnicas e clãs. A maioria dos códigos exige Nível 5 e é inserida na caixa de resgate do Menu dentro do jogo.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Recursos de Reroll Grátis",
+        "step1Description": "Cada código ativo concede Giros de Técnica ou de Clã sem gastar Robux",
+        "step2Title": "Build Mais Rápida",
+        "step2Description": "Acumule giros de códigos antes de uma sessão planejada de reroll de técnica ou clã",
+        "step3Title": "Evite Desperdício",
+        "step3Description": "Acompanhe os códigos expirados para nunca perder tempo com strings de resgate inativas"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guias de Jujutsu Legacy",
+      "description": "Guias completos de Jujutsu Legacy, desde o básico para iniciantes até rotas de nivelamento, locais de missões, controles e o caminho de progressão até o Nível 2000.",
+      "metaTitle": "Guias de Jujutsu Legacy - Progressão do Iniciante ao Nível 2000",
+      "metaDescription": "Guias completos de Jujutsu Legacy cobrindo dicas para iniciantes, rotas de nivelamento, locais de missões, controles de PC e o caminho de progressão até o Nível 2000 para o RPG de anime no Roblox.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que são os Guias de Jujutsu Legacy?",
+      "whatIsDescription": "Guias abrangentes de Jujutsu Legacy cobrindo o menu, rotas de nivelamento, cadeias de missões, controles e estratégia de progressão desde o seu primeiro login até o level cap de 2000.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda o menu, códigos, giros e o fluxo de nivelamento em Jujutsu Legacy",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga rotas comprovadas de nivelamento e missões até o level cap de 2000",
+        "step3Title": "Encontre Todas as Missões",
+        "step3Description": "Localize NPCs de missão, locais e faixas de nível sem ficar vagando"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "techniques": {
+      "title": "Técnicas de Jujutsu Legacy",
+      "description": "Domine as técnicas amaldiçoadas em Jujutsu Legacy com análises de funções, tier lists, upgrades V2 e prioridades de reroll para cada técnica.",
+      "metaTitle": "Técnicas de Jujutsu Legacy - Tier List e Guia de Técnicas Amaldiçoadas",
+      "metaDescription": "Domine as técnicas amaldiçoadas de Jujutsu Legacy. Aprenda as funções das técnicas, classificações de tier, upgrades V2 e prioridades de reroll em todo o conjunto de técnicas.",
+      "categoryLabel": "TÉCNICAS AMALDIÇOADAS",
+      "whatIs": "O que são Técnicas?",
+      "whatIsDescription": "As técnicas amaldiçoadas são o principal kit de combate em Jujutsu Legacy. Cada técnica molda seu desempenho em grinding, chefes e PvP, e os Spins de Técnica resetam qual você possui. Muitas técnicas também desbloqueiam versões V2 mais fortes.",
+      "why": "Por que comparar técnicas?",
+      "whySteps": {
+        "step1Title": "Escolha o Kit Certo",
+        "step1Description": "Combine uma técnica com seus objetivos de grinding, chefes ou PvP",
+        "step2Title": "Planeje seus Rerolls",
+        "step2Description": "Economize Spins de Técnica para alvos valiosos de tier S e A",
+        "step3Title": "Busque Upgrades V2",
+        "step3Description": "Entenda quais técnicas desbloqueiam versões V2 mais fortes para builds de late-game"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Técnicas"
+    },
+    "vessels": {
+      "title": "Receptáculos de Jujutsu Legacy",
+      "description": "Guias completos de receptáculos de Jujutsu Legacy cobrindo Sukuna, Kashimo, Kenjaku, Rika e mais, com tier lists, rotas de desbloqueio e sinergia de builds.",
+      "metaTitle": "Receptáculos de Jujutsu Legacy - Tier List de Sukuna, Kashimo e Receptáculos",
+      "metaDescription": "Domine os receptáculos de Jujutsu Legacy, incluindo Sukuna, Heian Sukuna, Kashimo, Kenjaku e Rika. Compare classificações de tier de receptáculos, rotas de desbloqueio e sinergia com técnicas.",
+      "categoryLabel": "RECEPTÁCULOS",
+      "whatIs": "O que são Receptáculos?",
+      "whatIsDescription": "Os receptáculos são uma camada de poder separada em Jujutsu Legacy que ancora sua build junto com as técnicas amaldiçoadas. Cada receptáculo, como Sukuna, Kashimo, Kenjaku ou Rika, combina melhor com um caminho de técnica correspondente e desbloqueia escala de late-game.",
+      "why": "Por que comparar receptáculos?",
+      "whySteps": {
+        "step1Title": "Escolha uma Âncora para sua Build",
+        "step1Description": "Escolha um receptáculo que combine com sua técnica e estilo de combate",
+        "step2Title": "Planeje Rotas de Desbloqueio",
+        "step2Description": "Farme os chefes e drops certos para o seu receptáculo alvo",
+        "step3Title": "Crie Sinergia com Técnicas",
+        "step3Description": "Combine receptáculos com técnicas e clãs complementares para obter o valor máximo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Receptáculos"
+    },
+    "clans": {
+      "title": "Clãs de Jujutsu Legacy",
+      "description": "Guias completos de clãs de Jujutsu Legacy cobrindo os melhores clãs, tier lists, Zenin, Sugawara e estratégia de reroll de clã para cada build.",
+      "metaTitle": "Clãs de Jujutsu Legacy - Guia de Melhor Clã e Tier List de Clãs",
+      "metaDescription": "Compare os clãs de Jujutsu Legacy com uma tier list completa de clãs, escolhas dos melhores clãs, detalhes de Zenin e Sugawara, e estratégia de reroll de clã para sua build.",
+      "categoryLabel": "CLÃS",
+      "whatIs": "O que são Clãs?",
+      "whatIsDescription": "Os clãs em Jujutsu Legacy definem sua identidade de atributos passivos e o valor da sua build. Os giros de clã fazem o reroll do seu clã, e escolhas como Zenin ou Sugawara podem moldar a progressão a longo prazo quando combinadas com a técnica e o receptáculo certos.",
+      "why": "Por que comparar clãs?",
+      "whySteps": {
+        "step1Title": "Combine o Clã com a Build",
+        "step1Description": "Escolha um clã que dê suporte à sua técnica e direção de atributos",
+        "step2Title": "Leia a Tier List",
+        "step2Description": "Compare as classificações dos clãs antes de gastar seus giros de clã",
+        "step3Title": "Faça Reroll no Momento Certo",
+        "step3Description": "Guarde seus rerolls de clã até que seu caminho de técnica e receptáculo esteja estável"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Clãs"
+    },
+    "builds": {
+      "title": "Builds de Jujutsu Legacy",
+      "description": "Domine o planejamento de builds de Jujutsu Legacy com as melhores builds, traços, sinergia de receptáculo e técnica, e direção de atributos para cada estilo de jogo.",
+      "metaTitle": "Builds de Jujutsu Legacy - Guia de Melhores Builds e Traços",
+      "metaDescription": "Domine as builds de Jujutsu Legacy com as melhores configurações de build, escolhas de traços, sinergia de receptáculo e técnica, e planejamento de atributos para farmar, enfrentar chefes e PvP.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "O que são Builds?",
+      "whatIsDescription": "As builds de Jujutsu Legacy combinam sua técnica amaldiçoada, receptáculo, clã, raça, traços e atributos em uma configuração coordenada. Uma build planejada supera rerolls aleatórios em farm, confrontos contra chefes e PvP.",
+      "why": "Por que planejar builds?",
+      "whySteps": {
+        "step1Title": "Combine as Peças Certas",
+        "step1Description": "Combine técnica, receptáculo, clã e traços em uma configuração focada",
+        "step2Title": "Escolha os Melhores Traços",
+        "step2Description": "Escolha traços que amplifiquem o seu tipo de dano escolhido e escalonamento",
+        "step3Title": "Gaste seus Giros com Sabedoria",
+        "step3Description": "Guarde seus rerolls para resets de build de alto valor em vez de giros aleatórios"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Builds"
+    }
   }
 }
