@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "techniques": "Teknik",
+    "vessels": "Vessels",
+    "clans": "Klan",
+    "builds": "Builds"
+  }
+}

@@ -10,7 +10,14 @@
       "twitterDescription": "Jujutsu Legacy Wiki with codes, techniques, vessels, bosses, raids, tier lists, and Roblox update guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "techniques": "Techniques",
+    "vessels": "Vessels",
+    "clans": "Clans",
+    "builds": "Builds"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -271,125 +278,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "Jujutsu Legacy Codes",
+      "description": "Active and expired Jujutsu Legacy codes for Technique Spins and Clan Spins, with redeem steps and requirements for every reward.",
+      "metaTitle": "Jujutsu Legacy Codes - Free Technique & Clan Spins",
+      "metaDescription": "Redeem working Jujutsu Legacy codes for free Technique Spins and Clan Spins. Updated code list with Level 5 redeem steps and expired code tracking.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Jujutsu Legacy Codes?",
+      "whatIsDescription": "Jujutsu Legacy codes are free redeem strings released by the developer that grant Technique Spins and Clan Spins, the main reroll resources for techniques and clans. Most codes require Level 5 and are entered in the in-game Menu redeem box.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Reroll Resources",
+        "step1Description": "Every active code grants Technique or Clan Spins without spending Robux",
+        "step2Title": "Build Faster",
+        "step2Description": "Stack spins from codes before a planned technique or clan reroll session",
+        "step3Title": "Avoid Waste",
+        "step3Description": "Track expired codes so you never waste time on dead redeem strings"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
       "title": "Jujutsu Legacy Guides",
-      "description": "Complete Jujutsu Legacy guides from beginner basics to advanced technique, vessel, and raid strategies.",
-      "metaTitle": "Jujutsu Legacy Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Jujutsu Legacy guides covering beginner tips, cursed techniques, vessels, bosses, raids, and tier lists for the Roblox anime fighting game.",
+      "description": "Complete Jujutsu Legacy guides from beginner basics to leveling routes, quest locations, controls, and the Level 2000 progression path.",
+      "metaTitle": "Jujutsu Legacy Guides - Beginner to Level 2000 Progression",
+      "metaDescription": "Complete Jujutsu Legacy guides covering beginner tips, leveling routes, quest locations, PC controls, and the Level 2000 progression path for the Roblox anime RPG.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive Jujutsu Legacy guides covering gameplay mechanics, progression strategies, techniques, and vessels. Learn everything from first steps to advanced raid tactics.",
+      "whatIs": "What are Jujutsu Legacy Guides?",
+      "whatIsDescription": "Comprehensive Jujutsu Legacy guides covering the menu, leveling routes, quest chains, controls, and progression strategy from your first login to the Level 2000 cap.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand techniques, vessels, and spins in Jujutsu Legacy",
+        "step1Description": "Understand the menu, codes, spins, and leveling flow in Jujutsu Legacy",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven leveling routes up to the Level 2000 cap",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bosses, raids, and PvP"
+        "step2Description": "Follow proven leveling and quest routes up to the Level 2000 cap",
+        "step3Title": "Find Every Quest",
+        "step3Description": "Locate quest NPCs, locations, and level bands without wandering"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
+    "techniques": {
       "title": "Jujutsu Legacy Techniques",
-      "description": "Master cursed techniques in Jujutsu Legacy with role breakdowns, use cases, and reroll priorities for every technique.",
-      "metaTitle": "Jujutsu Legacy Techniques - Cursed Technique Guide",
-      "metaDescription": "Master Jujutsu Legacy cursed techniques. Learn technique roles, grinding and PvP use cases, and reroll priorities across the current technique pool.",
+      "description": "Master cursed techniques in Jujutsu Legacy with role breakdowns, tier lists, V2 upgrades, and reroll priorities for every technique.",
+      "metaTitle": "Jujutsu Legacy Techniques - Cursed Technique Tier List & Guide",
+      "metaDescription": "Master Jujutsu Legacy cursed techniques. Learn technique roles, tier rankings, V2 upgrades, and reroll priorities across the full technique pool.",
       "categoryLabel": "CURSED TECHNIQUES",
       "whatIs": "What are Techniques?",
-      "whatIsDescription": "Cursed techniques are the main combat kit in Jujutsu Legacy. Each technique shapes your grinding, boss, and PvP performance, and Technique Spins reroll which one you hold.",
+      "whatIsDescription": "Cursed techniques are the main combat kit in Jujutsu Legacy. Each technique shapes your grinding, boss, and PvP performance, and Technique Spins reroll which one you hold. Many techniques also unlock stronger V2 versions.",
       "why": "Why compare techniques?",
       "whySteps": {
         "step1Title": "Pick the Right Kit",
         "step1Description": "Match a technique to grinding, bossing, or PvP goals",
         "step2Title": "Plan Rerolls",
-        "step2Description": "Save Technique Spins for high-value targets",
-        "step3Title": "Synergize with Vessels",
-        "step3Description": "Pair techniques with the right vessel build"
+        "step2Description": "Save Technique Spins for high-value S and A tier targets",
+        "step3Title": "Chase V2 Upgrades",
+        "step3Description": "Understand which techniques unlock stronger V2 versions for late-game builds"
       },
       "featured": "Featured & Essential",
       "all": "All Technique Guides"
     },
-    "items": {
-      "title": "Jujutsu Legacy Items and Swords",
-      "description": "Detailed Jujutsu Legacy item guides covering swords, accessories, vessel items, and trait rewards with drop sources and usage tips.",
-      "metaTitle": "Jujutsu Legacy Items - Swords, Accessories & Gear Guide",
-      "metaDescription": "Complete Jujutsu Legacy item database including swords, accessories, vessel items, and traits. Learn where each drop comes from and which build it fits.",
-      "categoryLabel": "ITEMS & SWORDS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive Jujutsu Legacy guides for swords, accessories, vessel items, and trait rewards. Learn drop sources, effects, and which builds each item supports.",
-      "why": "Why check item guides?",
+    "vessels": {
+      "title": "Jujutsu Legacy Vessels",
+      "description": "Complete Jujutsu Legacy vessel guides covering Sukuna, Kashimo, Kenjaku, Rika, and more, with tier lists, unlock routes, and build synergy.",
+      "metaTitle": "Jujutsu Legacy Vessels - Sukuna, Kashimo & Vessel Tier List",
+      "metaDescription": "Master Jujutsu Legacy vessels including Sukuna, Heian Sukuna, Kashimo, Kenjaku, and Rika. Compare vessel tier rankings, unlock routes, and technique synergy.",
+      "categoryLabel": "VESSELS",
+      "whatIs": "What are Vessels?",
+      "whatIsDescription": "Vessels are a separate power layer in Jujutsu Legacy that anchors your build alongside cursed techniques. Each vessel such as Sukuna, Kashimo, Kenjaku, or Rika pairs best with a matching technique path and unlocks late-game scaling.",
+      "why": "Why compare vessels?",
       "whySteps": {
-        "step1Title": "Find Drop Sources",
-        "step1Description": "Learn which bosses and raids drop each item",
-        "step2Title": "Plan Farming Routes",
-        "step2Description": "Target the swords and accessories that fit your build",
-        "step3Title": "Upgrade Smartly",
-        "step3Description": "Choose accessories and traits that boost your technique"
+        "step1Title": "Choose a Build Anchor",
+        "step1Description": "Pick a vessel that matches your technique and combat style",
+        "step2Title": "Plan Unlock Routes",
+        "step2Description": "Farm the right bosses and drops for your target vessel",
+        "step3Title": "Synergize with Techniques",
+        "step3Description": "Pair vessels with complementary techniques and clans for maximum value"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Vessel Guides"
     },
-    "biomes": {
-      "title": "Jujutsu Legacy World and Bosses",
-      "description": "Explore Jujutsu Legacy world areas, boss locations, raid zones, and survival tips for each progression band.",
-      "metaTitle": "Jujutsu Legacy World - Areas, Bosses & Raid Zones",
-      "metaDescription": "Explore Jujutsu Legacy world areas including Jujutsu High, Shibuya, the Culling Games, and Shinjuku. Find bosses, raids, and progression routes in each zone.",
-      "categoryLabel": "WORLD & BOSSES",
-      "whatIs": "What are World Areas?",
-      "whatIsDescription": "Guides to Jujutsu Legacy world areas, boss locations, raid zones, and danger spots. Learn what to expect and how to prepare for each progression band.",
-      "why": "Why explore world areas?",
+    "clans": {
+      "title": "Jujutsu Legacy Clans",
+      "description": "Complete Jujutsu Legacy clan guides covering the best clans, tier lists, Zenin, Sugawara, and clan reroll strategy for every build.",
+      "metaTitle": "Jujutsu Legacy Clans - Best Clan & Clan Tier List Guide",
+      "metaDescription": "Compare Jujutsu Legacy clans with a full clan tier list, best clan picks, Zenin and Sugawara details, and clan reroll strategy for your build.",
+      "categoryLabel": "CLANS",
+      "whatIs": "What are Clans?",
+      "whatIsDescription": "Clans in Jujutsu Legacy define your passive stat identity and build value. Clan Spins reroll your clan, and picks like Zenin or Sugawara can shape long-term progression when matched with the right technique and vessel.",
+      "why": "Why compare clans?",
       "whySteps": {
-        "step1Title": "Find Bosses",
-        "step1Description": "Locate bosses and raids tied to your level band",
-        "step2Title": "Avoid Danger",
-        "step2Description": "Understand enemy threats in each area",
-        "step3Title": "Plan Routes",
-        "step3Description": "Prepare the right technique and gear for each zone"
+        "step1Title": "Match Clan to Build",
+        "step1Description": "Choose a clan that supports your technique and stat direction",
+        "step2Title": "Read the Tier List",
+        "step2Description": "Compare clan rankings before spending Clan Spins",
+        "step3Title": "Reroll at the Right Time",
+        "step3Description": "Save clan rerolls until your technique and vessel path are stable"
       },
       "featured": "Featured & Essential",
-      "all": "All World Guides"
+      "all": "All Clan Guides"
     },
-    "building": {
-      "title": "Jujutsu Legacy Builds and Vessels",
-      "description": "Master Jujutsu Legacy build planning with vessels, techniques, clans, races, and stat directions for every playstyle.",
-      "metaTitle": "Jujutsu Legacy Builds - Vessels, Techniques & Stat Planning",
-      "metaDescription": "Master Jujutsu Legacy builds with vessel paths, technique synergy, clan and race rerolls, and stat planning for grinding, bossing, and PvP.",
-      "categoryLabel": "BUILDS & VESSELS",
+    "builds": {
+      "title": "Jujutsu Legacy Builds",
+      "description": "Master Jujutsu Legacy build planning with the best builds, traits, vessel and technique synergy, and stat direction for every playstyle.",
+      "metaTitle": "Jujutsu Legacy Builds - Best Build & Traits Guide",
+      "metaDescription": "Master Jujutsu Legacy builds with the best build setups, trait picks, vessel and technique synergy, and stat planning for grinding, bossing, and PvP.",
+      "categoryLabel": "BUILDS",
       "whatIs": "What are Builds?",
-      "whatIsDescription": "Guides to Jujutsu Legacy build planning, covering vessels, technique synergy, clan and race rerolls, and stat direction. Build a setup that fits your progression goals.",
+      "whatIsDescription": "Jujutsu Legacy builds combine your cursed technique, vessel, clan, race, traits, and stats into one coordinated setup. A planned build outperforms random rerolls across grinding, bossing, and PvP.",
       "why": "Why plan builds?",
       "whySteps": {
-        "step1Title": "Pick a Vessel",
-        "step1Description": "Choose a vessel that anchors your build",
-        "step2Title": "Synergize Techniques",
-        "step2Description": "Match techniques and clans to your vessel",
+        "step1Title": "Combine the Right Pieces",
+        "step1Description": "Match technique, vessel, clan, and traits into one focused setup",
+        "step2Title": "Pick the Best Traits",
+        "step2Description": "Choose traits that amplify your chosen damage type and scaling",
         "step3Title": "Spend Spins Wisely",
-        "step3Description": "Save rerolls for high-value build resets"
+        "step3Description": "Save rerolls for high-value build resets instead of random rolls"
       },
       "featured": "Featured & Essential",
       "all": "All Build Guides"
-    },
-    "support": {
-      "title": "Jujutsu Legacy Updates and Support",
-      "description": "Jujutsu Legacy update notes, code releases, patch tracking, and troubleshooting for common issues.",
-      "metaTitle": "Jujutsu Legacy Updates - Patch Notes & Code Releases",
-      "metaDescription": "Get Jujutsu Legacy update notes, code releases, patch tracking, and troubleshooting help for the Roblox anime fighting game.",
-      "categoryLabel": "UPDATES & SUPPORT",
-      "whatIs": "What is Updates and Support?",
-      "whatIsDescription": "Jujutsu Legacy update notes, code releases, patch tracking, and troubleshooting. Stay current on techniques, vessels, and code rewards.",
-      "why": "Why check updates?",
-      "whySteps": {
-        "step1Title": "Catch New Codes",
-        "step1Description": "Redeem new Jujutsu Legacy codes as they release",
-        "step2Title": "Track Changes",
-        "step2Description": "Follow technique and vessel balance updates",
-        "step3Title": "Solve Issues",
-        "step3Description": "Fix common problems with official guidance"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Update Articles"
     }
   }
 }

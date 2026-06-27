@@ -1,1 +1,602 @@
-{}
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "jujutsu-legacy-best-build",
+        "file": "jujutsu-legacy-best-build"
+      },
+      {
+        "slug": "jujutsu-legacy-traits",
+        "file": "jujutsu-legacy-traits"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "jujutsu-legacy-best-clan",
+        "file": "jujutsu-legacy-best-clan"
+      },
+      {
+        "slug": "jujutsu-legacy-clan-tier-list",
+        "file": "jujutsu-legacy-clan-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-clans",
+        "file": "jujutsu-legacy-clans"
+      },
+      {
+        "slug": "jujutsu-legacy-rejected-zenin",
+        "file": "jujutsu-legacy-rejected-zenin"
+      },
+      {
+        "slug": "jujutsu-legacy-sugawara-blessing",
+        "file": "jujutsu-legacy-sugawara-blessing"
+      },
+      {
+        "slug": "jujutsu-legacy-zenin-clan",
+        "file": "jujutsu-legacy-zenin-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-legacy-codes",
+        "file": "jujutsu-legacy-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-legacy-all-quests",
+        "file": "jujutsu-legacy-all-quests"
+      },
+      {
+        "slug": "jujutsu-legacy-beginner-guide",
+        "file": "jujutsu-legacy-beginner-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-controls-pc",
+        "file": "jujutsu-legacy-controls-pc"
+      },
+      {
+        "slug": "jujutsu-legacy-guide",
+        "file": "jujutsu-legacy-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-level-guide",
+        "file": "jujutsu-legacy-level-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-max-level",
+        "file": "jujutsu-legacy-max-level"
+      },
+      {
+        "slug": "jujutsu-legacy-noob-to-pro",
+        "file": "jujutsu-legacy-noob-to-pro"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-guide",
+        "file": "jujutsu-legacy-quest-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-locations",
+        "file": "jujutsu-legacy-quest-locations"
+      }
+    ],
+    "techniques": [
+      {
+        "slug": "jujutsu-legacy-best-technique",
+        "file": "jujutsu-legacy-best-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-curse-manipulation-v2",
+        "file": "jujutsu-legacy-curse-manipulation-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-infinity-v2",
+        "file": "jujutsu-legacy-infinity-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-mythical-beast-amber-v2",
+        "file": "jujutsu-legacy-mythical-beast-amber-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-projection",
+        "file": "jujutsu-legacy-projection"
+      },
+      {
+        "slug": "jujutsu-legacy-sky-manipulation",
+        "file": "jujutsu-legacy-sky-manipulation"
+      },
+      {
+        "slug": "jujutsu-legacy-techniques-tier-list",
+        "file": "jujutsu-legacy-techniques-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-ten-shadows-v2",
+        "file": "jujutsu-legacy-ten-shadows-v2"
+      }
+    ],
+    "vessels": [
+      {
+        "slug": "jujutsu-legacy-best-vessel",
+        "file": "jujutsu-legacy-best-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-heian-sukuna-vessel",
+        "file": "jujutsu-legacy-heian-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kashimo-vessel",
+        "file": "jujutsu-legacy-kashimo-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kenjaku-vessel",
+        "file": "jujutsu-legacy-kenjaku-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-rika-copy-technique",
+        "file": "jujutsu-legacy-rika-copy-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-sukuna-vessel",
+        "file": "jujutsu-legacy-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-true-heian-sukuna",
+        "file": "jujutsu-legacy-true-heian-sukuna"
+      },
+      {
+        "slug": "jujutsu-legacy-vessel-tier-list",
+        "file": "jujutsu-legacy-vessel-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "jujutsu-legacy-best-build",
+        "file": "jujutsu-legacy-best-build"
+      },
+      {
+        "slug": "jujutsu-legacy-traits",
+        "file": "jujutsu-legacy-traits"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "jujutsu-legacy-best-clan",
+        "file": "jujutsu-legacy-best-clan"
+      },
+      {
+        "slug": "jujutsu-legacy-clan-tier-list",
+        "file": "jujutsu-legacy-clan-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-clans",
+        "file": "jujutsu-legacy-clans"
+      },
+      {
+        "slug": "jujutsu-legacy-rejected-zenin",
+        "file": "jujutsu-legacy-rejected-zenin"
+      },
+      {
+        "slug": "jujutsu-legacy-sugawara-blessing",
+        "file": "jujutsu-legacy-sugawara-blessing"
+      },
+      {
+        "slug": "jujutsu-legacy-zenin-clan",
+        "file": "jujutsu-legacy-zenin-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-legacy-codes",
+        "file": "jujutsu-legacy-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-legacy-all-quests",
+        "file": "jujutsu-legacy-all-quests"
+      },
+      {
+        "slug": "jujutsu-legacy-beginner-guide",
+        "file": "jujutsu-legacy-beginner-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-controls-pc",
+        "file": "jujutsu-legacy-controls-pc"
+      },
+      {
+        "slug": "jujutsu-legacy-guide",
+        "file": "jujutsu-legacy-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-level-guide",
+        "file": "jujutsu-legacy-level-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-max-level",
+        "file": "jujutsu-legacy-max-level"
+      },
+      {
+        "slug": "jujutsu-legacy-noob-to-pro",
+        "file": "jujutsu-legacy-noob-to-pro"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-guide",
+        "file": "jujutsu-legacy-quest-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-locations",
+        "file": "jujutsu-legacy-quest-locations"
+      }
+    ],
+    "techniques": [
+      {
+        "slug": "jujutsu-legacy-best-technique",
+        "file": "jujutsu-legacy-best-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-curse-manipulation-v2",
+        "file": "jujutsu-legacy-curse-manipulation-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-infinity-v2",
+        "file": "jujutsu-legacy-infinity-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-mythical-beast-amber-v2",
+        "file": "jujutsu-legacy-mythical-beast-amber-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-projection",
+        "file": "jujutsu-legacy-projection"
+      },
+      {
+        "slug": "jujutsu-legacy-sky-manipulation",
+        "file": "jujutsu-legacy-sky-manipulation"
+      },
+      {
+        "slug": "jujutsu-legacy-techniques-tier-list",
+        "file": "jujutsu-legacy-techniques-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-ten-shadows-v2",
+        "file": "jujutsu-legacy-ten-shadows-v2"
+      }
+    ],
+    "vessels": [
+      {
+        "slug": "jujutsu-legacy-best-vessel",
+        "file": "jujutsu-legacy-best-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-heian-sukuna-vessel",
+        "file": "jujutsu-legacy-heian-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kashimo-vessel",
+        "file": "jujutsu-legacy-kashimo-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kenjaku-vessel",
+        "file": "jujutsu-legacy-kenjaku-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-rika-copy-technique",
+        "file": "jujutsu-legacy-rika-copy-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-sukuna-vessel",
+        "file": "jujutsu-legacy-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-true-heian-sukuna",
+        "file": "jujutsu-legacy-true-heian-sukuna"
+      },
+      {
+        "slug": "jujutsu-legacy-vessel-tier-list",
+        "file": "jujutsu-legacy-vessel-tier-list"
+      }
+    ]
+  },
+  "id": {
+    "builds": [
+      {
+        "slug": "jujutsu-legacy-best-build",
+        "file": "jujutsu-legacy-best-build"
+      },
+      {
+        "slug": "jujutsu-legacy-traits",
+        "file": "jujutsu-legacy-traits"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "jujutsu-legacy-best-clan",
+        "file": "jujutsu-legacy-best-clan"
+      },
+      {
+        "slug": "jujutsu-legacy-clan-tier-list",
+        "file": "jujutsu-legacy-clan-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-clans",
+        "file": "jujutsu-legacy-clans"
+      },
+      {
+        "slug": "jujutsu-legacy-rejected-zenin",
+        "file": "jujutsu-legacy-rejected-zenin"
+      },
+      {
+        "slug": "jujutsu-legacy-sugawara-blessing",
+        "file": "jujutsu-legacy-sugawara-blessing"
+      },
+      {
+        "slug": "jujutsu-legacy-zenin-clan",
+        "file": "jujutsu-legacy-zenin-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-legacy-codes",
+        "file": "jujutsu-legacy-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-legacy-all-quests",
+        "file": "jujutsu-legacy-all-quests"
+      },
+      {
+        "slug": "jujutsu-legacy-beginner-guide",
+        "file": "jujutsu-legacy-beginner-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-controls-pc",
+        "file": "jujutsu-legacy-controls-pc"
+      },
+      {
+        "slug": "jujutsu-legacy-guide",
+        "file": "jujutsu-legacy-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-level-guide",
+        "file": "jujutsu-legacy-level-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-max-level",
+        "file": "jujutsu-legacy-max-level"
+      },
+      {
+        "slug": "jujutsu-legacy-noob-to-pro",
+        "file": "jujutsu-legacy-noob-to-pro"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-guide",
+        "file": "jujutsu-legacy-quest-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-locations",
+        "file": "jujutsu-legacy-quest-locations"
+      }
+    ],
+    "techniques": [
+      {
+        "slug": "jujutsu-legacy-best-technique",
+        "file": "jujutsu-legacy-best-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-curse-manipulation-v2",
+        "file": "jujutsu-legacy-curse-manipulation-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-infinity-v2",
+        "file": "jujutsu-legacy-infinity-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-mythical-beast-amber-v2",
+        "file": "jujutsu-legacy-mythical-beast-amber-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-projection",
+        "file": "jujutsu-legacy-projection"
+      },
+      {
+        "slug": "jujutsu-legacy-sky-manipulation",
+        "file": "jujutsu-legacy-sky-manipulation"
+      },
+      {
+        "slug": "jujutsu-legacy-techniques-tier-list",
+        "file": "jujutsu-legacy-techniques-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-ten-shadows-v2",
+        "file": "jujutsu-legacy-ten-shadows-v2"
+      }
+    ],
+    "vessels": [
+      {
+        "slug": "jujutsu-legacy-best-vessel",
+        "file": "jujutsu-legacy-best-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-heian-sukuna-vessel",
+        "file": "jujutsu-legacy-heian-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kashimo-vessel",
+        "file": "jujutsu-legacy-kashimo-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kenjaku-vessel",
+        "file": "jujutsu-legacy-kenjaku-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-rika-copy-technique",
+        "file": "jujutsu-legacy-rika-copy-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-sukuna-vessel",
+        "file": "jujutsu-legacy-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-true-heian-sukuna",
+        "file": "jujutsu-legacy-true-heian-sukuna"
+      },
+      {
+        "slug": "jujutsu-legacy-vessel-tier-list",
+        "file": "jujutsu-legacy-vessel-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "jujutsu-legacy-best-build",
+        "file": "jujutsu-legacy-best-build"
+      },
+      {
+        "slug": "jujutsu-legacy-traits",
+        "file": "jujutsu-legacy-traits"
+      }
+    ],
+    "clans": [
+      {
+        "slug": "jujutsu-legacy-best-clan",
+        "file": "jujutsu-legacy-best-clan"
+      },
+      {
+        "slug": "jujutsu-legacy-clan-tier-list",
+        "file": "jujutsu-legacy-clan-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-clans",
+        "file": "jujutsu-legacy-clans"
+      },
+      {
+        "slug": "jujutsu-legacy-rejected-zenin",
+        "file": "jujutsu-legacy-rejected-zenin"
+      },
+      {
+        "slug": "jujutsu-legacy-sugawara-blessing",
+        "file": "jujutsu-legacy-sugawara-blessing"
+      },
+      {
+        "slug": "jujutsu-legacy-zenin-clan",
+        "file": "jujutsu-legacy-zenin-clan"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "jujutsu-legacy-codes",
+        "file": "jujutsu-legacy-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "jujutsu-legacy-all-quests",
+        "file": "jujutsu-legacy-all-quests"
+      },
+      {
+        "slug": "jujutsu-legacy-beginner-guide",
+        "file": "jujutsu-legacy-beginner-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-controls-pc",
+        "file": "jujutsu-legacy-controls-pc"
+      },
+      {
+        "slug": "jujutsu-legacy-guide",
+        "file": "jujutsu-legacy-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-level-guide",
+        "file": "jujutsu-legacy-level-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-max-level",
+        "file": "jujutsu-legacy-max-level"
+      },
+      {
+        "slug": "jujutsu-legacy-noob-to-pro",
+        "file": "jujutsu-legacy-noob-to-pro"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-guide",
+        "file": "jujutsu-legacy-quest-guide"
+      },
+      {
+        "slug": "jujutsu-legacy-quest-locations",
+        "file": "jujutsu-legacy-quest-locations"
+      }
+    ],
+    "techniques": [
+      {
+        "slug": "jujutsu-legacy-best-technique",
+        "file": "jujutsu-legacy-best-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-curse-manipulation-v2",
+        "file": "jujutsu-legacy-curse-manipulation-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-infinity-v2",
+        "file": "jujutsu-legacy-infinity-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-mythical-beast-amber-v2",
+        "file": "jujutsu-legacy-mythical-beast-amber-v2"
+      },
+      {
+        "slug": "jujutsu-legacy-projection",
+        "file": "jujutsu-legacy-projection"
+      },
+      {
+        "slug": "jujutsu-legacy-sky-manipulation",
+        "file": "jujutsu-legacy-sky-manipulation"
+      },
+      {
+        "slug": "jujutsu-legacy-techniques-tier-list",
+        "file": "jujutsu-legacy-techniques-tier-list"
+      },
+      {
+        "slug": "jujutsu-legacy-ten-shadows-v2",
+        "file": "jujutsu-legacy-ten-shadows-v2"
+      }
+    ],
+    "vessels": [
+      {
+        "slug": "jujutsu-legacy-best-vessel",
+        "file": "jujutsu-legacy-best-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-heian-sukuna-vessel",
+        "file": "jujutsu-legacy-heian-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kashimo-vessel",
+        "file": "jujutsu-legacy-kashimo-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-kenjaku-vessel",
+        "file": "jujutsu-legacy-kenjaku-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-rika-copy-technique",
+        "file": "jujutsu-legacy-rika-copy-technique"
+      },
+      {
+        "slug": "jujutsu-legacy-sukuna-vessel",
+        "file": "jujutsu-legacy-sukuna-vessel"
+      },
+      {
+        "slug": "jujutsu-legacy-true-heian-sukuna",
+        "file": "jujutsu-legacy-true-heian-sukuna"
+      },
+      {
+        "slug": "jujutsu-legacy-vessel-tier-list",
+        "file": "jujutsu-legacy-vessel-tier-list"
+      }
+    ]
+  }
+}

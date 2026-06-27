@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jujutsu Legacy Quest Locations: Progression & Leveling Guide",
+  description: "Master the Jujutsu Legacy quest locations, leveling routes, and boss progression paths to reach the level 2000 cap efficiently in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/6d28d9/fff?text=Jujutsu+Legacy+Quest+Guide",
+  date: "2026-06-27",
+  author: "jujutsu legacy Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Jujutsu Legacy quest locations** are essential for navigating the game's expansive map and reaching the level 2000 cap.
+- **Early progression** focuses on Jujutsu High and Shibuya, while late-game content shifts to Culling Games and Shinjuku.
+- **Boss farming** is the primary method for acquiring rare swords, accessories, and vessel-linked items.
+- **Strategic planning** of your technique and vessel path prevents wasted spins and inefficient leveling cycles.
+</Callout>
+
+<Section icon={Map} title="Understanding Progression Routes">
+
+Efficient leveling requires more than just combat skill; it demands knowing exactly where to go. The current game environment encourages players to move through specific quest bands rather than wandering aimlessly.
+
+**Video Highlights:**
+- Breakdown of essential techniques for grinding
+- Tier list analysis for boss-specific builds
+- Efficient reroll strategies for new accounts
+
+<YouTubeEmbed videoId="dT9KSB0gaKg" title="JUJUTSU LEGACY TECHNIQUES TIER LIST!" />
+
+By following a structured path, you minimize downtime and maximize experience gains. Always check your current level against the recommended quest zones to ensure you are not under-leveled for upcoming boss encounters.
+
+<Callout type="tip" title="Progression Tip">
+Prioritize unlocking your code redemption at level 5 immediately upon starting. This provides a vital boost in spins to secure a usable starting technique.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Leveling Route and Quest Bands">
+
+The following table outlines the recommended leveling progression. Use these bands to determine when to move from standard quests to challenging boss encounters.
+
+| Level Range | Area | Key Targets | Farming Priority |
+| :--- | :--- | :--- | :--- |
+| 1-125 | Jujutsu High | Starter quests, Curse enemies | Build Technique |
+| 125-275 | Shibuya | Eso, Graveyard quests | Stat stability |
+| 300-450 | Shibuya Metro | Choso, Mahito, Jogo | Experience gain |
+| 500-575 | Culling Games | JudgeMan, Naoya | Boss drops |
+| 625-700 | Culling Games | Uro, Ishigori, Yuta | Vessel planning |
+| 1000-2000 | Shinjuku | Kashimo, Raids | Endgame gear |
+
+<Callout type="warning" title="Progression Warning">
+Do not attempt late-game raids before stabilizing your build. Ensure your technique and vessel synergy is optimized for high-damage output to avoid failed runs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Farming and Drop Locations">
+
+Targeted farming is the key to obtaining powerful gear. The table below lists critical bosses, their locations, and why you should farm them.
+
+| Boss / Raid | Location | Notable Rewards | Best For |
+| :--- | :--- | :--- | :--- |
+| Megumi | Shibuya Bridge | Dark Surge, Shadow Title | Sword collection |
+| Toji | Jujutsu High | Playful Cloud | Early game melee |
+| JudgeMan | Culling Games | Gavel Hammer | Sword upgrades |
+| Uro | Culling Games | Sky Fragment | Uro Vessel builds |
+| Kashimo | Shinjuku | Electric Pole | Lightning builds |
+| Divine General | Raid Content | Heian Emperor, Traits | Endgame scaling |
+
+<Callout type="success" title="Farming Strategy">
+Focus on farming bosses that drop items linked to your chosen vessel path. This creates a cohesive build that performs significantly better than a collection of random high-tier items.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Spins and Build Planning">
+
+Managing your resources effectively is just as important as your questing route. Use the following comparison to decide how to allocate your Technique, Clan, and Race spins.
+
+<CardGrid cols={3}>
+  <Card title="Technique Spins">
+    - **Primary build driver**
+    - High-impact rerolls
+    - Save for serious attempts
+  </Card>
+  <Card title="Clan Spins">
+    - **Passive stat boost**
+    - Mid-game refinement
+    - Build-specific utility
+  </Card>
+  <Card title="Race Spins">
+    - **Long-term scaling**
+    - Late-game optimization
+    - Role-dependent value
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Resource Management">
+Always check the official [Trello board](https://trello.com/b/432tpo1k/jujutsu-legacy) for the latest updates on technique viability before spending large batches of spins.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Progression Checklist">
+
+Use this checklist to ensure you are meeting the necessary milestones for efficient character growth.
+
+<Checklist
+  id="progression-checklist"
+  title="Progression Milestones:"
+  items={[
+    "Reach level 5 and redeem active codes",
+    "Secure a B-tier or higher technique",
+    "Complete the Shibuya quest chain",
+    "Farm JudgeMan for initial sword upgrades",
+    "Establish a vessel and technique synergy",
+    "Clear late-game raids for legendary traits"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to level up fast in Jujutsu Legacy?",
+    answer: "Focus on completing quest chains in your level band. Grinding bosses is more effective for gear, but consistent quest completion provides the fastest raw experience."
+  },
+  {
+    question: "Should I reroll my technique early?",
+    answer: "Only if your starting technique is completely ineffective for grinding. It is better to save spins until you have a clear build goal, such as pursuing a specific vessel."
+  },
+  {
+    question: "Where can I find the latest Jujutsu Legacy codes?",
+    answer: "Codes are often shared in the official community server or Discord. Always ensure you are level 5 before attempting to redeem them."
+  },
+  {
+    question: "Are vessel choices permanent?",
+    answer: "Vessel choices are significant build decisions. Plan your vessel path based on your preferred technique and combat style to maximize your account's potential."
+  }
+]} />
+
+</Section>

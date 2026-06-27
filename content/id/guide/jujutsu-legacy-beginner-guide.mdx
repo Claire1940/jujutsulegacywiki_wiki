@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Pemula Jujutsu Legacy: Strategi Progresi & Reroll",
+  description: "Kuasai Jujutsu Legacy dengan panduan pemula kami. Pelajari cara menukarkan kode, naik level dengan cepat, menggunakan spin, dan membangun teknik kutukan serta vessel terbaik.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Jujutsu+Legacy+Beginner+Guide",
+  date: "2026-06-27",
+  author: "Tim Wiki Jujutsu Legacy",
+  keywords: "jujutsu legacy, panduan pemula, strategi reroll, kode jujutsu legacy, teknik terkutuk, vessel"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Tujuan Utama**: Pelajari alur progresi inti untuk menaikkan level penyihir Anda secara efisien dari level 1 hingga 2000.
+- **Kunci Penukaran**: Mencapai **Level 5** adalah wajib sebelum Anda dapat menukarkan kode promo aktif untuk mendapatkan spin gratis.
+- **Strategi Spin**: Hindari membuang **Teknik Terkutuk** atau **Klan** langka dengan merencanakan build Anda sebelum menggunakan spin.
+- **Sinergi Vessel**: Pasangkan teknik tingkat tinggi dengan **Vessel** yang kompatibel seperti Sukuna, Ishigori, atau Kashimo untuk kerusakan maksimal.
+- **Rute Farming**: Ikuti tahapan leveling terstruktur dari SMA Jujutsu ke Metro Shibuya dan Culling Games.
+</Callout>
+
+<Section icon={Map} title="Memulai di Jujutsu Legacy">
+
+Selamat datang di dunia penyihir dan roh terkutuk. **Panduan pemula jujutsu legacy** ini dirancang untuk membantu pemain baru menavigasi jam-jam awal permainan, mengoptimalkan build karakter, dan maju secara efisien menuju batas level saat ini yaitu 2000. Dikembangkan oleh @kauan123ro di platform Roblox, pengalaman bertarung RPG yang terinspirasi anime ini menyuguhkan berbagai sistem kompleks sejak awal.
+
+Untuk memulai perjalanan Anda, Anda harus memahami alur gameplay dasar: menyelesaikan quest awal, mengalahkan roh terkutuk, dan mengelola statistik karakter Anda. Sebelum mendalami build tingkat lanjut, sangat disarankan untuk membiasakan diri dengan antarmuka pengguna dan mekanik pergerakan.
+
+**Sorotan Video:**
+- Temukan **Teknik Terkutuk** terbaik yang saat ini mendominasi meta.
+- Pelajari mengapa menyimpan **Spin Teknik** Anda sangat penting untuk progresi akhir game.
+- Penjelasan visual tentang gaya bertarung tingkat atas dan kegunaan praktisnya dalam pertarungan bos.
+
+<YouTubeEmbed videoId="dT9KSB0gaKg" title="JUJUTSU LEGACY TECHNIQUES TIER LIST! ROBLOX" />
+
+Tahap awal permainan bisa terasa menantang jika Anda melawan musuh di atas kekuatan Anda saat ini. Selalu ikuti jalur quest yang ditentukan untuk memastikan aliran poin pengalaman (EXP) dan emas yang stabil.
+
+| Target Quest | Rentang Level | Lokasi | Fokus Hadiah |
+| --- | --- | --- | --- |
+| Quest Pemula | Level 1 hingga 125 | SMA Jujutsu | EXP Dasar / Emas |
+| Rute Eso | Level 125 hingga 275 | Pendekatan Shibuya | EXP Midgame |
+| Metro Shibuya | Level 300 hingga 450 | Stasiun Metro | Drop Bos / Leveling Cepat |
+
+<Callout type="warning" title="Peringatan Persyaratan Level">
+Jangan mencoba menukarkan kode segera setelah bergabung dalam permainan. Sistem penukaran terkunci hingga karakter Anda mencapai **Level 5**. Fokuslah untuk mengalahkan kutukan terlemah di dekat area spawn terlebih dahulu untuk membuka fitur ini.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kode Aktif dan Langkah Penukaran">
+
+Kode adalah sumber daya penting bagi setiap pemain baru. Kode memberikan **Spin Teknik** dan **Spin Klan** gratis, yang sangat penting untuk meroll ulang kemampuan karakter dan statistik pasif Anda. Di bawah ini adalah daftar kode pengembang yang saat ini aktif yang dapat Anda gunakan untuk meningkatkan akun Anda sejak dini.
+
+| Kode Promo | Hadiah | Persyaratan | Status |
+| --- | --- | --- | --- |
+| MutualLove | 40 Spin Teknik | Perlu Level 5 | Aktif |
+| Dessert | Spin Teknik Gratis | Perlu Level 5 | Aktif |
+| Mahoraga | 30 Spin Teknik | Perlu Level 5 | Aktif |
+| WUpd | 30 Spin Teknik | Perlu Level 5 | Aktif |
+| AlwaysBetOnHakari | 20 Spin Klan | Perlu Level 5 | Aktif |
+| SkyManipulation | 20 Spin Teknik | Perlu Level 5 | Aktif |
+
+Untuk mengklaim hadiah ini, ikuti instruksi langkah demi langkah yang tepat berikut ini.
+
+<Steps>
+  <Step num="1" title="Capai Level 5">
+    Kalahkan kutukan pemula di sekitar area SMA Jujutsu sampai karakter Anda mencapai Level 5.
+  </Step>
+  <Step num="2" title="Buka Menu Game">
+    Tekan **tombol M** pada keyboard Anda atau klik tombol Menu yang terletak di sisi kiri layar Anda.
+  </Step>
+  <Step num="3" title="Cari Kotak Penukaran">
+    Temukan bidang input teks berlabel untuk kode di dalam antarmuka menu utama.
+  </Step>
+  <Step num="4" title="Masukkan dan Konfirmasi">
+    Ketik atau tempel kode aktif dari tabel di atas dan tekan Enter atau klik OK untuk mengklaim spin Anda.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tips Perencanaan Reroll">
+Simpan spin Anda sampai Anda memiliki rencana yang jelas. Meroll ulang teknik awal yang lumayan dengan hanya sedikit spin cadangan mungkin akan membuat Anda mendapatkan kemampuan yang jauh lebih lemah jika keberuntungan tidak berpihak pada Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Spin, Klan, dan Reroll Ras">
+
+Kustomisasi karakter dalam game ini sangat bergantung pada tiga sistem reroll yang berbeda: **Spin Teknik**, **Spin Klan**, dan **Spin Ras**. Setiap sistem berdampak langsung pada efisiensi pertempuran, penskalaan statistik, dan progresi jangka panjang Anda. Memahami bagaimana sistem ini berinteraksi akan mencegah Anda membuang sumber daya yang berharga.
+
+<CardGrid cols={3}>
+  <Card title="Spin Teknik">
+    Mengubah **Teknik Terkutuk** aktif Anda. Ini menentukan rangkaian keahlian utama, gaya bertarung, dan jenis kerusakan Anda.
+  </Card>
+  <Card title="Spin Klan">
+    Memodifikasi warisan klan Anda. Klan memberikan peningkatan statistik pasif, sifat unik, dan pengubah regenerasi kesehatan atau energi khusus.
+  </Card>
+  <Card title="Spin Ras">
+    Menyesuaikan ras karakter Anda. Ini mengubah profil statistik dasar Anda dan menentukan batas penskalaan Anda untuk build akhir game.
+  </Card>
+</CardGrid>
+
+Mengelola spin ini secara efisien adalah kunci untuk bertransisi dari pemain pemula menjadi pemain tingkat lanjut.
+
+| Tipe Spin | Stat Utama yang Terpengaruh | Fase yang Disarankan | Saran Strategis |
+| --- | --- | --- | --- |
+| Teknik | Set Keahlian Aktif | Awal hingga Midgame | Berhenti meroll setelah Anda mendapatkan teknik tingkat A atau S. |
+| Klan | Pengubah Stat Pasif | Mid hingga Late Game | Reroll hanya setelah teknik utama Anda benar-benar stabil. |
+| Ras | Profil Penskalaan Dasar | Late Game | Optimalkan ras Anda agar sesuai dengan senjata akhir atau build keahlian Anda. |
+
+<Callout type="info" title="Manajemen Sumber Daya">
+Selalu tukarkan hadiah kode dalam jumlah besar sebelum memulai sesi reroll. Strategi ini memastikan Anda memiliki jaring pengaman untuk mengamankan teknik yang dapat digunakan sebelum benar-benar kehabisan spin.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Panduan Pemula Jujutsu Legacy: Teknik Terkutuk & Vessel">
+
+Potensi tempur Anda ditentukan oleh sinergi antara **Teknik Terkutuk** dan **Vessel** yang Anda pilih. Teknik memberikan keahlian ofensif dan defensif aktif Anda, sementara Vessel bertindak sebagai jangkar build pasif yang meningkatkan gaya elemen tertentu atau kerusakan senjata.
+
+### Ikhtisar Tier List Teknik
+
+Memilih teknik yang tepat adalah keputusan paling kritis di awal karier Anda. Beberapa teknik unggul dalam membersihkan kelompok musuh standar, sementara yang lain dirancang untuk burst bos target tunggal.
+
+| Tier | Nama Teknik | Peran Utama | Kasus Penggunaan Terbaik |
+| --- | --- | --- | --- |
+| **S-Tier** | Heian Shrine, Limitless, Rika, Ten Shadows V2 | Kerusakan / Utilitas Tingkat Dewa | Farming Bos, Raid, PvP Tingkat Tinggi |
+| **A-Tier** | Cursed Manipulation, Disaster Flames, Idle Transfiguration | Kontrol Kerumunan Bernilai Tinggi | Leveling Cepat, Grinding PvE Berkelompok |
+| **B-Tier** | Ice Formation, Disaster Tides, Ten Shadows (Base) | Pertempuran Midgame Seimbang | Progresi Umum, Kontrol Area |
+| **C-Tier** | Divergent Fist, Ratio, Missile Fists | Kerusakan Awal | Questing Awal (Reroll jika memungkinkan) |
+
+### Jalur Build Vessel
+
+Vessel adalah slot yang sangat terspesialisasi yang harus selaras dengan teknik Anda untuk membuka potensi aslinya. Daftar saat ini mencakup tokoh-tokoh kuat yang melayani gaya bermain yang berbeda.
+
+| Vessel | Teknik yang Kompatibel | Fokus Build | Tips Pemain |
+| --- | --- | --- | --- |
+| **Sukuna** | Heian Shrine / Ten Shadows V2 | Kerusakan Murni / Penskalaan Domain | Sangat baik untuk performa raid akhir game. |
+| **Ishigori** | Cursed Energy Discharge | Kerusakan Burst Jarak Jauh | Ideal untuk farming bos yang aman dan konsisten. |
+| **Uro** | Sky Manipulation | Mobilitas / Kontrol Jarak | Bagus untuk pemain yang lebih suka taktik mengelak. |
+| **Mechamaru** | Puppet Manipulation | Tekanan Mekanis | Membutuhkan build khusus yang berfokus pada boneka. |
+| **Kashimo** | Mythical Beast Amber V2 | Lightning Rushdown | Gaya bertarung tempo tinggi dengan serangan cepat. |
+
+<Callout type="success" title="Bonus Sinergi Build">
+Memasangkan **Sukuna Vessel** dengan teknik **Heian Shrine** menghasilkan salah satu output kerusakan tertinggi dalam meta saat ini, menjadikannya target utama bagi pemain endgame.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rute Leveling dan Drop Bos">
+
+Untuk mencapai batas level 2000 secara efisien, Anda harus mengikuti rute leveling yang terstruktur. Berkeliaran di zona level tinggi secara prematur akan mengakibatkan kekalahan cepat dan progresi yang melambat. Gunakan sistem quest untuk memandu pergerakan geografis Anda di peta.
+
+### Tonggak Leveling yang Disarankan
+
+1. **Level 1 hingga 125**: Fokus sepenuhnya pada SMA Jujutsu. Selesaikan quest pemula dan farm kutukan dasar.
+2. **Level 125 hingga 275**: Pindah ke Pendekatan Shibuya dan selesaikan rangkaian quest Eso.
+3. **Level 300 hingga 450**: Masuk ke Metro Shibuya. Farm Choso dan Mahito untuk pengalaman yang konsisten.
+4. **Level 500 hingga 700**: Maju melalui Culling Games. Targetkan JudgeMan, Naoya, dan Higuruma.
+5. **Level 1000 hingga 2000**: Masuk ke Shinjuku dan bersiap untuk raid tingkat tinggi.
+
+### Drop Bos Penting
+
+Mengalahkan bos tidak hanya memberikan poin pengalaman yang besar tetapi juga menghadiahi Anda dengan pedang langka, aksesori, dan item pembuka vessel.
+
+| Sumber Bos | Lokasi | Drop Penting | Kegunaan Item |
+| --- | --- | --- | --- |
+| Megumi | Jembatan Shibuya | Dark Surge (Pedang) | Senjata fisik yang bagus untuk build pedang. |
+| Reinkarnasi Toji | Sisi SMA Jujutsu | Inverted Spear of Heaven | Senjata jarak dekat tingkat tinggi dengan serangan cepat. |
+| JudgeMan | Culling Games | Executioner Sword | Senjata elit yang terikat dengan rute koleksi pedang. |
+| Kashimo | Rute Shinjuku | Electric Pole / Thunder Spirit | Item kunci untuk membuka gaya bertarung petir. |
+| Raid Jenderal Dewa | Raid Culling Games | Sukuna Heian Haori | Aksesori kosmetik tingkat atas dengan peningkatan stat. |
+
+<Checklist
+  id="beginner-milestones"
+  title="Daftar Periksa Progresi Pemula:"
+  items={[
+    "Capai Level 5 untuk membuka fitur penukaran kode.",
+    "Tukarkan semua kode aktif untuk mengumpulkan stok spin yang aman.",
+    "Dapatkan Teknik Terkutuk tingkat A atau S sebelum melewati level 150.",
+    "Farm bos Metro Shibuya untuk menjembatani kesenjangan menuju statistik midgame.",
+    "Dapatkan senjata langka pertama Anda, seperti pedang Dark Surge dari Megumi."
+  ]}
+/>
+
+<Callout type="tip" title="Tips Persiapan Raid">
+Jangan mencoba **Raid Jenderal Dewa** atau **Raid Terkuat** tanpa build yang bersinergi penuh. Aktivitas endgame ini memerlukan statistik yang dioptimalkan, aksesori level tinggi, dan tim yang kooperatif untuk menyelesaikannya dengan sukses.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+Untuk membantu memperjelas mekanik yang tersisa, berikut adalah jawaban atas pertanyaan paling umum yang diajukan oleh pemain baru.
+
+<FAQ items={[
+  {
+    question: "Berapa batas level saat ini di Jujutsu Legacy?",
+    answer: "Batas level maksimum saat ini untuk semua pemain adalah 2000. Mencapai batas ini memungkinkan Anda untuk mengoptimalkan poin statistik sepenuhnya dan berpartisipasi dalam raid akhir game."
+  },
+  {
+    question: "Mengapa game mengatakan 'Kode Tidak Valid' saat saya mencoba menukarkannya?",
+    answer: "Kesalahan ini terjadi jika Anda berada di bawah Level 5, jika kode telah kedaluwarsa, atau jika Anda salah ketik. Pastikan Anda memenuhi persyaratan level dan salin kode persis seperti yang tertulis."
+  },
+  {
+    question: "Bagaimana cara mendapatkan Vessel di dalam game?",
+    answer: "Vessel dibuka dengan mem-farming item tertentu yang dijatuhkan oleh bos level tinggi. Misalnya, mengalahkan Ishigori di Culling Games memberikan peluang untuk menjatuhkan item pembuka vessel-nya."
+  },
+  {
+    question: "Bisakah saya mengubah Teknik Terkutuk tanpa kehilangan level saya?",
+    answer: "Ya. Menggunakan Spin Teknik hanya mengubah set keahlian aktif Anda. Level karakter, poin statistik, dan senjata yang diperoleh tetap tidak terpengaruh sama sekali."
+  }
+]} />
+
+<Callout type="info" title="Tautan Komunitas Resmi">
+Untuk pembaruan terbaru, catatan patch, dan pengumuman komunitas, bergabunglah dengan **Server Discord Resmi Jujutsu Legacy** dan ikuti Grup Roblox pengembang. Memeriksa **Trello Board** resmi juga sangat disarankan untuk data penskalaan keahlian yang mendetail.
+</Callout>
+
+</Section>

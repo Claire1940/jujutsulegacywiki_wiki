@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ubicaciones de Misiones en Jujutsu Legacy: Guía de Progresión y Nivelación",
+  description: "Domina las ubicaciones de misiones, rutas de nivelación y caminos de progresión de jefes en Jujutsu Legacy para alcanzar el nivel 2000 eficientemente en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/6d28d9/fff?text=Jujutsu+Legacy+Quest+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **ubicaciones de misiones de Jujutsu Legacy** son esenciales para navegar por el extenso mapa del juego y alcanzar el límite de nivel 2000.
+- La **progresión inicial** se centra en Jujutsu High y Shibuya, mientras que el contenido de juego avanzado se traslada a Culling Games y Shinjuku.
+- El **farmeo de jefes** es el método principal para adquirir espadas raras, accesorios y objetos vinculados a recipientes.
+- La **planificación estratégica** de tu técnica y ruta de recipiente evita el desperdicio de giros y ciclos de nivelación ineficientes.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo las Rutas de Progresión">
+
+Subir de nivel de manera eficiente requiere más que solo habilidad de combate; exige saber exactamente a dónde ir. El entorno actual del juego anima a los jugadores a moverse a través de rangos de misiones específicos en lugar de vagar sin rumbo.
+
+**Puntos Destacados del Video:**
+- Desglose de técnicas esenciales para farmear
+- Análisis de la tier list para builds específicas de jefes
+- Estrategias eficientes de reroll para cuentas nuevas
+
+<YouTubeEmbed videoId="dT9KSB0gaKg" title="¡TIER LIST DE TÉCNICAS DE JUJUTSU LEGACY!" />
+
+Al seguir un camino estructurado, minimizas el tiempo de inactividad y maximizas las ganancias de experiencia. Siempre verifica tu nivel actual con las zonas de misiones recomendadas para asegurarte de no tener un nivel insuficiente para los próximos encuentros con jefes.
+
+<Callout type="tip" title="Consejo de Progresión">
+Prioriza desbloquear el canje de códigos en el nivel 5 inmediatamente después de comenzar. Esto proporciona un impulso vital en giros para asegurar una técnica inicial útil.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Nivelación y Rangos de Misiones">
+
+La siguiente tabla detalla la progresión de nivel recomendada. Usa estos rangos para determinar cuándo pasar de las misiones estándar a los encuentros desafiantes con jefes.
+
+| Rango de Nivel | Área | Objetivos Clave | Prioridad de Farmeo |
+| :--- | :--- | :--- | :--- |
+| 1-125 | Jujutsu High | Misiones iniciales, Enemigos de maldición | Desarrollar técnica |
+| 125-275 | Shibuya | Eso, Misiones de cementerio | Estabilidad de estadísticas |
+| 300-450 | Shibuya Metro | Choso, Mahito, Jogo | Ganancia de experiencia |
+| 500-575 | Culling Games | JudgeMan, Naoya | Drops de jefes |
+| 625-700 | Culling Games | Uro, Ishigori, Yuta | Planificación de recipiente |
+| 1000-2000 | Shinjuku | Kashimo, Raids | Equipo de endgame |
+
+<Callout type="warning" title="Advertencia de Progresión">
+No intentes las raids de juego avanzado antes de estabilizar tu build. Asegúrate de que la sinergia entre tu técnica y recipiente esté optimizada para una alta producción de daño para evitar intentos fallidos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Farmeo de Jefes y Ubicaciones de Drops">
+
+El farmeo dirigido es la clave para obtener equipo poderoso. La tabla a continuación enumera los jefes críticos, sus ubicaciones y por qué deberías farmearlos.
+
+| Jefe / Raid | Ubicación | Recompensas Notables | Ideal Para |
+| :--- | :--- | :--- | :--- |
+| Megumi | Shibuya Bridge | Dark Surge, Título de Sombra | Colección de espadas |
+| Toji | Jujutsu High | Playful Cloud | Combate cuerpo a cuerpo inicial |
+| JudgeMan | Culling Games | Gavel Hammer | Mejoras de espada |
+| Uro | Culling Games | Sky Fragment | Builds de recipiente de Uro |
+| Kashimo | Shinjuku | Electric Pole | Builds de rayo |
+| Divine General | Contenido de Raid | Heian Emperor, Rasgos | Escalado de endgame |
+
+<Callout type="success" title="Estrategia de Farmeo">
+Céntrate en farmear jefes que suelten objetos vinculados a tu ruta de recipiente elegida. Esto crea una build cohesiva que rinde significativamente mejor que una colección de objetos aleatorios de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Giros y Planificación de Build">
+
+Gestionar tus recursos de manera efectiva es tan importante como tu ruta de misiones. Usa la siguiente comparación para decidir cómo asignar tus giros de Técnica, Clan y Raza.
+
+<CardGrid cols={3}>
+  <Card title="Giros de Técnica">
+    - **Motor principal de la build**
+    - Rerolls de alto impacto
+    - Ahorra para intentos serios
+  </Card>
+  <Card title="Giros de Clan">
+    - **Aumento de estadísticas pasivas**
+    - Refinamiento a mitad del juego
+    - Utilidad específica de la build
+  </Card>
+  <Card title="Giros de Raza">
+    - **Escalado a largo plazo**
+    - Optimización de juego avanzado
+    - Valor dependiente del rol
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Gestión de Recursos">
+Consulta siempre el [tablero oficial de Trello](https://trello.com/b/432tpo1k/jujutsu-legacy) para ver las últimas actualizaciones sobre la viabilidad de las técnicas antes de gastar grandes cantidades de giros.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Lista de Verificación de Progresión">
+
+Usa esta lista de verificación para asegurarte de cumplir con los hitos necesarios para un crecimiento eficiente del personaje.
+
+<Checklist
+  id="progression-checklist"
+  title="Hitos de Progresión:"
+  items={[
+    "Alcanzar el nivel 5 y canjear códigos activos",
+    "Asegurar una técnica de tier B o superior",
+    "Completar la cadena de misiones de Shibuya",
+    "Farmear JudgeMan para las mejoras iniciales de espada",
+    "Establecer una sinergia entre recipiente y técnica",
+    "Superar las raids de juego avanzado para obtener rasgos legendarios"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de subir de nivel rápido en Jujutsu Legacy?",
+    answer: "Céntrate en completar cadenas de misiones en tu rango de nivel. Farmear jefes es más efectivo para el equipo, pero completar misiones de forma constante proporciona la experiencia bruta más rápida."
+  },
+  {
+    question: "¿Debería hacer reroll de mi técnica pronto?",
+    answer: "Solo si tu técnica inicial es completamente ineficaz para farmear. Es mejor ahorrar giros hasta que tengas un objetivo de build claro, como buscar un recipiente específico."
+  },
+  {
+    question: "¿Dónde puedo encontrar los últimos códigos de Jujutsu Legacy?",
+    answer: "Los códigos se comparten a menudo en el servidor oficial de la comunidad o en Discord. Asegúrate siempre de tener el nivel 5 antes de intentar canjearlos."
+  },
+  {
+    question: "¿Son permanentes las elecciones de recipiente?",
+    answer: "Las elecciones de recipiente son decisiones significativas para la build. Planifica tu ruta de recipiente basándote en tu técnica preferida y estilo de combate para maximizar el potencial de tu cuenta."
+  }
+]} />
+
+</Section>
