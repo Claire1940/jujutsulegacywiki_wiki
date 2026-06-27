@@ -28,6 +28,16 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Jujutsu Legacy 模块导航图标
+  Ticket: LucideIcons.Ticket,
+  Link2: LucideIcons.Link2,
+  GraduationCap: LucideIcons.GraduationCap,
+  Trophy: LucideIcons.Trophy,
+  Dices: LucideIcons.Dices,
+  Swords: LucideIcons.Swords,
+  Map: LucideIcons.Map,
+  Gem: LucideIcons.Gem,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
