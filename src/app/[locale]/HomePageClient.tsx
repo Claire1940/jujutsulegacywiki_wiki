@@ -2,6 +2,7 @@
 
 import { useState, Suspense, lazy } from "react";
 import {
+  AlertTriangle,
   ArrowRight,
   BookOpen,
   Check,
@@ -645,21 +646,33 @@ export default function HomePageClient({
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
                 <div className="flex flex-col md:flex-row md:items-start gap-3 md:gap-6">
-                  <div className="md:w-48 md:flex-shrink-0">
-                    <h3 className="font-bold text-base md:text-lg text-[hsl(var(--nav-theme-light))]">
-                      {row.type}
-                    </h3>
-                    <p className="text-xs md:text-sm text-muted-foreground mt-1">{row.affects}</p>
+                  <div className="md:w-52 md:flex-shrink-0">
+                    <div className="flex items-center gap-3 mb-1.5">
+                      <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <DynamicIcon name={row.icon} className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <h3 className="font-bold text-base md:text-lg text-[hsl(var(--nav-theme-light))]">
+                        {row.type}
+                      </h3>
+                    </div>
+                    <p className="text-xs md:text-sm text-muted-foreground">{row.affects}</p>
                   </div>
                   <div className="flex-1 space-y-2">
                     <p className="text-sm text-muted-foreground">
-                      <span className="font-semibold text-foreground">Best for: </span>
+                      <span className="font-semibold text-foreground">{spins.bestForLabel}: </span>
                       {row.bestFor}
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      <span className="font-semibold text-foreground">Plan: </span>
+                      <span className="font-semibold text-foreground">{spins.planLabel}: </span>
                       {row.plan}
                     </p>
+                    <div className="flex items-start gap-2 rounded-lg border border-amber-500/20 bg-amber-500/[0.07] p-3">
+                      <AlertTriangle className="mt-0.5 h-4 w-4 flex-shrink-0 text-amber-400" />
+                      <p className="text-xs text-amber-200/90">
+                        <span className="font-semibold">{spins.avoidLabel}: </span>
+                        {row.avoid}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -682,21 +695,37 @@ export default function HomePageClient({
             {vessels.vessels.map((v: any, index: number) => (
               <div
                 key={index}
-                className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <DynamicIcon name={v.icon} className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </span>
                   <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">{v.name}</h3>
-                  <Swords className="w-4 h-4 text-muted-foreground" />
                 </div>
-                <span className="inline-block text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-3">
+                <span className="inline-flex self-start text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-3">
                   {v.role}
                 </span>
-                <p className="text-xs text-muted-foreground mb-2">
-                  <span className="font-semibold text-foreground">Techniques: </span>
-                  {v.techniques}
+                <div className="mb-3">
+                  <p className="text-xs font-semibold text-foreground mb-1.5">{vessels.techniquesLabel}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {v.techniques.map((tech: string, ti: number) => (
+                      <span key={ti} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-white/5 border border-border text-xs">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground mb-3">
+                  <span className="font-semibold text-foreground">{vessels.focusLabel}: </span>
+                  {v.focus}
                 </p>
-                <p className="text-sm text-muted-foreground mb-3">{v.focus}</p>
-                <p className="text-xs text-muted-foreground border-t border-border pt-3">
+                <p className="text-xs text-muted-foreground mb-3">
+                  <span className="font-semibold text-foreground">{vessels.progressionLabel}: </span>
+                  {v.progression}
+                </p>
+                <p className="text-xs text-[hsl(var(--nav-theme-light))] border-t border-border pt-3 mt-auto">
+                  <span className="font-semibold">{vessels.tipLabel}: </span>
                   {v.tip}
                 </p>
               </div>
@@ -726,6 +755,9 @@ export default function HomePageClient({
                   className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
                 >
                   <div className="flex items-center gap-3 min-w-0">
+                    <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <DynamicIcon name={band.icon} className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
                     <span className="flex-shrink-0 text-xs md:text-sm font-bold px-2.5 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
                       {band.levelRange}
                     </span>
@@ -738,15 +770,25 @@ export default function HomePageClient({
                 {routeExpanded === index && (
                   <div className="px-4 md:px-5 pb-5 space-y-3">
                     <p className="text-sm text-muted-foreground">
-                      <span className="font-semibold text-foreground">Area: </span>
+                      <span className="font-semibold text-foreground">{levelingRoute.areaLabel}: </span>
                       {band.area}
                     </p>
+                    <div>
+                      <p className="text-sm font-semibold text-foreground mb-1.5">{levelingRoute.targetsLabel}</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {band.targets.map((target: string, ti: number) => (
+                          <span key={ti} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs">
+                            {target}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                     <p className="text-sm text-muted-foreground">
-                      <span className="font-semibold text-foreground">Targets: </span>
-                      {band.targets}
+                      <span className="font-semibold text-foreground">{levelingRoute.routeLabel}: </span>
+                      {band.route}
                     </p>
-                    <p className="text-sm text-muted-foreground">{band.route}</p>
                     <p className="text-xs text-[hsl(var(--nav-theme-light))] border-t border-border pt-3">
+                      <span className="font-semibold">{levelingRoute.priorityLabel}: </span>
                       {band.priority}
                     </p>
                   </div>
@@ -782,25 +824,46 @@ export default function HomePageClient({
                 key={index}
                 className="p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 md:gap-4 mb-3">
-                  <h3 className="font-bold text-base md:text-lg text-[hsl(var(--nav-theme-light))]">
-                    {drop.source}
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] md:flex-shrink-0">
-                    {drop.rewardTypes}
+                <div className="flex items-start gap-3 mb-3">
+                  <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <DynamicIcon name={drop.icon} className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
                   </span>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                      <h3 className="font-bold text-base md:text-lg text-[hsl(var(--nav-theme-light))]">
+                        {drop.source}
+                      </h3>
+                      <div className="flex flex-wrap gap-1.5 md:flex-shrink-0">
+                        {drop.rewardTypes.map((rt: string, ri: number) => (
+                          <span key={ri} className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                            {rt}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-xs text-muted-foreground mb-2">
-                  <span className="font-semibold text-foreground">Location: </span>
+                <p className="text-xs text-muted-foreground mb-3">
+                  <span className="font-semibold text-foreground">{raids.locationLabel}: </span>
                   {drop.area}
                 </p>
-                <p className="text-sm text-muted-foreground mb-2">
-                  <span className="font-semibold text-foreground">Rewards: </span>
-                  {drop.rewards}
+                <div className="mb-3">
+                  <p className="text-sm font-semibold text-foreground mb-1.5">{raids.rewardsLabel}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {drop.rewards.map((reward: string, ri: number) => (
+                      <span key={ri} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white/5 border border-border text-xs">
+                        <Check className="h-3 w-3 text-[hsl(var(--nav-theme-light))]" />
+                        {reward}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground mb-1">
+                  <span className="font-semibold text-foreground">{raids.valueLabel}: </span>
+                  {drop.value}
                 </p>
-                <p className="text-sm text-muted-foreground mb-1">{drop.value}</p>
                 <p className="text-xs text-muted-foreground">
-                  <span className="font-semibold text-foreground">Best for: </span>
+                  <span className="font-semibold text-foreground">{raids.bestForLabel}: </span>
                   {drop.bestFor}
                 </p>
               </div>
