@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Jujutsu Legacy Wiki - Codes, Techniques & Vessels",
+      "description": "Jujutsu Legacy Wiki with codes, techniques, vessels, bosses, raids, tier lists, beginner tips, and Roblox update guides for faster progression.",
+      "keywords": "jujutsu legacy, roblox, codes, techniques, vessels, raids, tier list, bosses",
+      "ogTitle": "Jujutsu Legacy Wiki - Codes, Techniques & Vessels",
+      "ogDescription": "Jujutsu Legacy Wiki with codes, techniques, vessels, bosses, raids, tier lists, beginner tips, and Roblox update guides for faster progression.",
+      "twitterTitle": "Jujutsu Legacy Wiki - Codes, Techniques & Vessels",
+      "twitterDescription": "Jujutsu Legacy Wiki with codes, techniques, vessels, bosses, raids, tier lists, and Roblox update guides."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Anime RPG Fighting Experience",
+    "title": "Jujutsu Legacy Wiki",
+    "description": "Master cursed techniques, level your sorcerer, collect vessels, fight bosses and raids, and use codes for spins in this Roblox anime RPG.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "27.7M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "2000",
+        "label": "Level Cap"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "20+",
+        "label": "Techniques"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "84.36%",
+        "label": "Player Rating"
       }
     }
   },
@@ -785,26 +785,25 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Master Jujutsu Legacy?",
+    "description": "Join the Jujutsu Legacy community on Discord for codes, guides, tier lists, and update discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Jujutsu Legacy Wiki",
+    "description": "Your complete resource hub for Jujutsu Legacy codes, techniques, vessels, bosses, raids, tier lists, and beginner guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Roblox Game",
+    "robloxCommunity": "Roblox Community",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Jujutsu Legacy Wiki. Not affiliated with the developers of Jujutsu Legacy, Roblox Corporation, or the owners of the Jujutsu Kaisen IP.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
