@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Legacy Black Flash: Multiplicador de Dano de 5X e Guia de Treinamento",
+  description: "Domine a mecânica do black flash no Jujutsu Legacy para causar 5X de dano. Aprenda a localização dos treinadores, sinergias de Cursed Vessel e o meta de combate de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Black+Flash+Mastery",
+  date: "2026-06-29",
+  author: "Equipe da Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Jujutsu legacy black flash** é uma mecânica de combate crítica que fornece um enorme **multiplicador de dano de 5X** em acertos bem-sucedidos.
+- **Taxa de Ativação Base**: Usuários padrão têm uma **chance de 10%** de ativar o Black Flash enquanto a Energia Amaldiçoada (Cursed Energy) estiver ativa.
+- **Localização do Treinador**: Encontrado no **canto inferior direito** da área inicial (Jujutsu High), perto do Boneco de Teste (Test Dummy).
+- **Sinergia do Meta**: Equipar o **Estilo de Luta Cursed Vessel** garante um Black Flash em cada golpe M1.
+- **Requisito**: Você deve ter a **Energia Amaldiçoada** ativada para que a mecânica funcione.
+</Callout>
+
+<Section icon={Zap} title="Entendendo a Mecânica do Black Flash no Jujutsu Legacy">
+
+No cenário competitivo de 2026, dominar o **jujutsu legacy black flash** é a diferença entre um feiticeiro novato e uma ameaça de Nível Especial. Esta mecânica representa uma distorção no espaço-tempo quando a energia amaldiçoada é aplicada dentro de 0,000001 segundos de um golpe físico. No jogo, isso se traduz em um bônus ofensivo devastador que pode mudar o rumo de qualquer confronto contra chefes ou duelo PvP.
+
+Ao contrário dos ataques padrão, um golpe de Black Flash é visualmente distinto, frequentemente acompanhado por um relâmpago dramático preto e vermelho. Esse efeito significa que o seu dano atingiu o ápice. No entanto, depender da taxa de ativação base exige paciência e precisão no tempo, a menos que você utilize estilos de luta específicos projetados para explorar esse fenômeno.
+
+| Tipo de Ataque | Multiplicador de Dano | Requisito de Ativação | Feedback Visual |
+| :--- | :--- | :--- | :--- |
+| **M1 Padrão** | 1.0x | Nenhum | Golpe básico |
+| **M1 com Energia Amaldiçoada** | 1.2x - 1.5x | CE Ativa | Brilho colorido nos braços |
+| **Black Flash** | **5.0x** | CE Ativa + 10% de RNG | Relâmpago preto/vermelho |
+| **Cursed Vessel BF** | **5.0x** | CE Ativa + Estilo de Luta | Relâmpago constante |
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre certifique-se de que sua Energia Amaldiçoada esteja ativada antes de entrar em combate. Sem o bônus de "Energia Amaldiçoada" ativo nos braços do seu personagem, a chance de 10% para um Black Flash nunca será ativada, reduzindo significativamente o seu DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Localizações dos Treinadores e Habilidades Essenciais">
+
+Navegar pela área de spawn da Jujutsu High é o primeiro passo em direção ao poder. Existem quatro treinadores principais localizados ao redor da zona inicial, cada um oferecendo uma habilidade que complementa o estilo de jogo do **jujutsu legacy black flash**. Os treinadores são NPCs que ensinam técnicas específicas em troca de progressão ou requisitos específicos.
+
+<CardGrid cols={2}>
+  <Card title="Treinador de Energia Amaldiçoada">
+    - **Localização**: Dentro do prédio principal no spawn.
+    - **Função**: Reveste os braços com energia para aumentar o dano base.
+    - **Nota**: Obrigatório para ativar o Black Flash.
+  </Card>
+  <Card title="Treinador de Black Flash">
+    - **Localização**: Canto inferior direito, perto do Boneco de Teste.
+    - **Função**: Ensina a chance de ativação de 10% para 5X de dano.
+    - **Nota**: A habilidade ofensiva principal para todas as builds.
+  </Card>
+  <Card title="Treinador de RCT">
+    - **Localização**: Canto inferior esquerdo do spawn, perto de uma grande rocha.
+    - **Função**: Ensina a Técnica Amaldiçoada Reversa para cura completa.
+    - **Nota**: Essencial para a sobrevivência em lutas longas.
+  </Card>
+  <Card title="Treinador de Domínio Simples">
+    - **Localização**: Escondido atrás do Treinador de Black Flash.
+    - **Função**: Protege contra o dano de Expansão de Domínio.
+    - **Nota**: Desativa esquivas (dash) e corrida enquanto estiver ativo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso">
+A técnica do Domínio Simples é poderosa para defesa, mas limita bastante a sua mobilidade. Não a ative enquanto tenta acertar um Black Flash, a menos que esteja preso dentro de uma Expansão de Domínio inimiga.
+</Callout>
+
+| NPC Treinador | Marcador Geográfico | Benefício Principal |
+| :--- | :--- | :--- |
+| **Treinador de CE** | Interior do Prédio de Spawn | Aumento de Dano / Personalização de Cores |
+| **Treinador de BF** | Área do Boneco de Teste (Direita) | **Multiplicador de Dano de 5X** |
+| **Treinador de RCT** | Formação Rochosa (Esquerda) | Regeneração Completa de Vida |
+| **Miwa (Domínio Simples)** | Atrás do Treinador de BF | Mitigação de Dano de Domínio |
+
+</Section>
+
+<Section icon={Target} title="Como Desbloquear o Black Flash: Passo a Passo">
+
+Desbloquear todo o potencial do seu feiticeiro requer um caminho de progressão específico. Você não pode simplesmente aprender o Black Flash sem antes dominar o básico da Energia Amaldiçoada. Siga estes passos para otimizar seu personagem para o meta de 2026.
+
+<Steps>
+  <Step num="1" title="Obtenha Energia Amaldiçoada">
+    Entre no prédio principal no ponto de spawn e fale com o treinador de Energia Amaldiçoada. Esta habilidade é a base do seu poder. Uma vez aprendida, ativá-la fará com que seus braços brilhem. A cor desse brilho (Azul, Verde, etc.) é determinada pela sua Técnica Amaldiçoada equipada, como Infinity ou Star Rage.
+  </Step>
+  <Step num="2" title="Localize o Treinador de Black Flash">
+    Saia do prédio e vá em direção ao canto inferior direito dos terrenos da Jujutsu High. Você encontrará um NPC em pé perto de um Boneco de Teste. Este é o treinador de Black Flash. Interaja com ele para aprender a técnica.
+  </Step>
+  <Step num="3" title="Pratique no Boneco de Teste">
+    Ative sua Energia Amaldiçoada (geralmente uma tecla de atalho) e comece a golpear o Boneco de Teste com ataques M1 (clique esquerdo). Você notará que aproximadamente um em cada dez acertos ativa uma enorme explosão de energia sombria — esta é a sua chance de 10%.
+  </Step>
+  <Step num="4" title="Equipe o Estilo de Luta Cursed Vessel">
+    Para remover o elemento de sorte (RNG), você deve buscar obter o estilo de luta Cursed Vessel. Quando este estilo está equipado junto com a Energia Amaldiçoada ativa, cada ataque M1 se torna um Black Flash, proporcionando um aumento permanente de 5X no dano.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso">
+Depois de dominar o combo Cursed Vessel + Black Flash, você será capaz de derrotar chefes de alto nível e espíritos amaldiçoados significativamente mais rápido do que qualquer outra build na versão atual do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Combate e Sinergia com Cursed Vessel">
+
+A mecânica do **jujutsu legacy black flash** é mais eficaz quando combinada com o Estilo de Luta correto. Embora a chance base de 10% seja útil para subir de nível no início, a jogabilidade de alto nível em 2026 exige consistência. O estilo Cursed Vessel é atualmente o padrão de ouro para feitiçaria ofensiva porque transforma uma 'chance' em uma 'garantia'.
+
+| Estilo de Luta | Taxa de Ativação do Black Flash | Recomendação de Estratégia |
+| :--- | :--- | :--- |
+| **Padrão / Básico** | 10% (RNG) | Use apenas para subir de nível no início do jogo. |
+| **Cursed Vessel** | **100% (Garantido)** | A escolha do 'Meta' para um enorme dano por segundo (DPS). |
+| **Estilos de Espada** | 10% (RNG) | Melhor para alcance, mas menor consistência de BF. |
+| **Artes Especializadas** | Variável | Foque em combos de técnicas em vez de M1s. |
+
+Ao se envolver em PvP, o multiplicador de dano de 5X pode acabar com uma luta em segundos. No entanto, jogadores experientes costumam usar o Domínio Simples ou RCT para contra-atacar sua agressividade. Para maximizar sua eficiência, use a seguinte lista de verificação para garantir que sua build esteja pronta para o combate.
+
+<Checklist
+  id="combat-readiness"
+  title="Lista de Verificação de Combate do Black Flash:"
+  items={[
+    "A Energia Amaldiçoada está ativada (verifique o brilho nos braços)",
+    "O Estilo de Luta Cursed Vessel está equipado para 100% de ativação",
+    "O RCT está fora de recarga para cura de emergência",
+    "O Domínio Simples está pronto para contra-atacar as ultimates inimigas",
+    "A estamina é gerenciada para permitir sequências consistentes de M1"
+  ]}
+/>
+
+<Callout type="info" title="Você Sabia?">
+A cor das faíscas do seu Black Flash não muda, mas a 'aura' da sua Energia Amaldiçoada muda. Por exemplo, usuários com a técnica Infinity exibirão uma Energia Amaldiçoada Azul, enquanto usuários de Star Rage podem ver tons diferentes dependendo da versão específica da atualização.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contra-ataques Defensivos Avançados">
+
+Embora o **jujutsu legacy black flash** ofereça a melhor ofensiva, você também precisa entender como sobreviver contra outros jogadores usando a mesma mecânica. Um golpe de 5X de dano pode ser fatal se sua vida não estiver cheia ou se você não estiver utilizando os NPCs defensivos.
+
+O treinador de RCT (Técnica Amaldiçoada Reversa) está localizado na área inferior esquerda. Aprender isso permite que você se cure completamente quase instantaneamente. Em um duelo onde ambos os jogadores estão acertando Black Flashes, o vencedor geralmente é aquele que gerencia o tempo de recarga do seu RCT de forma mais eficaz. Além disso, Miwa (a treinadora de Domínio Simples) está localizada diretamente atrás do treinador de Black Flash. A habilidade dela é vital para sobreviver a 'Expansões de Domínio', que de outra forma tornariam os acertos de Black Flash inevitáveis.
+
+| Habilidade Defensiva | Treinador | Principal Contra-ataque Para |
+| :--- | :--- | :--- |
+| **RCT** | NPC do Canto Inferior Esquerdo | Dano explosivo do Black Flash |
+| **Domínio Simples** | Miwa (Atrás do BF) | Efeitos de 'Acerto Garantido' da Expansão de Domínio |
+| **Esquiva (Dash)** | Mecânica Básica | Evitar o início do combo de M1 |
+
+<Callout type="warning" title="Importante">
+Curar-se com RCT consome uma quantidade significativa de energia. Se você usar o RCT excessivamente, poderá ficar sem a energia necessária para manter sua Energia Amaldiçoada ativa, perdendo assim a capacidade de causar dano de Black Flash.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes sobre o Black Flash no Jujutsu Legacy">
+
+<FAQ items={[
+  {
+    question: "Como faço para aumentar a chance de acertar um Black Flash?",
+    answer: "Por padrão, o black flash no Jujutsu Legacy tem uma taxa de ativação de 10% em ataques M1 enquanto a Energia Amaldiçoada está ativa. Para aumentar essa taxa para 100%, você deve equipar o Estilo de Luta Cursed Vessel."
+  },
+  {
+    question: "Onde o treinador de Black Flash está localizado exatamente?",
+    answer: "O treinador está localizado no canto inferior direito da área inicial (Jujutsu High), bem ao lado do Boneco de Teste usado para praticar o combate."
+  },
+  {
+    question: "O Black Flash funciona com armas como espadas?",
+    answer: "Sim, desde que sua Energia Amaldiçoada esteja ativa, seus ataques M1 (incluindo aqueles com certas armas) têm a chance de ativar um Black Flash, embora o estilo Cursed Vessel melhore especificamente os M1s de combate corpo a corpo."
+  },
+  {
+    question: "Por que meu Black Flash não está ativando mesmo eu tendo aprendido a habilidade?",
+    answer: "O motivo mais comum é que a Energia Amaldiçoada não está ativa. Olhe para os braços do seu personagem; se eles não estiverem brilhando com a cor da sua técnica, o Black Flash não poderá ser ativado."
+  }
+]} />
+
+</Section>

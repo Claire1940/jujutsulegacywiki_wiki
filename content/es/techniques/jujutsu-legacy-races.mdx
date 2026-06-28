@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Razas de Jujutsu Legacy: Tier List 2026 y Guía de Estadísticas",
+  description: "Descubre las mejores razas de Jujutsu Legacy, sus tasas de giro, multiplicadores de estadísticas y rutas de progresión en esta detallada guía del meta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Jujutsu+Legacy+Races",
+  date: "2026-06-29",
+  author: "Equipo de Wiki de Jujutsu Legacy",
+  keywords: "jujutsu legacy, razas, guía, estadísticas, tier list, heavenly restriction"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: El sistema de **razas de jujutsu legacy** dicta tus estadísticas base, regeneración de energía y utilidad en combate.
+- **Mejor opción**: **Heavenly Restriction** se posiciona como la mejor raza para daño físico puro y builds de armas.
+- **Mejor opción mágica**: **Sorcerer** es la elección óptima para jugadores enfocados en Técnicas Malditas de alto nivel y Expansiones de Dominio.
+- **Mecánica de Reroll**: Los jugadores pueden cambiar su raza usando giros (spins) del juego obtenidos mediante códigos o Robux.
+- **Estrategia clave**: Combina las estadísticas de tu raza con tu Técnica Maldita principal para maximizar la eficiencia de tu build.
+</Callout>
+
+<Section icon={Map} title="Descripción General de las Razas de Jujutsu Legacy y Tasas de Giro">
+
+En el mundo competitivo de Jujutsu Legacy, tu raza sirve como la base de la build de tu personaje. Determina tu reserva de salud inicial, capacidad de energía maldita, fuerza física y velocidad. Elegir la opción correcta del grupo de **razas de jujutsu legacy** disponibles dará forma a tu camino de progresión y determinará qué Técnicas Malditas puedes utilizar en su máximo potencial.
+
+Los jugadores comienzan su viaje obteniendo una raza aleatoria. Si no estás satisfecho con tu resultado inicial, puedes usar el sistema de giros del juego para buscar una nueva. Los giros se pueden ganar completando misiones diarias, canjeando códigos promocionales activos o comprándolos directamente en la tienda del desarrollador.
+
+| Raza | Rareza | Tasa de Giro | Arquetipo Principal |
+| :--- | :--- | :--- | :--- |
+| **Human** | Común | 60% | Inicial equilibrado con progresión estándar |
+| **Sorcerer** | Rara | 25% | Lanzador de magia con alta capacidad de energía |
+| **Curse** | Épica | 12% | Luchador de alta regeneración con mejoras físicas |
+| **Heavenly Restriction** | Legendaria | 3% | Especialista en armas con cero energía maldita |
+
+<Callout type="success" title="Consejo de Gestión de Giros">
+Guarda siempre tus giros de raza hasta que tengas al menos veinte acumulados. Girar con menos puede dejarte atrapado con la raza Humana común, reiniciando el progreso de tu build sin asegurar un reemplazo de alto nivel.
+</Callout>
+
+Cada raza tiene una apariencia visual distinta y proporciona bonificaciones pasivas que permanecen activas durante toda tu partida. Mientras que la raza Humana común es adecuada para aprender las mecánicas básicas del juego, la transición a una raza especializada es esencial para el combate jugador contra jugador (PvP) de alto nivel y las incursiones de endgame.
+
+</Section>
+
+<Section icon={Swords} title="Estadísticas Detalladas de las Razas y Habilidades Especiales">
+
+Cada raza en Jujutsu Legacy ofrece un conjunto único de multiplicadores de estadísticas y habilidades pasivas. Comprender estas diferencias te permite adaptar tu build hacia el combate físico, la maestría de la energía maldita o la supervivencia defensiva.
+
+<CardGrid cols={2}>
+  <Card title="Human & Sorcerer">
+    - **Human**: Distribución de estadísticas equilibrada, reservas de salud estándar y tasas de regeneración de energía normales.
+    - **Sorcerer**: Mayor capacidad de energía maldita, enfriamientos más rápidos en habilidades mágicas y defensa elemental mejorada.
+  </Card>
+  <Card title="Curse & Heavenly Restriction">
+    - **Curse**: Regeneración rápida de salud fuera de combate, alta reducción de daño físico, pero débil ante ataques de energía positiva.
+    - **Heavenly Restriction**: Salida masiva de daño físico, velocidad de movimiento máxima, inmune al drenaje de energía, pero completamente incapaz de usar energía maldita.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mecánica de Multiplicadores de Estadísticas">
+Los multiplicadores de estadísticas escalan dinámicamente con tu nivel base. Un aumento del 10% en el daño físico en el nivel 10 puede parecer menor, pero se convierte en una ventaja masiva una vez que alcanzas el límite de nivel.
+</Callout>
+
+Para ayudarte a decidir qué raza se adapta a tu estilo de juego preferido, revisa las métricas oficiales de escalado de estadísticas a continuación. Estos multiplicadores afectan directamente el rendimiento de tu personaje en combate.
+
+| Raza | Multiplicador de Salud | Multiplicador de Energía | Daño Físico | Regen. de Energía |
+| :--- | :--- | :--- | :--- | :--- |
+| **Human** | 1.0x | 1.0x | 1.0x | Estándar |
+| **Sorcerer** | 0.9x | 1.3x | 0.8x | Rápida |
+| **Curse** | 1.2x | 1.1x | 1.1x | Lenta |
+| **Heavenly Restriction** | 1.4x | 0.0x | 1.5x | Ninguna |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para el Reroll de Raza">
+
+Si deseas pasar de una raza inicial común a un nivel legendario, debes seguir el procedimiento de reroll correcto. Cambiar tu raza alterará tus estadísticas inmediatamente, pero no reiniciará el nivel general de tu personaje ni los objetos de tu inventario.
+
+<Steps>
+  <Step num="1" title="Adquirir Giros">
+    Completa misiones diarias o canjea códigos promocionales activos en el menú principal para acumular giros de raza.
+  </Step>
+  <Step num="2" title="Localizar el Menú de Personalización">
+    Navega a la pantalla de personalización de personajes desde el lobby principal antes de cargar el mundo del juego.
+  </Step>
+  <Step num="3" title="Realizar el Giro">
+    Selecciona el botón de giro bajo la categoría de raza. El sistema aleatorizará tu raza basándose en las tasas de aparición activas.
+  </Step>
+  <Step num="4" title="Confirmar y Guardar">
+    Una vez que obtengas la raza deseada, confirma la selección para aplicar los nuevos multiplicadores de estadísticas al perfil de tu personaje.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia sobre Técnicas Malditas">
+Si obtienes la raza Heavenly Restriction, cualquier Técnica Maldita activa que requiera energía maldita será desactivada. Asegúrate de tener armas físicas equipadas antes de finalizar esta elección.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Builds y Sinergia de Técnicas">
+
+Lograr el máximo rendimiento en Jujutsu Legacy requiere combinar tu raza con Técnicas Malditas y armas compatibles. Una falta de coincidencia puede resultar en estadísticas desperdiciadas y una salida de daño subóptima durante los encuentros de alto nivel.
+
+Por ejemplo, los jugadores que utilizan la raza **Sorcerer** deben emparejarla con técnicas que consuman mucha energía como Limitless o Disaster Flames. La gran reserva de energía permite el lanzamiento continuo de habilidades y una presión sostenida en el combate de arena. Por el contrario, la raza **Heavenly Restriction** debe emparejarse con armas físicas como Playful Cloud o Dragon Bone, ya que no pueden lanzar hechizos.
+
+| Raza | Técnica Recomendada | Arma Principal | Rol de Combate |
+| :--- | :--- | :--- | :--- |
+| **Human** | Blood Manipulation | Katana Estándar | Todoterreno Equilibrado |
+| **Sorcerer** | Limitless | Ninguna | Lanzador de Hechizos a Distancia |
+| **Curse** | Disaster Flames | Daga Maldita | Luchador Cuerpo a Cuerpo |
+| **Heavenly Restriction** | Ninguna | Playful Cloud | Asesino Físico |
+
+<Callout type="tip" title="Optimización de Sinergia">
+Si estás usando una build de Curse, enfócate en mejorar tus estadísticas de defensa física. La regeneración natural de salud de la raza Curse hace que las builds defensivas sean increíblemente difíciles de derrotar en partidas largas y prolongadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progresión de Raza en el Endgame">
+
+A medida que te acercas al endgame, tu enfoque debe pasar de la supervivencia básica a la optimización de tu raza para el juego competitivo. Usa esta lista de verificación para seguir el desarrollo de tu personaje y asegurarte de haber desbloqueado el máximo potencial de tu build elegida.
+
+<Checklist
+  id="race-progression-goals"
+  title="Hitos del Endgame:"
+  items={[
+    "Obtener una raza de alto nivel (Sorcerer, Curse o Heavenly Restriction)",
+    "Alcanzar el nivel máximo de personaje para escalar completamente los multiplicadores de tu raza",
+    "Equipar un arma o técnica que coincida con la estadística principal de tu raza",
+    "Obtener un accesorio de grado uno que potencie los atributos principales de tu raza",
+    "Probar tu build en la arena PvP clasificada para verificar la eficiencia en combate"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa de Hito">
+Completar estos pasos de progresión asegurará que tu personaje esté totalmente preparado para incursiones de alto nivel y guerras de clanes competitivas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor raza en Jujutsu Legacy para principiantes?",
+    answer: "La raza Sorcerer es muy recomendada para principiantes. Ofrece una generosa reserva de energía maldita, lo que permite a los nuevos jugadores practicar el lanzamiento de técnicas sin quedarse sin energía rápidamente."
+  },
+  {
+    question: "¿Puedo usar Técnicas Malditas con la raza Heavenly Restriction?",
+    answer: "No. Heavenly Restriction reduce tu reserva de energía maldita a cero a cambio de mejoras físicas masivas. Debes confiar enteramente en armas físicas y estilos de artes marciales."
+  },
+  {
+    question: "¿Pierdo mis niveles si cambio mi raza?",
+    answer: "No, cambiar tu raza solo altera tus estadísticas base, pasivas y apariencia. El nivel de tu personaje, los objetos del inventario y la moneda permanecen completamente inalterados."
+  },
+  {
+    question: "¿Cómo obtengo más giros para las razas de jujutsu legacy?",
+    answer: "Puedes obtener giros completando misiones diarias, participando en eventos de la comunidad, canjeando códigos activos del juego o comprándolos con Robux en la tienda del desarrollador."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El meta del juego cambia periódicamente con parches de equilibrio. Mantente atento a las actualizaciones oficiales para ver si los multiplicadores de estadísticas o las tasas de giro cambian en futuros lanzamientos.
+</Callout>
+
+</Section>

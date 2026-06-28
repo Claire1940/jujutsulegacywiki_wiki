@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Destello Negro de Jujutsu Legacy: Multiplicador de Daño 5X y Guía de Entrenamiento",
+  description: "Domina la mecánica del destello negro en Jujutsu Legacy para infligir un daño 5X. Conoce la ubicación de los entrenadores, las sinergias del Recipiente Maldito y el meta de combate de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Black+Flash+Mastery",
+  date: "2026-06-29",
+  author: "Equipo de la Wiki de Jujutsu Legacy",
+  keywords: "jujutsu legacy, destello negro, black flash, guía, combate, recipiente maldito"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Destello Negro de Jujutsu Legacy** (Black Flash) es una mecánica de combate crucial que proporciona un enorme **multiplicador de daño de 5X** en los golpes exitosos.
+- **Probabilidad de activación base**: Los usuarios estándar tienen una **probabilidad del 10%** de activar el Destello Negro mientras la Energía Maldita está activa.
+- **Ubicación del Entrenador**: Se encuentra en la **esquina inferior derecha** de la zona de inicio (Escuela de Hechicería / Jujutsu High) cerca del Muñeco de Prueba.
+- **Sinergia del Meta**: Equipar el **Estilo de Lucha de Recipiente Maldito** garantiza un Destello Negro en cada golpe M1.
+- **Requisito**: Debes tener activada la **Energía Maldita** para que la mecánica funcione.
+</Callout>
+
+<Section icon={Zap} title="Comprendiendo la Mecánica del Destello Negro de Jujutsu Legacy">
+
+En el panorama competitivo de 2026, dominar el **destello negro de Jujutsu Legacy** es la diferencia entre un hechicero novato y una amenaza de Grado Especial. Esta mecánica representa una distorsión en el espacio-tiempo cuando la energía maldita se aplica dentro de los 0.000001 segundos de un golpe físico. En el juego, esto se traduce en una mejora ofensiva devastadora que puede cambiar el rumbo de cualquier encuentro con jefes o duelo PvP.
+
+A diferencia de los ataques estándar, un golpe de Destello Negro es visualmente distintivo, a menudo acompañado por un dramático destello de rayos negros y rojos. Este efecto significa que tu producción de daño ha alcanzado su punto máximo. Sin embargo, depender de la tasa de activación base requiere paciencia y una sincronización precisa, a menos que utilices estilos de lucha específicos diseñados para explotar este fenómeno.
+
+| Tipo de Ataque | Multiplicador de Daño | Requisito de Activación | Efecto Visual |
+| :--- | :--- | :--- | :--- |
+| **M1 Estándar** | 1.0x | Ninguno | Golpe básico |
+| **M1 con Energía Maldita** | 1.2x - 1.5x | EM Activa | Brillo de color en los brazos |
+| **Destello Negro** | **5.0x** | EM Activa + 10% RNG | Rayos negros/rojos |
+| **DN de Recipiente Maldito** | **5.0x** | EM Activa + Estilo de Lucha | Rayos constantes |
+
+<Callout type="tip" title="Consejo Pro">
+Asegúrate siempre de tener activada tu Energía Maldita antes de entrar en combate. Sin el efecto de "Energía Maldita" activo en los brazos de tu personaje, la probabilidad del 10% de un Destello Negro nunca se activará, reduciendo significativamente tu DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ubicaciones de Entrenadores y Habilidades Esenciales">
+
+Navegar por el área de aparición de Jujutsu High es el primer paso hacia el poder. Hay cuatro entrenadores principales ubicados alrededor de la zona de inicio, cada uno ofreciendo una habilidad que complementa el estilo de juego del **destello negro de Jujutsu Legacy**. Los entrenadores son NPCs que enseñan técnicas específicas a cambio de progreso o requisitos específicos.
+
+<CardGrid cols={2}>
+  <Card title="Entrenador de Energía Maldita">
+    - **Ubicación**: Dentro del edificio principal en el punto de aparición.
+    - **Función**: Cubre los brazos con energía para aumentar el daño base.
+    - **Nota**: Obligatorio para activar el Destello Negro.
+  </Card>
+  <Card title="Entrenador de Destello Negro">
+    - **Ubicación**: Esquina inferior derecha, cerca del Muñeco de Prueba.
+    - **Función**: Enseña la probabilidad del 10% de activación para un daño de 5X.
+    - **Nota**: La habilidad ofensiva principal para todas las builds.
+  </Card>
+  <Card title="Entrenador de RCT">
+    - **Ubicación**: Parte inferior izquierda de la zona de aparición, cerca de una gran roca.
+    - **Función**: Enseña la Técnica Maldita Inversa para una curación completa.
+    - **Nota**: Esencial para la supervivencia durante combates largos.
+  </Card>
+  <Card title="Entrenador de Dominio Simple">
+    - **Ubicación**: Oculto detrás del Entrenador de Destello Negro.
+    - **Función**: Protege contra el daño de la Expansión de Dominio.
+    - **Nota**: Desactiva el deslizamiento (dash) y el esprint mientras está activo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia">
+La técnica del Dominio Simple es poderosa para la defensa, pero restringe enormemente tu movilidad. No la actives mientras intentas asestar un Destello Negro a menos que estés atrapado dentro de la Expansión de Dominio de un enemigo.
+</Callout>
+
+| NPC Entrenador | Punto de Referencia Geográfico | Beneficio Principal |
+| :--- | :--- | :--- |
+| **Entrenador de EM** | Interior del Edificio de Aparición | Aumento de Daño / Personalización de Color |
+| **Entrenador de DN** | Área del Muñeco de Prueba (Derecha) | **Multiplicador de Daño 5X** |
+| **Entrenador de RCT** | Formación Rocosa (Izquierda) | Regeneración Completa de Salud |
+| **Miwa (Dominio Simple)** | Detrás del Entrenador de DN | Mitigación de Daño de Dominio |
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear el Destello Negro: Paso a Paso">
+
+Desbloquear todo el potencial de tu hechicero requiere una ruta de progresión específica. No puedes simplemente aprender el Destello Negro sin dominar primero los conceptos básicos de la Energía Maldita. Sigue estos pasos para optimizar tu personaje para el meta de 2026.
+
+<Steps>
+  <Step num="1" title="Obtén Energía Maldita">
+    Entra al edificio principal en el punto de aparición y habla con el entrenador de Energía Maldita. Esta habilidad es la base de tu poder. Una vez aprendida, al activarla cubrirá tus brazos con un brillo. El color de este brillo (azul, verde, etc.) está determinado por tu Técnica Maldita equipada, como Infinito (Infinity) o Ira Estelar (Star Rage).
+  </Step>
+  <Step num="2" title="Localiza al Entrenador de Destello Negro">
+    Sal del edificio y dirígete hacia la esquina inferior derecha de los terrenos de Jujutsu High. Encontrarás a un NPC parado cerca de un Muñeco de Prueba. Este es el entrenador de Destello Negro. Interactúa con él para aprender la técnica.
+  </Step>
+  <Step num="3" title="Practica en el Muñeco de Prueba">
+    Activa tu Energía Maldita (generalmente con una tecla de acceso rápido) y comienza a golpear al Muñeco de Prueba con ataques M1 (clic izquierdo). Notarás que aproximadamente uno de cada diez golpes activa una explosión masiva de energía oscura: esta es tu activación del 10%.
+  </Step>
+  <Step num="4" title="Equipa el Estilo de Lucha de Recipiente Maldito">
+    Para eliminar el elemento de azar (RNG), debes intentar obtener el estilo de lucha de Recipiente Maldito. Cuando este estilo está equipado junto con la Energía Maldita activa, absolutamente cada ataque M1 se convierte en un Destello Negro, proporcionando un aumento de daño permanente de 5X.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito">
+Una vez que hayas dominado el combo de Recipiente Maldito + Destello Negro, podrás derrotar a jefes de alto nivel y espíritus malditos significativamente más rápido que con cualquier otra build en la versión actual del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate y Sinergia con Recipiente Maldito">
+
+La mecánica del **destello negro de Jujutsu Legacy** es más efectiva cuando se combina con el Estilo de Lucha adecuado. Aunque la probabilidad base del 10% es útil para subir de nivel al principio, el juego de alto nivel en 2026 exige consistencia. El estilo de Recipiente Maldito es actualmente el estándar de oro para la hechicería ofensiva porque convierte una "probabilidad" en una "garantía".
+
+| Estilo de Lucha | Probabilidad de Destello Negro | Recomendación de Estrategia |
+| :--- | :--- | :--- |
+| **Predeterminado / Básico** | 10% (RNG) | Úsalo solo para subir de nivel al inicio del juego. |
+| **Recipiente Maldito** | **100% (Garantizado)** | La opción del "Meta" para una producción masiva de DPS. |
+| **Estilos de Espada** | 10% (RNG) | Mejor alcance, pero menor consistencia de Destello Negro. |
+| **Artes Especializadas** | Variable | Concéntrate en combos de técnicas en lugar de M1. |
+
+Al participar en PvP, el multiplicador de daño de 5X puede terminar una pelea en segundos. Sin embargo, los jugadores experimentados a menudo usarán el Dominio Simple o RCT para contrarrestar tu agresividad. Para maximizar tu eficiencia, utiliza la siguiente lista de verificación para asegurarte de que tu build esté lista para el combate.
+
+<Checklist
+  id="combat-readiness"
+  title="Lista de Verificación de Combate de Destello Negro:"
+  items={[
+    "La Energía Maldita está activada (Verifica el brillo en los brazos)",
+    "El Estilo de Lucha de Recipiente Maldito está equipado para una activación del 100%",
+    "El RCT no está en enfriamiento para curación de emergencia",
+    "El Dominio Simple está listo para contrarrestar las habilidades definitivas del enemigo",
+    "La resistencia (stamina) está gestionada para permitir cadenas consistentes de M1"
+  ]}
+/>
+
+<Callout type="info" title="¿Sabías Qué?">
+El color de las chispas de tu Destello Negro no cambia, pero el "aura" de tu Energía Maldita sí. Por ejemplo, los usuarios con la técnica de Infinito mostrarán Energía Maldita azul, mientras que los usuarios de Ira Estelar pueden ver diferentes tonalidades según su versión de actualización específica.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contras Defensivas Avanzadas">
+
+Aunque el **destello negro de Jujutsu Legacy** proporciona la mejor ofensiva, también debes entender cómo sobrevivir contra otros jugadores que usan la misma mecánica. Un golpe de daño de 5X puede ser fatal si tu salud no está al máximo o si no estás utilizando los recursos defensivos de los NPCs.
+
+El entrenador de RCT (Técnica Maldita Inversa) se encuentra en la zona inferior izquierda. Aprender esto te permite curarte por completo casi al instante. En un duelo donde ambos jugadores están asestando Destellos Negros, el ganador suele ser quien gestiona su enfriamiento de RCT de manera más efectiva. Además, Miwa (la entrenadora de Dominio Simple) se encuentra directamente detrás del entrenador de Destello Negro. Su habilidad es vital para sobrevivir a las "Expansiones de Dominio", que de otro modo harían inevitables los golpes de Destello Negro.
+
+| Habilidad Defensiva | Entrenador | Contra Principal Para |
+| :--- | :--- | :--- |
+| **RCT** | NPC de la Esquina Inferior Izquierda | Daño explosivo por Destello Negro |
+| **Dominio Simple** | Miwa (Detrás del Entrenador de DN) | Efectos de golpe seguro de la Expansión de Dominio |
+| **Deslizamiento (Dash)** | Mecánica Básica | Evitar el inicio del combo M1 |
+
+<Callout type="warning" title="Importante">
+Curarse con RCT consume una cantidad significativa de energía. Si abusas del RCT, podrias quedarte sin la energía requerida para mantener activa tu Energía Maldita, perdiendo así tu capacidad de infligir daño de Destello Negro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre el Destello Negro de Jujutsu Legacy">
+
+<FAQ items={[
+  {
+    question: "¿Cómo aumento la probabilidad de asestar un Destello Negro?",
+    answer: "Por defecto, el Destello Negro de Jujutsu Legacy tiene una tasa de activación del 10% en los ataques M1 mientras la Energía Maldita está activa. Para aumentar esto al 100%, debes equipar el Estilo de Lucha de Recipiente Maldito."
+  },
+  {
+    question: "¿Dónde se encuentra exactamente el entrenador de Destello Negro?",
+    answer: "El entrenador se encuentra en la esquina inferior derecha de la zona de inicio (Escuela de Hechicería / Jujutsu High), justo al lado del Muñeco de Prueba utilizado para practicar el combate."
+  },
+  {
+    question: "¿Funciona el Destello Negro con armas como espadas?",
+    answer: "Sí, siempre que tu Energía Maldita esté activa, tus ataques M1 (incluidos aquellos con ciertas armas) tienen la probabilidad de activar un Destello Negro, aunque el estilo de Recipiente Maldito potencia específicamente los M1 cuerpo a cuerpo."
+  },
+  {
+    question: "¿Por qué no se activa mi Destello Negro a pesar de haber aprendido la habilidad?",
+    answer: "La razón más común es que la Energía Maldita no está activa. Mira los brazos de tu personaje; si no están brillando con el color de tu técnica, el Destello Negro no podrá activarse."
+  }
+]} />
+
+</Section>

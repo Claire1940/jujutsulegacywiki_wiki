@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Raças de Jujutsu Legacy: Tier List de 2026 e Guia de Atributos",
+  description: "Descubra as melhores raças de Jujutsu Legacy, suas taxas de giro (spin rates), multiplicadores de atributos e caminhos de progressão neste guia detalhado do meta.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Jujutsu+Legacy+Races",
+  date: "2026-06-29",
+  author: "Equipe da Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: O sistema de **raças de jujutsu legacy** dita seus atributos básicos, regeneração de energia e utilidade em combate.
+- **Melhor escolha**: **Restrição Celestial** (Heavenly Restriction) se destaca como a melhor raça para dano físico bruto e builds de armas.
+- **Melhor escolha mágica**: **Feiticeiro** (Sorcerer) é a opção ideal para jogadores focados em Técnicas Amaldiçoadas de alto nível e Expansões de Domínio.
+- **Mecânica de reroll**: Os jogadores podem mudar de raça usando giros (spins) obtidos no jogo por meio de códigos ou Robux.
+- **Estratégia principal**: Combine os atributos da sua raça com sua Técnica Amaldiçoada principal para maximizar a eficiência da build.
+</Callout>
+
+<Section icon={Map} title="Visão Geral e Taxas de Giro das Raças de Jujutsu Legacy">
+
+No mundo competitivo de Jujutsu Legacy, sua raça serve como a base da build do seu personagem. Ela determina sua vida inicial, capacidade de energia amaldiçoada, força física e velocidade. Escolher a opção certa entre as **raças de jujutsu legacy** disponíveis moldará seu caminho de progressão e determinará quais Técnicas Amaldiçoadas você poderá utilizar em seu potencial máximo. 
+
+Os jogadores começam sua jornada girando uma raça aleatória. Se não estiver satisfeito com o resultado inicial, você pode usar o sistema de giros do jogo para tentar uma nova. Os giros podem ser obtidos completando missões diárias, resgatando códigos promocionais ativos ou comprando-os diretamente na loja do desenvolvedor.
+
+| Raça | Raridade | Taxa de Giro | Arquétipo Principal |
+| :--- | :--- | :--- | :--- |
+| **Humano** | Comum | 60% | Inicial equilibrado com progressão padrão |
+| **Feiticeiro** | Raro | 25% | Conjurador de magia com alta capacidade de energia |
+| **Maldição** | Épico | 12% | Lutador de alta regeneração com buffs físicos |
+| **Restrição Celestial** | Lendário | 3% | Especialista em armas com zero de energia amaldiçoada |
+
+<Callout type="success" title="Dica de Gerenciamento de Giros">
+Sempre guarde seus giros de raça até ter acumulado pelo menos vinte. Fazer o reroll com menos giros pode deixar você preso com a raça comum de Humano, reiniciando o progresso da sua build sem garantir um substituto de nível alto.
+</Callout>
+
+Cada raça tem uma aparência visual distinta e fornece bônus passivos que permanecem ativos ao longo do jogo. Embora a raça comum de Humano seja adequada para aprender as mecânicas básicas do jogo, a transição para uma raça especializada é essencial para o combate jogador contra jogador (PvP) de alto nível e incursões (raids) de fim de jogo.
+
+</Section>
+
+<Section icon={Swords} title="Atributos Detalhados das Raças e Habilidades Especiais">
+
+Cada raça em Jujutsu Legacy oferece um conjunto único de multiplicadores de atributos e habilidades passivas. Compreender essas diferenças permite que você adapte sua build para o combate físico, domínio da energia amaldiçoada ou sobrevivência defensiva. 
+
+<CardGrid cols={2}>
+  <Card title="Humano & Feiticeiro">
+    - **Humano**: Distribuição equilibrada de atributos, quantidade de vida padrão e taxas normais de regeneração de energia.
+    - **Feiticeiro**: Maior capacidade de energia amaldiçoada, tempos de recarga mais rápidos em habilidades mágicas e defesa elemental aprimorada.
+  </Card>
+  <Card title="Maldição & Restrição Celestial">
+    - **Maldição**: Regeneração rápida de vida fora de combate, alta redução de dano físico, mas fraco contra ataques de energia positiva.
+    - **Restrição Celestial**: Dano físico massivo, velocidade máxima de movimento, imune a drenagem de energia, mas completamente incapaz de usar energia amaldiçoada.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mecânica de Multiplicador de Atributos">
+Os multiplicadores de atributos escalam dinamicamente com o seu nível base. Um aumento de 10% no dano físico no nível 10 pode parecer pequeno, mas se torna uma vantagem massiva quando você atinge o limite de nível.
+</Callout>
+
+Para ajudar você a decidir qual raça se adapta ao seu estilo de jogo preferido, revise as métricas oficiais de escala de atributos abaixo. Esses multiplicadores afetam diretamente o desempenho do seu personagem em combate.
+
+| Raça | Multiplicador de Vida | Multiplicador de Energia | Dano Físico | Regen. de Energia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Humano** | 1.0x | 1.0x | 1.0x | Padrão |
+| **Feiticeiro** | 0.9x | 1.3x | 0.8x | Rápida |
+| **Maldição** | 1.2x | 1.1x | 1.1x | Lenta |
+| **Restrição Celestial** | 1.4x | 0.0x | 1.5x | Nenhuma |
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo de Reroll de Raça">
+
+Se você deseja fazer a transição de uma raça inicial comum para uma de nível lendário, deve seguir o procedimento correto de reroll. O reroll da sua raça alterará seus atributos imediatamente, mas não resetará o nível geral do seu personagem ou os itens do inventário.
+
+<Steps>
+  <Step num="1" title="Adquirir Giros">
+    Complete missões diárias ou resgate códigos promocionais ativos no menu principal para acumular giros de raça.
+  </Step>
+  <Step num="2" title="Localizar o Menu de Personalização">
+    Navegue até a tela de personalização do personagem a partir do lobby principal antes de carregar o mundo do jogo.
+  </Step>
+  <Step num="3" title="Realizar o Giro">
+    Selecione o botão de giro na categoria de raça. O sistema sorteará sua raça com base nas taxas de drop ativas.
+  </Step>
+  <Step num="4" title="Confirmar e Salvar">
+    Assim que conseguir a raça desejada, confirme a seleção para aplicar os novos multiplicadores de atributos ao perfil do seu personagem.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso sobre Técnicas Amaldiçoadas">
+Se você girar a raça Restrição Celestial, qualquer Técnica Amaldiçoada ativa que exija energia amaldiçoada será desativada. Certifique-se de ter armas físicas equipadas antes de finalizar esta escolha.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Builds e Sinergia de Técnicas">
+
+Alcançar o desempenho máximo em Jujutsu Legacy exige combinar sua raça com Técnicas Amaldiçoadas e armas compatíveis. Uma incompatibilidade pode resultar em atributos desperdiçados e dano abaixo do esperado em confrontos de alto nível.
+
+Por exemplo, jogadores que utilizam a raça **Feiticeiro** devem combiná-la com técnicas que consomem muita energia, como Ilimitado (Limitless) ou Chamas do Desastre (Disaster Flames). A grande reserva de energia permite a conjuração contínua de habilidades e pressão sustentada em combates de arena. Por outro lado, a raça **Restrição Celestial** deve ser combinada com armas físicas como Nuvem Brincalhona (Playful Cloud) ou Osso de Dragão (Dragon Bone), já que não podem conjurar feitiços.
+
+| Raça | Técnica Recomendada | Arma Principal | Função de Combate |
+| :--- | :--- | :--- | :--- |
+| **Humano** | Manipulação de Sangue | Katana Padrão | Polivalente Equilibrado |
+| **Feiticeiro** | Ilimitado | Nenhuma | Conjurador à Distância |
+| **Maldição** | Chamas do Desastre | Adaga Amaldiçoada | Lutador Corpo a Corpo |
+| **Restrição Celestial** | Nenhuma | Nuvem Brincalhona | Assassino Físico |
+
+<Callout type="tip" title="Otimização de Sinergia">
+Se você estiver usando uma build de Maldição, foque em melhorar seus atributos de defesa física. A regeneração natural de vida da raça Maldição torna as builds defensivas incrivelmente difíceis de derrotar em partidas longas e demoradas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progressão de Raça no Endgame">
+
+Conforme você se aproxima do endgame, seu foco deve mudar da sobrevivência básica para a otimização da sua raça para o jogo competitivo. Use esta lista de verificação para acompanhar o desenvolvimento do seu personagem e garantir que você desbloqueou o potencial máximo da build escolhida.
+
+<Checklist
+  id="race-progression-goals"
+  title="Marcos do Endgame:"
+  items={[
+    "Conseguir uma raça de nível alto (Feiticeiro, Maldição ou Restrição Celestial)",
+    "Alcançar o nível máximo do personagem para escalar totalmente os multiplicadores da sua raça",
+    "Equipar uma arma ou técnica que corresponda ao atributo principal da sua raça",
+    "Obter um acessório de grau um (grade-one) que aumente os atributos principais da sua raça",
+    "Testar sua build na arena PvP ranqueada para verificar a eficiência em combate"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa do Marco">
+Concluir essas etapas de progressão garantirá que seu personagem esteja totalmente preparado para incursões (raids) de alto nível e guerras de clãs competitivas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor raça em Jujutsu Legacy para iniciantes?",
+    answer: "A raça Feiticeiro é altamente recomendada para iniciantes. Ela oferece uma reserva generosa de energia amaldiçoada, permitindo que novos jogadores pratiquem a conjuração de técnicas sem ficar sem energia rapidamente."
+  },
+  {
+    question: "Posso usar Técnicas Amaldiçoadas com a raça Restrição Celestial?",
+    answer: "Não. A Restrição Celestial reduz sua reserva de energia amaldiçoada a zero em troca de buffs físicos massivos. Você deve confiar inteiramente em armas físicas e estilos de artes marciais."
+  },
+  {
+    question: "Eu perco meus níveis se fizer o reroll da minha raça?",
+    answer: "Não, o reroll da sua raça apenas altera seus atributos básicos, passivas e aparência. O nível do seu personagem, itens do inventário e dinheiro permanecem completamente inalterados."
+  },
+  {
+    question: "Como consigo mais giros para as raças de jujutsu legacy?",
+    answer: "Você pode obter giros completando missões diárias, participando de eventos da comunidade, resgatando códigos ativos do jogo ou comprando-os com Robux na loja do desenvolvedor."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+O meta do jogo muda periodicamente com atualizações de balanceamento. Fique de olho nas atualizações oficiais para ver se os multiplicadores de atributos ou as taxas de giros mudarão em lançamentos futuros.
+</Callout>
+
+</Section>
