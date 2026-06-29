@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Incursiones de Jujutsu Legacy: Guía de ubicaciones, vida de jefes y recompensas",
+  description: "Domina las incursiones de Jujutsu Legacy con nuestra guía detallada sobre ubicaciones de incursiones, escalado de vida de jefes hasta 15 mil millones y recompensas de accesorios exclusivos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Jujutsu+Legacy+Raids",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Domina todas las incursiones de Jujutsu Legacy comprendiendo el escalado de los jefes, las tasas de aparición de botín y las configuraciones óptimas.
+- **Mecánica clave**: La vida de los jefes escala drásticamente a lo largo de las oleadas, comenzando en 85k y alcanzando hasta 15 mil millones.
+- **Mejor estrategia**: Prioriza movimientos de área (AoE) como Desmantelar (Dismantle) para limpiar rápidamente densos grupos de enemigos con mucha vida.
+- **Consejo crítico**: Restablece y asigna tus puntos de estadísticas para alcanzar al menos entre 30k y 150k en estadísticas ofensivas clave.
+- **La mejor opción**: Equípate el accesorio Implante Cerebral (Brain Implant) para maximizar tu regeneración de energía maldita durante las oleadas del juego tardío.
+</Callout>
+
+<Section icon={Map} title="Ubicaciones y requisitos de las incursiones de Jujutsu Legacy">
+
+Navegar por el mundo de Jujutsu Legacy requiere una comprensión sólida de dónde encontrar los portales de incursión (raids) y qué estadísticas necesitas para sobrevivir. Las incursiones sirven como el contenido principal del juego tardío (endgame), ofreciendo a los jugadores la oportunidad de poner a prueba sus configuraciones contra oleadas de enemigos cada vez más difíciles. Encontrar estas ubicaciones es el primer paso para asegurar objetos raros, títulos poderosos y rasgos que cambiarán el juego. 
+
+La incursión de nivel de entrada, a menudo denominada Juegos del Sacrificio (Culling Games, o Cold Games dentro del juego), se encuentra cerca de las afueras de la ciudad de inicio. A medida que progreses y acumules puntos de estadísticas, desbloquearás portales a incursiones de alto nivel como la Era Heian (Heian Era) y el Incidente de Shibuya (Shibuya Incident), que están situados más cerca del núcleo central. Cada incursión exige un aumento significativo en las estadísticas de tu personaje para garantizar la supervivencia.
+
+**Puntos destacados del video:**
+- Recorrido visual detallado de todas las ubicaciones de los NPC de incursión en la ciudad principal.
+- Demostración en vivo del escalado de vida (HP) de los jefes desde las primeras oleadas hasta las oleadas finales.
+- Exhibición de recompensas raras, incluido el codiciado accesorio Implante Cerebral (Brain Implant).
+- Consejos prácticos de combate para usar habilidades de alto nivel para limpiar hordas de enemigos resistentes.
+
+<YouTubeEmbed videoId="3ryG6oXkpuU" title="Jujutsu Legacy (¡Mostrando todas las ubicaciones de incursiones!)" />
+
+Para ayudarte a prepararte para tu viaje de incursiones, hemos recopilado las ubicaciones exactas y los requisitos de entrada para cada incursión importante disponible actualmente en el juego.
+
+| Nombre de la incursión | Descripción de la ubicación | Requisito de nivel | Estadísticas recomendadas |
+| :--- | :--- | :--- | :--- |
+| **Juegos del Sacrificio (Culling Games)** | Afueras de la ciudad de inicio, cerca de la muralla este | Nivel 1+ | **1,000+** estadísticas totales |
+| **Era Heian (Heian Era)** | Portal de la plaza central, detrás del templo principal | Nivel 500+ | **30,000+** estadísticas totales |
+| **Incidente de Shibuya (Shibuya Incident)** | Portal en el callejón oculto, cerca de la estación de tren | Nivel 1000+ | **150,000+** estadísticas totales |
+
+<Callout type="info" title="Consejo sobre el punto de reaparición">
+Establece siempre tu punto de reaparición (spawn) en el NPC de la incursión antes de comenzar una partida. Si tu personaje es derrotado durante una oleada alta, regresar caminando desde el punto de reaparición predeterminado de la ciudad puede hacer que te pierdas la ventana de la incursión activa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia y escalado de la incursión Juegos del Sacrificio (Culling Games)">
+
+La incursión de los Juegos del Sacrificio (Culling Games) es el campo de entrenamiento perfecto para los nuevos jugadores. Introduce el formato de supervivencia basado en oleadas y ofrece una imagen clara de cómo escala la vida de los enemigos a medida que avanza la incursión. Aunque las primeras oleadas presentan enemigos básicos con poca vida, la dificultad aumenta significativamente cada diez oleadas cuando aparecen los jefes.
+
+En la oleada 10, los jugadores se enfrentarán al primer jefe importante, Jogo, que posee aproximadamente 85,000 de HP. Aunque esto pueda parecer intimidante para los principiantes, los ataques de Jogo son muy predecibles y fáciles de esquivar. Para cuando alcances la oleada 50, la vida del jefe aumentará a 150,000, culminando en un enfrentamiento final en la oleada 70, donde el jefe tiene hasta 360,000 de HP. Completar la oleada 70 garantiza una oportunidad de obtener accesorios raros y rasgos de personaje.
+
+Para hacer frente a estas barras de vida en aumento, debes elegir una configuración (build) que maximice tu daño infligido mientras te mantienes a salvo de los ataques de área de efecto.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Espada">
+    - **Alto daño físico**
+    - Ataques básicos rápidos
+    - Excelente para derretir jefes de un solo objetivo
+  </Card>
+  <Card title="Configuración de Desmantelar">
+    - **Rango de área (AoE) masivo**
+    - Posicionamiento seguro desde la distancia
+    - Perfecto para limpiar oleadas abarrotadas
+  </Card>
+  <Card title="Configuración de Destello Negro">
+    - **Alto daño crítico explosivo**
+    - Recompensa la sincronización perfecta
+    - Excepcional para la ejecución de jefes de alto nivel
+  </Card>
+</CardGrid>
+
+Comprender el escalado exacto de vida (HP) de cada oleada de jefes te permite administrar tu energía maldita y tus tiempos de reutilización (cooldowns) de manera efectiva.
+
+| Oleada | Nombre del jefe | Vida aproximada | Calificación de dificultad | Estrategia recomendada |
+| :--- | :--- | :--- | :--- | :--- |
+| **Oleada 10** | Jogo | **85,000 HP** | Muy fácil | Usar ataques físicos básicos repetidamente |
+| **Oleada 50** | Hanami | **150,000 HP** | Fácil | Usar técnicas malditas de medio alcance |
+| **Oleada 70** | Mahito | **360,000 HP** | Moderada | Mantener la distancia, usar habilidades de área pesadas |
+
+<Callout type="tip" title="Consejo de asignación de estadísticas">
+Si tienes dificultades para completar la oleada 70 dentro del límite de tiempo, restablece tus estadísticas y asigna al menos el 70% de tus puntos en una sola estadística ofensiva como Fuerza o Energía Maldita. Las configuraciones equilibradas a menudo carecen del daño por segundo (DPS) bruto necesario para los jefes del juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión en incursiones de alto nivel y requisitos de estadísticas">
+
+Una vez que hayas dominado el contenido de nivel de entrada, el paso a las incursiones de alto nivel requiere una renovación completa de tu equipo y distribución de estadísticas. En estas etapas avanzadas, incluso los enemigos comunes básicos tienen millones de puntos de vida, lo que hace que los ataques físicos estándar sean prácticamente inútiles. Tendrás que depender en gran medida de habilidades al máximo y configuraciones especializadas.
+
+En las incursiones de nivel medio, los enemigos en la oleada 50 suelen presumir de más de 2.5 millones de HP. Para cuando alcances las oleadas finales de las incursiones más difíciles, las barras de vida alcanzan números astronómicos, alcanzando un máximo de 15 mil millones de HP. Para lidiar con estas cifras absurdas, los jugadores deben utilizar habilidades de alto daño como Desmantelar (Dismantle) y Relicario Maldito (Malevolent Shrine), que pueden infligir millones de daño por segundo cuando se combinan con estadísticas ofensivas al máximo.
+
+<Steps>
+  <Step num="1" title="Optimiza las estadísticas base">
+    Haz farm repetidamente en la incursión de los Juegos del Sacrificio hasta que tengas suficientes puntos de estadísticas para asignar al menos de 30k a 50k puntos en tu atributo de daño principal.
+  </Step>
+  <Step num="2" title="Adquiere habilidades de área (AoE)">
+    Desbloquea técnicas de área de gran alcance. Los movimientos como Desmantelar son esenciales porque te permiten dañar a múltiples enemigos con mucha vida simultáneamente.
+  </Step>
+  <Step num="3" title="Domina la atracción de enemigos">
+    Evita correr hacia el centro de la arena. Atrae a los enemigos hacia los bordes o esquinas para agruparlos estrechamente, haciendo que tus habilidades de área sean muy eficientes.
+  </Step>
+  <Step num="4" title="Ejecuta rotaciones de daño explosivo">
+    Encadena tus habilidades de control de masas con tus movimientos de daño definitivo para derretir a los jefes antes de que puedan activar sus fases de alto daño.
+  </Step>
+</Steps>
+
+El enorme escalado de estas incursiones de alto nivel significa que el equipo de nivel de entrada no será suficiente. Consulta la tabla a continuación para ver cómo escala la vida de los jefes en el juego tardío.
+
+| Nivel de incursión | Oleada | Rango de vida del enemigo | Tipo de configuración requerida | Nivel recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nivel medio** | Oleada 50 | **2.5 millones de HP** | Fuerza pura / Espada | Nivel 500+ |
+| **Nivel medio** | Oleada 70 | **300 millones de HP** | DPS de estadísticas máximas / AoE | Nivel 750+ |
+| **Juego tardío** | Oleada 70 | **15 mil millones de HP** | Estadísticas máximas + Desmantelar | Nivel 1000+ |
+
+<Callout type="success" title="Consejo de recuperación ante fallos (glitches)">
+Durante las incursiones de oleadas altas, los enemigos ocasionalmente pueden quedarse atascados debajo del mapa o dentro de las paredes. Si esto sucede, no te asustes. Usa habilidades de golpe contra el suelo o movimientos de teletransporte de largo alcance para golpearlos a través del terreno y salvar tu partida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y botines exclusivos de incursión">
+
+La motivación principal para enfrentarse a la brutal dificultad de las incursiones de alto nivel es el botín exclusivo. Jujutsu Legacy presenta una variedad de accesorios poderosos, títulos personalizados y rasgos raros que solo se pueden obtener al completar hitos específicos de incursión. Estos objetos proporcionan multiplicadores pasivos masivos para tu salud, defensa y energía maldita.
+
+Entre las recompensas más codiciadas se encuentra el Implante Cerebral (Brain Implant), un accesorio legendario que aumenta significativamente la regeneración de tu energía maldita y el daño de tus habilidades. Otras recompensas valiosas incluyen el conjunto de Armadura de Hierro (Iron Armor), que proporciona un gran aumento de defensa plana, y varios títulos cosméticos que muestran tus logros de incursión a otros jugadores en el centro principal.
+
+<Checklist
+  id="raid-milestones"
+  title="Hitos esenciales de incursión:"
+  items={[
+    "Completa la oleada 70 de los Juegos del Sacrificio para desbloquear accesorios iniciales",
+    "Alcanza 150,000 puntos en una sola estadística para prepararte para las incursiones del juego tardío",
+    "Obtén el accesorio Implante Cerebral de las recompensas de jefes de alto nivel",
+    "Desbloquea un rasgo mítico de personaje usando fichas de recompensa obtenidas en incursiones"
+  ]}
+/>
+
+Aunque algunas recompensas están garantizadas al completar la oleada 70, los mejores accesorios tienen tasas de obtención increíblemente bajas, lo que requiere dedicación y múltiples partidas exitosas.
+
+| Nombre del objeto | Tipo de botín | Mejoras y efectos pasivos | Tasa de obtención estimada |
+| :--- | :--- | :--- | :--- |
+| **Implante Cerebral (Brain Implant)** | Accesorio | Aumenta la regeneración de energía maldita en un 25% | **1% al 5%** |
+| **Armadura de Hierro (Iron Armor)** | Accesorio | Incrementa la defensa plana en un 15% | **5% al 10%** |
+| **Maestro de Incursión (Raid Master)** | Título | Etiqueta de chat cosmética y 5% de aumento de EXP | **2% (Solo oleada 70)** |
+| **Fragmento de Rasgo (Trait Shard)** | Material | Usado para restablecer rasgos de personaje | **100% (Garantizado)** |
+
+<Callout type="warning" title="Advertencia sobre la tasa de obtención">
+Los accesorios del juego tardío como el Implante Cerebral tienen tasas de obtención excepcionalmente bajas. Se recomienda encarecidamente agruparse con otros jugadores de alto nivel para acelerar tus tiempos de finalización y maximizar tu eficiencia de obtención por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Para ayudarte a aprovechar al máximo tus incursiones de farmeo, hemos recopilado respuestas a las preguntas más comunes sobre las mecánicas de incursión, el escalado y la progresión del equipo.
+
+<Callout type="info" title="Actualizaciones y parches">
+Las mecánicas de incursión y la vida de los jefes están sujetas a cambios con futuras actualizaciones del juego. Mantén esta guía en tus marcadores, ya que actualizamos regularmente nuestras tablas y estrategias para que coincidan con los últimos parches en vivo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo accedo a las diferentes incursiones de Jujutsu Legacy?",
+    answer: "Puedes encontrar a los NPC de los portales de incursión dispersos por la ciudad de inicio y el centro principal. Consulta nuestra tabla de ubicaciones en esta guía para conocer los requisitos exactos de nivel y estadísticas para cada portal."
+  },
+  {
+    question: "¿Cuál es la mejor habilidad para usar en incursiones de alto nivel?",
+    answer: "Se recomiendan encarecidamente habilidades con un área de efecto (AoE) masiva y un alto escalado de daño, como Desmantelar (Dismantle) y Relicario Maldito (Malevolent Shrine). Te permiten limpiar rápidamente oleadas llenas de enemigos con mucha vida."
+  },
+  {
+    question: "¿Puedo derrotar solo a los jefes del juego tardío de 15 mil millones de HP?",
+    answer: "Sí, pero requiere una configuración altamente optimizada. Debes tener estadísticas ofensivas al máximo (al menos 150k puntos) y accesorios de primer nivel como el Implante Cerebral para infligir suficiente daño antes de que se agote el tiempo."
+  },
+  {
+    question: "¿Por qué mis recompensas de incursión no aparecen en mi inventario?",
+    answer: "Algunas recompensas raras, como accesorios y títulos, se colocan directamente en el inventario de tu personaje al completar la oleada 70. Asegúrate de tener ranuras de inventario libres antes de comenzar una incursión."
+  }
+]} />
+
+</Section>

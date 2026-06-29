@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Estilos de combate de Jujutsu Legacy: Guía de jefes y tasas de obtención de 2026",
+  description: "Domina todos los estilos de combate de Jujutsu Legacy. Conoce las tasas de obtención, la ubicación de los jefes y cómo optimizar tus construcciones de Fuerza con el accesorio Demon Arms.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fighting+Styles+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **estilos de combate de Jujutsu Legacy** determinan tus movimientos cuerpo a cuerpo principales y escalan directamente con tu estadística de Fuerza.
+- El **límite de equipamiento** te restringe a un solo estilo activo; reemplazarlo consume el objeto de origen de forma permanente.
+- El **accesorio Demon Arms** es la pieza de equipo más crucial, ya que ofrece un multiplicador de daño plano de 2X.
+- El estilo **High Roller** es la obtención más rara del juego, con una probabilidad del 0.1% al derrotar al Gambler.
+</Callout>
+
+<Section icon={Map} title="Mecánicas básicas de los estilos de combate">
+
+Los estilos de combate sirven como la base del combate cuerpo a cuerpo en Jujutsu Legacy. A diferencia de las técnicas malditas que dependen de la energía maldita, los estilos de combate obtienen su poder directamente de tus atributos físicos. Para construir un personaje poderoso, es esencial comprender cómo funcionan estos estilos, cómo escalan y cómo interactúan con otros equipos.
+
+Cada jugador comienza con el estilo Normal predeterminado. Para mejorar a estilos de combate más avanzados, debes derrotar a jefes específicos en todo el mundo para obtener objetos raros de botín. Usar uno de estos objetos equipará inmediatamente el estilo asociado.
+
+Sin embargo, la gestión del inventario es crítica al tratar con estos sistemas de combate. Solo puedes tener un estilo de combate equipado en un momento dado. Si decides reemplazar tu estilo actual con uno nuevo, el estilo anterior se sobrescribirá. Para recuperar un estilo perdido, debes obtener y usar su objeto de botín asociado nuevamente.
+
+<Callout type="warning" title="Advertencia de sobrescritura de estilo">
+Usar un nuevo objeto de estilo de combate sobrescribirá permanentemente tu estilo actual. Asegúrate siempre de tener un objeto de botín de repuesto o de estar completamente comprometido con el cambio antes de consumir un nuevo objeto de estilo.
+</Callout>
+
+### Tabla maestra de obtención y ubicaciones
+
+Para ayudarte a planificar tus rutas de farmeo en 2026, la siguiente tabla detalla todos los estilos de combate disponibles, sus objetos requeridos, tasas de obtención y los jefes que debes derrotar.
+
+| Nombre del estilo | Objeto requerido | Tasa de obtención | Jefe de origen | Ubicación |
+| --- | --- | --- | --- | --- |
+| Normal | Ninguno | Predeterminado | Ninguno | Creación de personaje |
+| The High Roller | Gambler Orb | 0.1% | Gambler | Culling Games |
+| Strongest Style | Objeto StrongestStyle | 10.0% | Gojo V2 | Culling Games |
+| Imperial Curse Arts | Imperial Curse Arts | 2.0% | Divine General | Raid |
+| Raijin Strike | Thunder Spirit | 0.5% | Kashimo | Shinjuku |
+| Cursed Vessel | Itadori Finger | 0.3% | Yuji 120% | Shinjuku |
+
+</Section>
+
+<Section icon={Swords} title="Análisis en profundidad de cada estilo de combate">
+
+Cada estilo de combate ofrece un conjunto de movimientos único, potencial de combos y sinergia con construcciones (builds) específicas. Elegir el estilo adecuado depende de tu etapa de progresión y de tu estilo de juego preferido.
+
+### Normal Style (Estilo Normal)
+El estilo inicial predeterminado. Cuenta con combos básicos de golpes y patadas con un escalado bajo. Aunque es suficiente para completar las misiones de tutorial del inicio del juego, deberías intentar reemplazarlo tan pronto como llegues a Culling Games.
+
+### The High Roller
+Este estilo requiere el Gambler Orb, que se obtiene del jefe Gambler con una tasa de obtención sumamente esquiva del 0.1%. Es un estilo de alto riesgo y alta recompensa que se centra en patrones de golpe impredecibles y modificadores de golpes críticos. Es el preferido por los jugadores de final del juego que disfrutan del daño de ráfaga basado en el azar (RNG).
+
+### Strongest Style
+Obtenido al derrotar a Gojo V2 con una generosa tasa del 10%, el Strongest Style es el estilo de nivel alto más accesible del juego. Imita la dominación física de Gojo, ofreciendo ataques rápidos y pesados junto con un excelente control de masas. Este es el estilo recomendado para la progresión a mitad del juego y para farmear jefes de manera eficiente.
+
+### Imperial Curse Arts
+Obtenido en la Raid de Divine General con una tasa del 2%, este estilo se centra en el espaciado táctico y los contraataques defensivos. Permite a los jugadores controlar el ritmo de la pelea, lo que lo hace muy efectivo para el contenido de raid desafiante y encuentros grupales.
+
+### Raijin Strike
+Obtenido al derrotar a Kashimo en Shinjuku con una tasa del 0.5%, este estilo infunde tus ataques físicos con energía eléctrica. Cuenta con una velocidad de movimiento rápida, combos ultrarrápidos y mecánicas de aturdimiento menor, lo que lo hace perfecto para estilos de juego de alta movilidad.
+
+### Cursed Vessel
+Requiere el Itadori Finger (0.3% de probabilidad de obtención de Yuji 120% en Shinjuku). El estilo Cursed Vessel utiliza combos físicos agresivos a corta distancia. Cuenta con un alto escalado base y daño de impacto retrasado, lo que lo convierte en una opción primordial para construcciones (builds) puras de Fuerza.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque de farmeo PvE">
+    - **Strongest Style** es ideal.
+    - Alta tasa de obtención del 10%.
+    - Ataques con gran área de efecto.
+  </Card>
+  <Card title="Enfoque de alta movilidad">
+    - **Raijin Strike** es ideal.
+    - Combos de rayos rápidos.
+    - Excelentes habilidades para acortar distancias.
+  </Card>
+  <Card title="Enfoque de DPS agresivo">
+    - **Cursed Vessel** es ideal.
+    - Alto escalado físico.
+    - Daño de impacto retrasado.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de progresión">
+Si estás en transición desde el inicio del juego, farmea a Gojo V2 primero. La tasa de obtención del 10% para el Strongest Style lo convierte en la forma más rápida de reemplazar el estilo Normal predeterminado por un conjunto de movimientos competitivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de progresión y farmeo de jefes">
+
+Derrotar a los jefes que otorgan estos objetos de estilo de combate requiere preparación, un nivel adecuado y conciencia táctica. Shinjuku y Culling Games albergan algunos de los encuentros más desafiantes del juego.
+
+### Preparación para el farmeo
+Antes de intentar farmear jefes de alto nivel, asegúrate de que tu personaje tenga el nivel adecuado. Intentar luchar contra Kashimo o Yuji 120% sin las defensas o el daño adecuados resultará en derrotas rápidas.
+
+<Steps>
+  <Step num="1" title="Optimizar estadísticas">
+    Asigna una parte significativa de tus puntos de estadísticas a Fuerza para asegurarte de que tus ataques físicos inflijan un daño competitivo durante los encuentros con los jefes.
+  </Step>
+  <Step num="2" title="Equipar equipo defensivo">
+    Obtén accesorios defensivos y elige una Raza o Clan resistente para sobrevivir a los combos de alto daño de los jefes, especialmente al farmear en Shinjuku.
+  </Step>
+  <Step num="3" title="Apuntar primero a Gojo V2">
+    Viaja a Culling Games y farmea a Gojo V2 para obtener el Strongest Style. Esto aumentará significativamente tu velocidad de farmeo para estilos más raros.
+  </Step>
+  <Step num="4" title="Formar grupos de Raid">
+    Para la Raid de Divine General, únete a otros jugadores para distribuir la atención (aggro) del jefe y asegurar tiempos de finalización constantes.
+  </Step>
+</Steps>
+
+### Dificultad de los jefes y descripción general del combate
+
+La siguiente tabla detalla los niveles recomendados y los peligros clave para cada jefe asociado con la obtención de estilos de combate.
+
+| Nombre del jefe | Ubicación | Nivel recomendado | Peligro clave |
+| --- | --- | --- | --- |
+| Gojo V2 | Culling Games | Nivel 150+ | Teletransportación rápida y combos físicos de alto daño |
+| Gambler | Culling Games | Nivel 180+ | Fases de daño de ráfaga impredecibles |
+| Divine General | Raid | Nivel 220+ | Enorme cantidad de vida y barridos de área de efecto |
+| Kashimo | Shinjuku | Nivel 280+ | Ataques de rayos que causan aturdimiento temporal |
+| Yuji 120% | Shinjuku | Nivel 300+ | Ataques de embestida agresivos a corta distancia |
+
+<Callout type="info" title="Mecánicas de Raid">
+La Raid de Divine General requiere un juego en equipo coordinado. Asegúrate de que al menos un miembro del grupo se concentre en atraer la atención del jefe mientras los demás infligen daño desde los flancos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizar el daño y sinergias de construcción">
+
+Para desbloquear todo el potencial de tu estilo de combate elegido, debes construir tu personaje en torno a los multiplicadores de daño físico. Simplemente equipar un estilo no es suficiente para competir en el contenido de alto nivel.
+
+### La estadística de Fuerza
+Todos los estilos de combate escalan su daño directamente de tu estadística de Fuerza. A medida que subas de nivel, prioriza invertir puntos en Fuerza para aumentar tu daño base.
+
+### Sinergia de accesorios y equipo
+Los accesorios, clanes y razas juegan un papel fundamental en el aumento de tu rendimiento general. El accesorio más importante para cualquier construcción física es el **Demon Arms**.
+
+Cuando está equipado, el accesorio Demon Arms aumenta el daño de todos los estilos de combate en un **2X**. Este multiplicador plano se acumula con otras bonificaciones, lo que lo convierte en un objeto esencial para la optimización en el final del juego.
+
+| Categoría de equipo | Opción específica | Modificador de daño | Método de obtención |
+| --- | --- | --- | --- |
+| Accesorio | Demon Arms | Multiplicador 2.0X | Botín de jefe / Evento |
+| Estadísticas | Fuerza | Escalado lineal | Asignación por subida de nivel |
+| Clanes | Clanes físicos | 1.1X - 1.25X | Rerolls de Clan |
+| Razas | Razas cuerpo a cuerpo | 1.15X | Rerolls de Raza |
+
+<Checklist
+  id="build-milestones"
+  title="Hitos de construcción para el final del juego:"
+  items={[
+    "Alcanzar el nivel máximo y optimizar las estadísticas de Fuerza",
+    "Obtener el accesorio Demon Arms para el aumento de daño de 2X",
+    "Hacer reroll para conseguir un Clan o Raza que proporcione bonificaciones de daño físico",
+    "Asegurar tu estilo de combate preferido para el final del juego (p. ej., Cursed Vessel o Raijin Strike)"
+  ]}
+/>
+
+<Callout type="success" title="Combo optimizado">
+Combinar el accesorio Demon Arms con un estilo de nivel alto como Cursed Vessel y un Clan que potencie lo físico te permitirá derretir las barras de vida de los jefes en segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Para ayudar a aclarar dudas comunes sobre la progresión del combate y la gestión de estilos, revisa las preguntas frecuentes a continuación.
+
+<FAQ items={[
+  {
+    question: "¿Puedo equipar múltiples estilos de combate de Jujutsu Legacy al mismo tiempo?",
+    answer: "No. Los jugadores solo pueden tener un estilo de combate equipado a la vez. Usar un nuevo objeto de estilo sobrescribirá tu estilo actual."
+  },
+  {
+    question: "¿Qué pasa con mi antiguo estilo de combate si uso un nuevo objeto de estilo?",
+    answer: "Tu antiguo estilo de combate se pierde. Para recuperarlo, debes adquirir y volver a usar el objeto de obtención asociado (como el Itadori Finger o el Thunder Spirit)."
+  },
+  {
+    question: "¿Qué estilo de combate tiene la tasa de obtención más alta en Jujutsu Legacy?",
+    answer: "El Strongest Style tiene la tasa de obtención más alta con un 10%, que se consigue al derrotar a Gojo V2 en Culling Games."
+  },
+  {
+    question: "¿Cómo duplico el daño de mi estilo de combate?",
+    answer: "Debes obtener y equipar el accesorio Demon Arms, que aplica un multiplicador de daño plano de 2X a todos los estilos de combate."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+Mantén esta guía en tus marcadores mientras farmeas en Culling Games y Shinjuku. ¡Buena suerte obteniendo los estilos de combate que deseas!
+</Callout>
+
+</Section>

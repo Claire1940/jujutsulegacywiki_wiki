@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Raids de Jujutsu Legacy: Guia de Localizações, HP de Chefes e Drops",
+  description: "Domine as raids de Jujutsu Legacy com nosso guia detalhado sobre localizações de raids, escalonamento de HP de chefes até 15 bilhões e drops de acessórios exclusivos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Jujutsu+Legacy+Raids",
+  date: "2026-06-30",
+  author: "Equipe da Wiki de Jujutsu Legacy",
+  keywords: "jujutsu legacy raids, localizações de raids, hp de chefes, drops de acessórios, guia de estratégia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Domine todas as raids de jujutsu legacy entendendo o escalonamento de chefes, taxas de drop e builds ideais.
+- **Mecânica principal**: O HP dos chefes escala drasticamente entre as ondas, começando em 85k e chegando a até 15 bilhões.
+- **Melhor estratégia**: Priorize movimentos AoE como o Dismantle para limpar grupos densos de inimigos com HP alto rapidamente.
+- **Dica crítica**: Resete e aloque seus pontos de status para atingir pelo menos 30k a 150k em atributos ofensivos principais.
+- **Escolha ideal**: Equipe o acessório Brain Implant para maximizar sua regeneração de energia amaldiçoada durante as ondas finais do endgame.
+</Callout>
+
+<Section icon={Map} title="Localizações e Requisitos das Raids de Jujutsu Legacy">
+
+Navegar pelo mundo de Jujutsu Legacy exige um sólido entendimento de onde encontrar os portais de raid e quais status você precisa para sobreviver. As raids servem como o principal conteúdo de endgame, oferecendo aos jogadores a chance de testar suas builds contra ondas de inimigos cada vez mais difíceis. Encontrar essas localizações é o primeiro passo para garantir itens raros, títulos poderosos e traits que mudam o jogo.
+
+A raid de nível inicial, frequentemente chamada de Jogos de Abate (ou Cold Games no jogo), está localizada perto da periferia da cidade inicial. À medida que você progride e acumula pontos de status, desbloqueará portais para raids de alto nível, como a Era Heian e o Incidente de Shibuya, que estão situados mais perto do hub central. Cada raid exige um salto significativo nos status do personagem para garantir a sobrevivência.
+
+**Destaques do Vídeo:**
+- Passo a passo visual detalhado de todas as localizações de NPCs de raid na cidade principal.
+- Demonstração ao vivo do escalonamento de HP dos chefes das ondas iniciais até as finais.
+- Exibição de drops raros, incluindo o cobiçado acessório Brain Implant.
+- Dicas práticas de combate para usar habilidades de alto nível para limpar mobs resistentes.
+
+<YouTubeEmbed videoId="3ryG6oXkpuU" title="Jujutsu Legacy (Mostrando todas as localizações de raid!)" />
+
+Para ajudar você a se preparar para sua jornada de raids, compilamos as localizações exatas e os requisitos de entrada para cada grande raid disponível atualmente no jogo.
+
+| Nome da Raid | Descrição da Localização | Req. de Nível | Status Recomendados |
+| :--- | :--- | :--- | :--- |
+| **Jogos de Abate** | Periferia da Cidade Inicial, perto da muralha leste | Nível 1+ | **1.000+** status totais |
+| **Era Heian** | Portal da praça central, atrás do templo principal | Nível 500+ | **30.000+** status totais |
+| **Incidente de Shibuya** | Portal em um beco escondido, perto da estação de trem | Nível 1000+ | **150.000+** status totais |
+
+<Callout type="info" title="Dica de Ponto de Spawn">
+Sempre defina seu ponto de spawn no NPC da Raid antes de iniciar uma partida. Se seu personagem for derrotado em uma onda alta, voltar a pé do spawn padrão da cidade pode fazer você perder a janela da raid ativa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia e Escalonamento da Raid Jogos de Abate">
+
+A raid Jogos de Abate é o campo de treinamento perfeito para novos jogadores. Ela apresenta o formato de sobrevivência baseado em ondas e dá uma imagem clara de como a vida dos inimigos escala conforme a raid progride. Enquanto as ondas iniciais apresentam inimigos básicos com vida mínima, a dificuldade aumenta significativamente a cada dez ondas, quando os chefes aparecem.
+
+Na Onda 10, os jogadores enfrentarão o primeiro grande chefe, Jogo, que possui aproximadamente 85.000 de HP. Embora isso possa parecer intimidador para iniciantes, os ataques de Jogo são previsíveis e fáceis de esquivar. Quando você chegar à Onda 50, o HP do chefe aumenta para 150.000, culminando em um confronto final na Onda 70, onde o chefe tem até 360.000 de HP. Limpar a Onda 70 garante uma chance de obter acessórios raros e traits de personagem.
+
+Para lidar com esses reservatórios de vida crescentes, você deve escolher uma build que maximize sua saída de dano enquanto se mantém seguro contra ataques de área.
+
+<CardGrid cols={3}>
+  <Card title="Build de Espada">
+    - **Alto dano físico**
+    - Ataques básicos rápidos
+    - Excelente para derreter chefes de alvo único
+  </Card>
+  <Card title="Build de Dismantle">
+    - **Alcance AoE massivo**
+    - Posicionamento seguro à distância
+    - Perfeito para limpar ondas lotadas
+  </Card>
+  <Card title="Build de Black Flash">
+    - **Alto estouro crítico**
+    - Recompensa o timing perfeito
+    - Excepcional para execução de chefes de alto nível
+  </Card>
+</CardGrid>
+
+Entender o escalonamento exato de HP de cada onda de chefe permite que você gerencie sua energia amaldiçoada e cooldowns de forma eficaz.
+
+| Onda | Nome do Chefe | HP Aproximado | Classificação de Dificuldade | Estratégia Recomendada |
+| :--- | :--- | :--- | :--- | :--- |
+| **Onda 10** | Jogo | **85.000 HP** | Muito Fácil | Spam de ataques físicos básicos |
+| **Onda 50** | Hanami | **150.000 HP** | Fácil | Use técnicas amaldiçoadas de médio alcance |
+| **Onda 70** | Mahito | **360.000 HP** | Moderada | Mantenha distância, use AoE pesado |
+
+<Callout type="tip" title="Conselho de Alocação de Status">
+Se você estiver tendo dificuldades para limpar a Onda 70 dentro do limite de tempo, resete seus status e coloque pelo menos 70% dos seus pontos em um único atributo ofensivo, como Força ou Energia Amaldiçoada. Builds equilibradas geralmente carecem do DPS bruto necessário para chefes de fim de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão de Raids de Alto Nível e Requisitos de Status">
+
+Depois de dominar o conteúdo inicial, o salto para as raids de alto nível exige uma reformulação completa do seu equipamento e distribuição de status. Nestas fases avançadas, até mesmo os inimigos básicos têm milhões de pontos de vida, tornando os ataques físicos padrão virtualmente inúteis. Você precisará depender fortemente de habilidades maximizadas e builds especializadas.
+
+Nas raids de nível intermediário, os inimigos na Onda 50 costumam ostentar mais de 2,5 milhões de HP. Quando você atinge as ondas finais das raids mais difíceis, os números de vida chegam a valores astronômicos, atingindo um pico de massivos 15 bilhões de HP. Para lidar com esses números absurdos, os jogadores devem utilizar habilidades de alto dano como Dismantle e Malevolent Shrine, que podem causar milhões de dano por segundo quando combinadas com status ofensivos no máximo.
+
+<Steps>
+  <Step num="1" title="Otimize os Status Base">
+    Farme a raid Jogos de Abate repetidamente até ter pontos de status suficientes para alocar pelo menos 30k a 50k pontos em seu atributo de dano principal.
+  </Step>
+  <Step num="2" title="Adquira Habilidades AoE">
+    Desbloqueie técnicas AoE de longo alcance. Movimentos como Dismantle são essenciais porque permitem causar dano a múltiplos inimigos de alto HP simultaneamente.
+  </Step>
+  <Step num="3" title="Domine a Atração de Inimigos">
+    Evite correr para o centro da arena. Atraia os inimigos para as bordas ou cantos para agrupá-los, tornando suas habilidades AoE altamente eficientes.
+  </Step>
+  <Step num="4" title="Execute Rotações de Burst">
+    Encadeie suas habilidades de controle de grupo com seus movimentos de dano final para derreter os chefes antes que eles possam acionar suas transições de fase de alto dano.
+  </Step>
+</Steps>
+
+O escalonamento puro dessas raids de alto nível significa que equipamentos iniciais não serão suficientes. Consulte a tabela abaixo para ver como o HP dos chefes escala no endgame.
+
+| Tier da Raid | Onda | Faixa de HP do Inimigo | Tipo de Build Necessária | Nível Recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Intermediário** | Onda 50 | **2,5 Milhões HP** | Força Pura / Espada | Nível 500+ |
+| **Intermediário** | Onda 70 | **300 Milhões HP** | Status Máx DPS / AoE | Nível 750+ |
+| **Endgame** | Onda 70 | **15 Bilhões HP** | Status Máx + Dismantle | Nível 1000+ |
+
+<Callout type="success" title="Dica de Recuperação de Glitch">
+Durante raids de ondas altas, os inimigos podem ocasionalmente sofrer glitch e cair sob o mapa ou ficar presos dentro das paredes. Se isso acontecer, não entre em pânico. Use habilidades de impacto no solo ou movimentos de teletransporte de longo alcance para atingi-los através do terreno e salvar sua partida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Drops e Recompensas Exclusivas de Raid">
+
+A principal motivação para enfrentar a dificuldade brutal das raids de alto nível é o saque exclusivo. Jujutsu Legacy apresenta uma variedade de acessórios poderosos, títulos personalizados e traits raros que só podem ser obtidos ao completar marcos específicos de raid. Esses itens fornecem multiplicadores passivos massivos para sua vida, defesa e energia amaldiçoada.
+
+Entre os drops mais procurados está o Brain Implant, um acessório lendário que aumenta significativamente sua regeneração de energia amaldiçoada e o dano de habilidades. Outros drops valiosos incluem o conjunto Iron Armor, que fornece um aumento massivo de defesa fixa, e vários títulos cosméticos que exibem suas conquistas de raid para outros jogadores no hub.
+
+<Checklist
+  id="raid-milestones"
+  title="Marcos Essenciais de Raid:"
+  items={[
+    "Limpar a Onda 70 dos Jogos de Abate para desbloquear acessórios iniciais",
+    "Atingir 150.000 pontos em um único status para se preparar para raids de endgame",
+    "Obter o acessório Brain Implant de drops de chefes de alto nível",
+    "Desbloquear uma trait de personagem Mítica usando tokens de recompensa ganhos em raids"
+  ]}
+/>
+
+Embora alguns drops sejam garantidos ao limpar a Onda 70, os melhores acessórios têm taxas de drop incrivelmente baixas, exigindo dedicação e várias partidas bem-sucedidas.
+
+| Nome do Drop | Tipo de Drop | Buffs e Efeitos Passivos | Taxa de Drop Estimada |
+| :--- | :--- | :--- | :--- |
+| **Brain Implant** | Acessório | Aumenta regen de energia amaldiçoada em 25% | **1% a 5%** |
+| **Iron Armor** | Acessório | Aumenta a defesa fixa em 15% | **5% to 10%** |
+| **Raid Master** | Título | Tag de chat cosmética e 5% de bônus de EXP | **2% (Apenas Onda 70)** |
+| **Trait Shard** | Material | Usado para rerolar traits de personagem | **100% (Garantido)** |
+
+<Callout type="warning" title="Aviso de Taxa de Drop">
+Acessórios de endgame como o Brain Implant têm taxas de drop excepcionalmente baixas. É altamente recomendado agrupar-se com outros jogadores de alto nível para acelerar seus tempos de limpeza e maximizar sua eficiência de drops por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Para ajudar você a aproveitar ao máximo suas sessões de farm, compilamos respostas para as perguntas mais comuns sobre mecânicas de raid, escalonamento e progressão de equipamentos.
+
+<Callout type="info" title="Atualizações e Patches">
+As mecânicas de raid e os reservatórios de HP dos chefes estão sujeitos a alterações em futuras atualizações do jogo. Mantenha este guia nos favoritos, pois atualizamos regularmente nossas tabelas e estratégias para corresponder aos patches mais recentes.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como acesso as diferentes raids de jujutsu legacy?",
+    answer: "Você pode encontrar os NPCs dos portais de raid espalhados pela cidade inicial e pelo hub principal. Verifique nossa tabela de localizações neste guia para os requisitos exatos de nível e status para cada portal."
+  },
+  {
+    question: "Qual é a melhor habilidade para usar em raids de alto nível?",
+    answer: "Habilidades com AoE massivo e alto escalonamento de dano, como Dismantle e Malevolent Shrine, são altamente recomendadas. Elas permitem limpar ondas densas de inimigos com HP alto rapidamente."
+  },
+  {
+    question: "Posso solar os chefes de 15 bilhões de HP do endgame?",
+    answer: "Sim, mas isso requer uma build altamente otimizada. Você deve ter status ofensivos no máximo (pelo menos 150k pontos) e acessórios de primeira linha como o Brain Implant para causar dano suficiente antes que o tempo acabe."
+  },
+  {
+    question: "Por que meus drops de raid não estão aparecendo no meu inventário?",
+    answer: "Alguns drops raros, como acessórios e títulos, são colocados diretamente no inventário do seu personagem ao limpar a Onda 70. Certifique-se de ter espaços vazios no inventário antes de iniciar uma raid."
+  }
+]} />
+
+</Section>

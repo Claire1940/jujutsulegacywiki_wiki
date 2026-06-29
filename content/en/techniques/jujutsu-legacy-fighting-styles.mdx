@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jujutsu Legacy Fighting Styles: 2026 Drop Rates & Boss Guide",
+  description: "Master all Jujutsu Legacy fighting styles. Learn drop rates, boss locations, and how to optimize your Strength builds with the Demon Arms accessory.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fighting+Styles+Guide",
+  date: "2026-06-30",
+  author: "jujutsu legacy Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Jujutsu legacy fighting styles** dictate your primary melee moveset and scale directly with your Strength stat.
+- **Equip limit** restricts you to one active style; replacing it consumes the source item permanently.
+- **Demon Arms accessory** is the most crucial gear, offering a flat 2X damage multiplier.
+- **High Roller style** is the rarest drop in the game at a 0.1% chance from the Gambler.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics of Fighting Styles">
+
+Fighting styles serve as the foundation of close-quarters combat in Jujutsu Legacy. Unlike cursed techniques that rely on cursed energy, fighting styles derive their power directly from your physical attributes. To build a powerful character, understanding how these styles function, scale, and interact with other equipment is essential.
+
+Every player starts with the default Normal style. To upgrade to more advanced fighting styles, you must defeat specific bosses throughout the world to obtain rare drop items. Using one of these items will immediately equip the associated style. 
+
+However, inventory management is critical when dealing with these combat systems. You can only have one fighting style equipped at any given time. If you choose to replace your current style with a new one, the previous style is overwritten. To regain a lost style, you must obtain and use its associated drop item again.
+
+<Callout type="warning" title="Style Overwrite Warning">
+Using a new fighting style item will permanently overwrite your current style. Always ensure you have a spare drop item or are fully committed to the change before consuming a new style item.
+</Callout>
+
+### Master Drop and Location Table
+
+To help you plan your farming routes in 2026, the table below outlines all available fighting styles, their required items, drop rates, and the bosses you need to defeat.
+
+| Style Name | Required Item | Drop Rate | Source Boss | Location |
+| --- | --- | --- | --- | --- |
+| Normal | None | Default | None | Character Creation |
+| The High Roller | Gambler Orb | 0.1% | Gambler | Culling Games |
+| Strongest Style | StrongestStyle Item | 10.0% | Gojo V2 | Culling Games |
+| Imperial Curse Arts | Imperial Curse Arts | 2.0% | Divine General | Raid |
+| Raijin Strike | Thunder Spirit | 0.5% | Kashimo | Shinjuku |
+| Cursed Vessel | Itadori Finger | 0.3% | Yuji 120% | Shinjuku |
+
+</Section>
+
+<Section icon={Swords} title="In-Depth Analysis of Every Fighting Style">
+
+Each fighting style offers a unique moveset, combo potential, and synergy with specific builds. Choosing the right style depends on your progression stage and preferred playstyle.
+
+### Normal Style
+The default starting style. It features basic punch and kick combos with low scaling. While it is sufficient for clearing early-game tutorial quests, you should aim to replace it as soon as you reach the Culling Games.
+
+### The High Roller
+This style requires the Gambler Orb, which drops from the Gambler boss at a highly elusive 0.1% rate. It is a high-risk, high-reward style that focuses on unpredictable strike patterns and critical hit modifiers. It is favored by end-game players who enjoy RNG-based burst damage.
+
+### Strongest Style
+Dropped by Gojo V2 with a generous 10% drop rate, the Strongest Style is the most accessible high-tier style in the game. It mimics Gojo's physical dominance, offering fast, heavy-hitting strikes and excellent crowd control. This is the recommended style for mid-game progression and efficient boss farming.
+
+### Imperial Curse Arts
+Obtained from the Divine General Raid at a 2% drop rate, this style focuses on tactical spacing and defensive counters. It allows players to control the pace of the fight, making it highly effective for challenging raid content and group encounters.
+
+### Raijin Strike
+Dropped by Kashimo in Shinjuku at a 0.5% rate, this style infuses your physical attacks with electrical energy. It features rapid movement speed, lightning-fast combos, and minor stun mechanics, making it perfect for high-mobility playstyles.
+
+### Cursed Vessel
+Requiring the Itadori Finger (0.3% drop from Yuji 120% in Shinjuku), the Cursed Vessel style utilizes aggressive, close-range physical combos. It features high base scaling and delayed impact damage, making it a premier choice for pure Strength builds.
+
+<CardGrid cols={3}>
+  <Card title="PvE Farming Focus">
+    - **Strongest Style** is ideal.
+    - High 10% drop rate.
+    - Large area-of-effect attacks.
+  </Card>
+  <Card title="High Mobility Focus">
+    - **Raijin Strike** is ideal.
+    - Fast lightning combos.
+    - Excellent gap-closers.
+  </Card>
+  <Card title="Aggressive DPS Focus">
+    - **Cursed Vessel** is ideal.
+    - High physical scaling.
+    - Delayed impact damage.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Progression Tip">
+If you are transitioning from the early game, farm Gojo V2 first. The 10% drop rate for the Strongest Style makes it the fastest way to replace the default Normal style with a competitive moveset.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Boss Farming and Progression Guide">
+
+Defeating the bosses that drop these fighting style items requires preparation, proper leveling, and tactical awareness. Shinjuku and the Culling Games host some of the most challenging encounters in the game.
+
+### Farming Preparation
+Before attempting to farm high-tier bosses, ensure your character is properly leveled. Attempting to fight Kashimo or Yuji 120% without adequate defenses or damage output will result in quick defeats.
+
+<Steps>
+  <Step num="1" title="Optimize Stats">
+    Allocate a significant portion of your stat points into Strength to ensure your physical attacks deal competitive damage during boss encounters.
+  </Step>
+  <Step num="2" title="Equip Defensive Gear">
+    Obtain defensive accessories and choose a resilient Race or Clan to survive high-damage boss combos, especially when farming in Shinjuku.
+  </Step>
+  <Step num="3" title="Target Gojo V2 First">
+    Travel to the Culling Games and farm Gojo V2 to obtain the Strongest Style. This will significantly increase your farming speed for rarer styles.
+  </Step>
+  <Step num="4" title="Form Raid Groups">
+    For the Divine General Raid, team up with other players to distribute boss aggro and ensure consistent completion times.
+  </Step>
+</Steps>
+
+### Boss Difficulty and Combat Overview
+
+The following table details the recommended levels and key hazards for each boss associated with fighting style drops.
+
+| Boss Name | Location | Recommended Level | Key Hazard |
+| --- | --- | --- | --- |
+| Gojo V2 | Culling Games | Level 150+ | Rapid teleportation and high physical combos |
+| Gambler | Culling Games | Level 180+ | Unpredictable burst damage phases |
+| Divine General | Raid | Level 220+ | Massive health pool and area-of-effect sweeps |
+| Kashimo | Shinjuku | Level 280+ | Lightning strikes that cause temporary stun |
+| Yuji 120% | Shinjuku | Level 300+ | Aggressive close-range rush attacks |
+
+<Callout type="info" title="Raid Mechanics">
+The Divine General Raid requires coordinated team play. Ensure at least one party member focuses on drawing boss attention while others deal damage from the flanks.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizing Damage and Build Synergies">
+
+To unlock the full potential of your chosen fighting style, you must build your character around physical damage multipliers. Simply equipping a style is not enough to compete in high-level content.
+
+### The Strength Stat
+All fighting styles scale their damage directly from your Strength stat. As you level up, prioritize investing points into Strength to increase your base damage. 
+
+### Accessory and Gear Synergy
+Accessories, Clans, and Races play a massive role in boosting your overall output. The most important accessory for any physical build is the **Demon Arms**. 
+
+When equipped, the Demon Arms accessory increases all fighting styles' damage by **2X**. This flat multiplier stacks with other bonuses, making it an essential item for end-game optimization.
+
+| Gear Category | Specific Choice | Damage Modifier | Acquisition Method |
+| --- | --- | --- | --- |
+| Accessory | Demon Arms | 2.0X Multiplier | Boss Drop / Event |
+| Stats | Strength | Linear Scaling | Level Up Allocation |
+| Clans | Physical Clans | 1.1X - 1.25X | Clan Rerolls |
+| Races | Melee Races | 1.15X | Race Rerolls |
+
+<Checklist
+  id="build-milestones"
+  title="End-Game Build Milestones:"
+  items={[
+    "Reach maximum level and optimize Strength stats",
+    "Obtain the Demon Arms accessory for the 2X damage boost",
+    "Reroll for a Clan or Race that provides physical damage bonuses",
+    "Secure your preferred end-game fighting style (e.g., Cursed Vessel or Raijin Strike)"
+  ]}
+/>
+
+<Callout type="success" title="Optimized Combo">
+Combining the Demon Arms accessory with a high-tier style like Cursed Vessel and a physical-boosting Clan will allow you to melt boss health bars in seconds.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help clarify common questions regarding combat progression and style management, review the frequently asked questions below.
+
+<FAQ items={[
+  {
+    question: "Can I equip multiple jujutsu legacy fighting styles at the same time?",
+    answer: "No. Players can only have one fighting style equipped at a time. Using a new style item will overwrite your current style."
+  },
+  {
+    question: "What happens to my old fighting style if I use a new style item?",
+    answer: "Your old fighting style is lost. To regain it, you must acquire and reuse the associated drop item (such as the Itadori Finger or Thunder Spirit)."
+  },
+  {
+    question: "Which fighting style has the highest drop rate in Jujutsu Legacy?",
+    answer: "The Strongest Style has the highest drop rate at 10%, obtained by defeating Gojo V2 at the Culling Games."
+  },
+  {
+    question: "How do I double the damage of my fighting style?",
+    answer: "You must obtain and equip the Demon Arms accessory, which applies a flat 2X damage multiplier to all fighting styles."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Keep this guide bookmarked as you farm the Culling Games and Shinjuku. Good luck obtaining your desired fighting style drops!
+</Callout>
+
+</Section>

@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gaya Bertarung Jujutsu Legacy: Drop Rate & Panduan Boss 2026",
+  description: "Kuasai semua gaya bertarung Jujutsu Legacy. Pelajari drop rate, lokasi boss, dan cara mengoptimalkan build Strength Anda dengan aksesori Demon Arms.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fighting+Styles+Guide",
+  date: "2026-06-30",
+  author: "Tim Wiki Jujutsu Legacy"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Gaya bertarung Jujutsu Legacy** menentukan rangkaian gerakan jarak dekat utama Anda dan berskala langsung dengan stat Strength Anda.
+- **Batas perlengkapan** membatasi Anda hanya pada satu gaya aktif; menggantinya akan menghapus item sumber secara permanen.
+- **Aksesori Demon Arms** adalah perlengkapan paling krusial, memberikan pengganda damage datar sebesar 2X.
+- **Gaya High Roller** adalah drop paling langka dalam game dengan peluang 0,1% dari Gambler.
+</Callout>
+
+<Section icon={Map} title="Mekanisme Inti Gaya Bertarung">
+
+Gaya bertarung berfungsi sebagai fondasi pertempuran jarak dekat di Jujutsu Legacy. Berbeda dengan teknik kutukan yang bergantung pada energi kutukan, gaya bertarung memperoleh kekuatannya langsung dari atribut fisik Anda. Untuk membangun karakter yang kuat, memahami bagaimana gaya bertarung ini berfungsi, berskala, dan berinteraksi dengan peralatan lain sangatlah penting.
+
+Setiap pemain memulai dengan gaya Normal default. Untuk meningkatkan ke gaya bertarung yang lebih maju, Anda harus mengalahkan boss tertentu di seluruh dunia untuk mendapatkan item drop langka. Menggunakan salah satu item ini akan langsung melengkapi gaya yang terkait. 
+
+Namun, manajemen inventaris sangat penting saat berurusan dengan sistem pertempuran ini. Anda hanya dapat memiliki satu gaya bertarung yang dilengkapi pada satu waktu. Jika Anda memilih untuk mengganti gaya saat ini dengan yang baru, gaya sebelumnya akan tertimpa. Untuk mendapatkan kembali gaya yang hilang, Anda harus memperoleh dan menggunakan kembali item drop terkait.
+
+<Callout type="warning" title="Peringatan Penimpaan Gaya">
+Menggunakan item gaya bertarung baru akan menimpa gaya Anda saat ini secara permanen. Selalu pastikan Anda memiliki item drop cadangan atau berkomitmen penuh pada perubahan tersebut sebelum menggunakan item gaya baru.
+</Callout>
+
+### Tabel Master Drop dan Lokasi
+
+Untuk membantu Anda merencanakan rute farming pada tahun 2026, tabel di bawah ini merinci semua gaya bertarung yang tersedia, item yang dibutuhkan, drop rate, dan boss yang perlu Anda kalahkan.
+
+| Nama Gaya | Item yang Dibutuhkan | Drop Rate | Asal Boss | Lokasi |
+| --- | --- | --- | --- | --- |
+| Normal | Tidak Ada | Default | Tidak Ada | Pembuatan Karakter |
+| The High Roller | Gambler Orb | 0,1% | Gambler | Culling Games |
+| Strongest Style | StrongestStyle Item | 10,0% | Gojo V2 | Culling Games |
+| Imperial Curse Arts | Imperial Curse Arts | 2,0% | Divine General | Raid |
+| Raijin Strike | Thunder Spirit | 0,5% | Kashimo | Shinjuku |
+| Cursed Vessel | Itadori Finger | 0,3% | Yuji 120% | Shinjuku |
+
+</Section>
+
+<Section icon={Swords} title="Analisis Mendalam Setiap Gaya Bertarung">
+
+Setiap gaya bertarung menawarkan rangkaian gerakan yang unik, potensi kombo, dan sinergi dengan build tertentu. Memilih gaya yang tepat bergantung pada tahap progresi Anda dan gaya bermain yang Anda sukai.
+
+### Normal Style
+Gaya awal default. Gaya ini menampilkan kombo pukulan dan tendangan dasar dengan penskalaan rendah. Meskipun cukup untuk menyelesaikan misi tutorial awal game, Anda harus berusaha menggantinya segera setelah Anda mencapai Culling Games.
+
+### The High Roller
+Gaya ini membutuhkan Gambler Orb, yang dijatuhkan dari boss Gambler dengan peluang 0,1% yang sangat langka. Ini adalah gaya berisiko tinggi dan berhadiah tinggi yang berfokus pada pola serangan yang tidak terduga dan pengubah serangan kritikal. Gaya ini disukai oleh pemain akhir game (end-game) yang menyukai burst damage berbasis RNG.
+
+### Strongest Style
+Dijatuhkan oleh Gojo V2 dengan drop rate 10% yang cukup besar, Strongest Style adalah gaya tingkat tinggi yang paling mudah diakses dalam game. Gaya ini meniru dominasi fisik Gojo, menawarkan serangan cepat yang kuat dan kontrol kerumunan (crowd control) yang sangat baik. Ini adalah gaya yang direkomendasikan untuk progresi pertengahan game (mid-game) dan farming boss yang efisien.
+
+### Imperial Curse Arts
+Diperoleh dari Divine General Raid dengan drop rate 2%, gaya ini berfokus pada penempatan posisi taktis dan serangan balik defensif. Ini memungkinkan pemain untuk mengontrol ritme pertempuran, menjadikannya sangat efektif untuk konten raid yang menantang dan pertempuran kelompok.
+
+### Raijin Strike
+Dijatuhkan oleh Kashimo di Shinjuku dengan peluang 0,5%, gaya ini memasukkan energi listrik ke dalam serangan fisik Anda. Ini menampilkan kecepatan gerakan yang cepat, kombo secepat kilat, dan efek stun minor, menjadikannya sangat cocok untuk gaya bermain dengan mobilitas tinggi.
+
+### Cursed Vessel
+Membutuhkan Itadori Finger (drop 0,3% dari Yuji 120% di Shinjuku), gaya Cursed Vessel menggunakan kombo fisik jarak dekat yang agresif. Gaya ini memiliki penskalaan dasar yang tinggi dan damage dampak yang tertunda, menjadikannya pilihan utama untuk build murni Strength.
+
+<CardGrid cols={3}>
+  <Card title="Fokus Farming PvE">
+    - **Strongest Style** sangat ideal.
+    - Drop rate tinggi 10%.
+    - Serangan area-of-effect (AoE) yang luas.
+  </Card>
+  <Card title="Fokus Mobilitas Tinggi">
+    - **Raijin Strike** sangat ideal.
+    - Kombo petir yang cepat.
+    - Kemampuan mendekat (gap-closer) yang sangat baik.
+  </Card>
+  <Card title="Fokus DPS Agresif">
+    - **Cursed Vessel** sangat ideal.
+    - Penskalaan fisik yang tinggi.
+    - Damage dampak yang tertunda.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tips Progresi">
+Jika Anda sedang bertransisi dari fase awal game, lakukan farming pada Gojo V2 terlebih dahulu. Drop rate 10% untuk Strongest Style menjadikannya cara tercepat untuk mengganti gaya Normal default dengan rangkaian gerakan yang kompetitif.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Panduan Progresi dan Farming Boss">
+
+Mengalahkan boss yang menjatuhkan item gaya bertarung ini memerlukan persiapan, level yang tepat, dan kesadaran taktis. Shinjuku dan Culling Games menjadi tempat bagi beberapa pertempuran paling menantang dalam game.
+
+### Persiapan Farming
+Sebelum mencoba melakukan farming pada boss tingkat tinggi, pastikan karakter Anda telah naik level dengan benar. Mencoba melawan Kashimo atau Yuji 120% tanpa pertahanan atau output damage yang memadai akan berujung pada kekalahan cepat.
+
+<Steps>
+  <Step num="1" title="Optimalkan Stat">
+    Alokasikan sebagian besar poin stat Anda ke dalam Strength untuk memastikan serangan fisik Anda menghasilkan damage yang kompetitif selama pertempuran boss.
+  </Step>
+  <Step num="2" title="Lengkapi Perlengkapan Defensif">
+    Dapatkan aksesori defensif dan pilih Ras atau Klan yang tangguh untuk bertahan dari kombo boss berdamage tinggi, terutama saat farming di Shinjuku.
+  </Step>
+  <Step num="3" title="Targetkan Gojo V2 Terlebih Dahulu">
+    Pergilah ke Culling Games dan lakukan farming pada Gojo V2 untuk mendapatkan Strongest Style. Ini akan meningkatkan kecepatan farming Anda secara signifikan untuk gaya yang lebih langka.
+  </Step>
+  <Step num="4" title="Bentuk Grup Raid">
+    Untuk Divine General Raid, bergabunglah dengan pemain lain untuk membagi aggro boss dan memastikan waktu penyelesaian yang konsisten.
+  </Step>
+</Steps>
+
+### Kesulitan Boss dan Tinjauan Pertempuran
+
+Tabel berikut merinci level yang direkomendasikan dan bahaya utama untuk setiap boss yang terkait dengan drop gaya bertarung.
+
+| Nama Boss | Lokasi | Level yang Direkomendasikan | Bahaya Utama |
+| --- | --- | --- | --- |
+| Gojo V2 | Culling Games | Level 150+ | Teleportasi cepat dan kombo fisik tinggi |
+| Gambler | Culling Games | Level 180+ | Fase burst damage yang tidak terduga |
+| Divine General | Raid | Level 220+ | HP yang sangat besar dan sapuan area-of-effect |
+| Kashimo | Shinjuku | Level 280+ | Sambaran petir yang menyebabkan efek stun sementara |
+| Yuji 120% | Shinjuku | Level 300+ | Serangan serbuan jarak dekat yang agresif |
+
+<Callout type="info" title="Mekanisme Raid">
+Divine General Raid membutuhkan permainan tim yang terkoordinasi. Pastikan setidaknya satu anggota tim fokus untuk menarik perhatian (aggro) boss sementara yang lain memberikan damage dari arah samping (flank).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Memaksimalkan Damage dan Sinergi Build">
+
+Untuk membuka potensi penuh dari gaya bertarung pilihan Anda, Anda harus membangun karakter Anda di sekitar pengganda damage fisik. Sekadar melengkapi suatu gaya tidaklah cukup untuk bersaing dalam konten tingkat tinggi.
+
+### Stat Strength
+Semua gaya bertarung menykalakan damage mereka langsung dari stat Strength Anda. Seiring kenaikan level Anda, prioritaskan untuk menginvestasikan poin ke dalam Strength untuk meningkatkan damage dasar Anda.
+
+### Sinergi Aksesori dan Perlengkapan
+Aksesori, Klan, dan Ras memainkan peran besar dalam meningkatkan output keseluruhan Anda. Aksesori paling penting untuk build fisik apa pun adalah **Demon Arms**.
+
+Saat dilengkapi, aksesori Demon Arms meningkatkan semua damage gaya bertarung sebesar **2X**. Pengganda datar ini menumpuk (stack) dengan bonus lainnya, menjadikannya item penting untuk optimalisasi akhir game.
+
+| Kategori Perlengkapan | Pilihan Spesifik | Pengubah Damage | Metode Perolehan |
+| --- | --- | --- | --- |
+| Aksesori | Demon Arms | Pengganda 2.0X | Drop Boss / Event |
+| Stat | Strength | Penskalaan Linear | Alokasi Naik Level |
+| Klan | Klan Fisik | 1.1X - 1.25X | Reroll Klan |
+| Ras | Ras Jarak Dekat | 1.15X | Reroll Ras |
+
+<Checklist
+  id="build-milestones"
+  title="Pencapaian Build Akhir Game:"
+  items={[
+    "Mencapai level maksimum dan mengoptimalkan stat Strength",
+    "Mendapatkan aksesori Demon Arms untuk peningkatan damage 2X",
+    "Melakukan reroll untuk Klan atau Ras yang memberikan bonus damage fisik",
+    "Mengamankan gaya bertarung akhir game pilihan Anda (misalnya, Cursed Vessel atau Raijin Strike)"
+  ]}
+/>
+
+<Callout type="success" title="Kombo yang Dioptimalkan">
+Menggabungkan aksesori Demon Arms dengan gaya tingkat tinggi seperti Cursed Vessel dan Klan yang meningkatkan fisik akan memungkinkan Anda melelehkan bilah HP boss dalam hitungan detik.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan">
+
+Untuk membantu memperjelas pertanyaan umum mengenai progresi pertempuran dan manajemen gaya, tinjau pertanyaan yang sering diajukan di bawah ini.
+
+<FAQ items={[
+  {
+    question: "Apakah saya bisa melengkapi beberapa gaya bertarung Jujutsu Legacy sekaligus?",
+    answer: "Tidak. Pemain hanya dapat melengkapi satu gaya bertarung dalam satu waktu. Menggunakan item gaya baru akan menimpa gaya Anda saat ini."
+  },
+  {
+    question: "Apa yang terjadi pada gaya bertarung lama saya jika saya menggunakan item gaya baru?",
+    answer: "Gaya bertarung lama Anda akan hilang. Untuk mendapatkannya kembali, Anda harus memperoleh dan menggunakan kembali item drop terkait (seperti Itadori Finger atau Thunder Spirit)."
+  },
+  {
+    question: "Gaya bertarung mana yang memiliki drop rate tertinggi di Jujutsu Legacy?",
+    answer: "Strongest Style memiliki drop rate tertinggi sebesar 10%, yang diperoleh dengan mengalahkan Gojo V2 di Culling Games."
+  },
+  {
+    question: "Bagaimana cara menggandakan damage dari gaya bertarung saya?",
+    answer: "Anda harus mendapatkan dan melengkapi aksesori Demon Arms, yang menerapkan pengganda damage datar 2X ke semua gaya bertarung."
+  }
+]} />
+
+<Callout type="info" title="Catatan Akhir">
+Simpan panduan ini sebagai bookmark saat Anda melakukan farming di Culling Games dan Shinjuku. Semoga beruntung mendapatkan drop gaya bertarung yang Anda inginkan!
+</Callout>
+
+</Section>

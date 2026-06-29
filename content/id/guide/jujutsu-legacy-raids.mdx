@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Raid Jujutsu Legacy: Panduan Lokasi, HP Boss & Drop",
+  description: "Kuasai raid Jujutsu Legacy dengan panduan mendetail kami tentang lokasi raid, penskalaan HP boss hingga 15 miliar, dan drop aksesori eksklusif.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Jujutsu+Legacy+Raids",
+  date: "2026-06-30",
+  author: "Tim Wiki Jujutsu Legacy"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Kata kunci utama**: Kuasai semua raid Jujutsu Legacy dengan memahami penskalaan boss, persentase drop, dan build optimal.
+- **Mekanik utama**: HP boss berskala secara drastis di setiap wave, dimulai dari 85 ribu hingga mencapai 15 miliar.
+- **Strategi terbaik**: Prioritaskan jurus AoE seperti Dismantle untuk membersihkan kelompok musuh ber-HP tinggi yang padat dengan cepat.
+- **Tip penting**: Atur ulang (reset) dan alokasikan poin status Anda untuk mencapai setidaknya 30 ribu hingga 150 ribu pada status ofensif utama.
+- **Pilihan utama**: Lengkapi aksesori Brain Implant untuk memaksimalkan regenerasi energi terkutuk (cursed energy) Anda selama wave akhir permainan (endgame).
+</Callout>
+
+<Section icon={Map} title="Lokasi dan Persyaratan Raid Jujutsu Legacy">
+
+Menjelajahi dunia Jujutsu Legacy membutuhkan pemahaman yang kuat tentang di mana menemukan portal raid dan status apa yang Anda butuhkan untuk bertahan hidup. Raid berfungsi sebagai konten akhir permainan (endgame) utama, menawarkan kesempatan bagi pemain untuk menguji build mereka melawan gelombang (wave) musuh yang semakin sulit. Menemukan lokasi-lokasi ini adalah langkah pertama untuk mengamankan item langka, gelar kuat, dan trait yang mengubah permainan. 
+
+Raid tingkat pemula, yang sering disebut sebagai Culling Games (atau Cold Games di dalam game), terletak di dekat pinggiran kota awal (starter city). Seiring kemajuan Anda dan akumulasi poin status, Anda akan membuka portal ke raid tingkat tinggi seperti Heian Era dan Shibuya Incident, yang terletak lebih dekat ke pusat kota. Setiap raid menuntut peningkatan status karakter yang signifikan untuk memastikan kelangsungan hidup.
+
+**Sorotan Video:**
+- Panduan visual mendetail tentang semua lokasi NPC raid di kota utama.
+- Demonstrasi langsung penskalaan HP boss dari wave awal hingga wave akhir.
+- Menampilkan drop langka termasuk aksesori Brain Implant yang sangat didambakan.
+- Tip pertempuran praktis untuk menggunakan skill tingkat tinggi guna membersihkan monster yang tebal (tanky).
+
+<YouTubeEmbed videoId="3ryG6oXkpuU" title="Jujutsu Legacy (Menampilkan semua lokasi raid!)" />
+
+Untuk membantu Anda bersiap dalam perjalanan raid Anda, kami telah menyusun lokasi persis dan persyaratan masuk untuk setiap raid besar yang saat ini tersedia di dalam game.
+
+| Nama Raid | Deskripsi Lokasi | Syarat Level | Status yang Direkomendasikan |
+| :--- | :--- | :--- | :--- |
+| **Culling Games** | Pinggiran Starter City, dekat dinding timur | Level 1+ | **1.000+** total status |
+| **Heian Era** | Portal plaza pusat, di belakang kuil utama | Level 500+ | **30.000+** total status |
+| **Shibuya Incident** | Portal gang tersembunyi, dekat stasiun kereta | Level 1000+ | **150.000+** total status |
+
+<Callout type="info" title="Tip Titik Spawn">
+Selalu atur titik spawn Anda di NPC Raid sebelum memulai permainan. Jika karakter Anda mati (wipe) selama wave tinggi, berjalan kembali dari spawn default kota dapat membuat Anda melewatkan jendela waktu raid yang aktif.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Strategi dan Penskalaan Raid Culling Games">
+
+Raid Culling Games adalah tempat latihan yang sempurna untuk pemain baru. Raid ini memperkenalkan format kelangsungan hidup berbasis wave dan memberikan gambaran jelas tentang bagaimana jumlah kesehatan musuh berskala seiring kemajuan raid. Meskipun wave awal menampilkan musuh dasar dengan kesehatan minimal, kesulitan melonjak secara signifikan setiap sepuluh wave saat boss muncul.
+
+Pada Wave 10, pemain akan menghadapi boss besar pertama, Jogo, yang memiliki sekitar 85.000 HP. Meskipun ini mungkin tampak menakutkan bagi pemula, serangan Jogo sangat mudah ditebak dan dihindari. Pada saat Anda mencapai Wave 50, HP boss meningkat menjadi 150.000, yang berpuncak pada pertarungan terakhir di Wave 70 di mana boss memiliki hingga 360.000 HP. Menyelesaikan Wave 70 menjamin peluang untuk mendapatkan aksesori langka dan trait karakter.
+
+Untuk mengatasi peningkatan jumlah kesehatan ini, Anda harus memilih build yang memaksimalkan hasil kerusakan (damage) Anda sambil menjaga Anda tetap aman dari serangan area (AoE).
+
+<CardGrid cols={3}>
+  <Card title="Build Pedang">
+    - **Damage fisik tinggi**
+    - Serangan dasar yang cepat
+    - Sangat baik untuk menghabisi boss target tunggal
+  </Card>
+  <Card title="Build Dismantle">
+    - **Jangkauan AoE yang masif**
+    - Posisi aman dari jarak jauh
+    - Sempurna untuk membersihkan wave yang ramai
+  </Card>
+  <Card title="Build Black Flash">
+    - **Burst kritis tinggi**
+    - Menghargai waktu (timing) yang tepat
+    - Luar biasa untuk mengeksekusi boss tingkat tinggi
+  </Card>
+</CardGrid>
+
+Memahami penskalaan HP yang tepat dari setiap wave boss memungkinkan Anda untuk mengatur energi terkutuk dan cooldown Anda secara efektif.
+
+| Wave | Nama Boss | Perkiraan HP | Peringkat Kesulitan | Strategi yang Direkomendasikan |
+| :--- | :--- | :--- | :--- | :--- |
+| **Wave 10** | Jogo | **85.000 HP** | Sangat Mudah | Spam serangan fisik dasar |
+| **Wave 50** | Hanami | **150.000 HP** | Mudah | Gunakan teknik terkutuk jarak menengah |
+| **Wave 70** | Mahito | **360.000 HP** | Sedang | Jaga jarak, gunakan AoE berat |
+
+<Callout type="tip" title="Saran Alokasi Status">
+Jika Anda kesulitan menyelesaikan Wave 70 dalam batas waktu, atur ulang status Anda dan alokasikan setidaknya 70% poin Anda ke dalam satu status ofensif seperti Strength atau Cursed Energy. Build yang seimbang sering kali kekurangan DPS murni yang diperlukan untuk boss akhir permainan (late-game).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresi Raid Tingkat Tinggi dan Persyaratan Status">
+
+Setelah Anda menguasai konten tingkat pemula, langkah menuju raid tingkat tinggi memerlukan perombakan total pada peralatan dan distribusi status Anda. Pada tahap lanjut ini, bahkan musuh biasa (trash mobs) memiliki jutaan poin kesehatan, membuat serangan fisik standar hampir tidak berguna. Anda harus sangat bergantung pada skill yang dimaksimalkan dan build khusus.
+
+Dalam raid tingkat menengah, musuh di Wave 50 secara teratur memiliki lebih dari 2,5 juta HP. Pada saat Anda mencapai wave akhir dari raid tersulit, jumlah kesehatan mencapai angka yang sangat besar, mencapai puncaknya pada 15 miliar HP yang masif. Untuk menghadapi angka-angka konyol ini, pemain harus menggunakan skill dengan damage tinggi seperti Dismantle dan Malevolent Shrine, yang dapat menghasilkan jutaan damage per detik bila dipadukan dengan status ofensif yang maksimal.
+
+<Steps>
+  <Step num="1" title="Optimalkan Status Dasar">
+    Lakukan farming di raid Culling Games berulang kali hingga Anda memiliki cukup poin status untuk dialokasikan setidaknya 30 ribu hingga 50 ribu poin ke dalam atribut damage utama Anda.
+  </Step>
+  <Step num="2" title="Dapatkan Skill AoE">
+    Buka teknik AoE dengan jangkauan luas. Jurus seperti Dismantle sangat penting karena memungkinkan Anda merusak beberapa musuh ber-HP tinggi secara bersamaan.
+  </Step>
+  <Step num="3" title="Kuasai Cara Memancing Musuh">
+    Hindari berlari ke tengah arena. Pancing musuh ke tepi atau sudut untuk mengelompokkan mereka dengan rapat, membuat skill AoE Anda menjadi sangat efisien.
+  </Step>
+  <Step num="4" title="Eksekusi Rotasi Burst">
+    Hubungkan skill kontrol kerumunan (crowd control) Anda dengan jurus damage pamungkas Anda untuk menghabisi boss sebelum mereka dapat memicu transisi fase ber-damage tinggi.
+  </Step>
+</Steps>
+
+Penskalaan ekstrem dari raid tingkat tinggi ini berarti bahwa peralatan tingkat pemula tidak akan cukup. Lihat tabel di bawah ini untuk melihat bagaimana HP boss berskala di akhir permainan.
+
+| Tingkat Raid | Wave | Rentang HP Musuh | Tipe Build yang Diperlukan | Level yang Direkomendasikan |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tingkat Menengah** | Wave 50 | **2,5 Juta HP** | Pure Strength / Pedang | Level 500+ |
+| **Tingkat Menengah** | Wave 70 | **300 Juta HP** | Max Stat DPS / AoE | Level 750+ |
+| **Endgame** | Wave 70 | **15 Miliar HP** | Max Stat + Dismantle | Level 1000+ |
+
+<Callout type="success" title="Tip Mengatasi Glitch">
+Selama raid wave tinggi, musuh terkadang mengalami glitch di bawah peta atau terjebak di dalam dinding. Jika ini terjadi, jangan panik. Gunakan skill ground-slam atau jurus teleportasi jarak jauh untuk memukul mereka menembus medan dan menyelamatkan permainan Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Drop dan Hadiah Raid Eksklusif">
+
+Motivasi utama untuk menghadapi kesulitan brutal dari raid tingkat tinggi adalah jarahan (loot) eksklusif. Jujutsu Legacy menampilkan berbagai aksesori kuat, gelar khusus, dan trait langka yang hanya bisa didapatkan dengan menyelesaikan pencapaian raid tertentu. Item-item ini memberikan pengganda pasif yang besar untuk kesehatan, pertahanan, dan energi terkutuk Anda.
+
+Di antara drop yang paling dicari adalah Brain Implant, aksesori legendaris yang secara signifikan meningkatkan regenerasi energi terkutuk dan damage skill Anda. Drop berharga lainnya termasuk set Iron Armor, yang memberikan peningkatan pertahanan flat yang besar, dan berbagai gelar kosmetik yang memamerkan pencapaian raid Anda kepada pemain lain di lobi utama.
+
+<Checklist
+  id="raid-milestones"
+  title="Pencapaian Raid Penting:"
+  items={[
+    "Selesaikan Wave 70 dari Culling Games untuk membuka aksesori pemula",
+    "Capai 150.000 poin dalam satu status untuk bersiap menghadapi raid endgame",
+    "Dapatkan aksesori Brain Implant dari drop boss tingkat tinggi",
+    "Buka trait karakter Mythic menggunakan token hadiah yang diperoleh dari raid"
+  ]}
+/>
+
+Meskipun beberapa drop dijamin setelah menyelesaikan Wave 70, aksesori terbaik memiliki tingkat drop yang sangat rendah, membutuhkan dedikasi dan beberapa kali penyelesaian yang sukses.
+
+| Nama Drop | Tipe Drop | Buff & Efek Pasif | Perkiraan Tingkat Drop |
+| :--- | :--- | :--- | :--- |
+| **Brain Implant** | Aksesori | Meningkatkan regen energi terkutuk sebesar 25% | **1% hingga 5%** |
+| **Iron Armor** | Aksesori | Meningkatkan pertahanan flat sebesar 15% | **5% hingga 10%** |
+| **Raid Master** | Gelar | Tag obrolan kosmetik dan peningkatan EXP 5% | **2% (Hanya Wave 70)** |
+| **Trait Shard** | Material | Digunakan untuk memutar ulang (reroll) trait karakter | **100% (Dijamin)** |
+
+<Callout type="warning" title="Peringatan Tingkat Drop">
+Aksesori endgame seperti Brain Implant memiliki tingkat drop yang sangat rendah. Sangat direkomendasikan untuk berkelompok dengan pemain tingkat tinggi lainnya untuk mempercepat waktu penyelesaian Anda dan memaksimalkan efisiensi drop per jam Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+Untuk membantu Anda mendapatkan hasil maksimal dari aktivitas farming Anda, kami telah mengumpulkan jawaban atas pertanyaan paling umum mengenai mekanik raid, penskalaan, dan progresi peralatan.
+
+<Callout type="info" title="Pembaruan dan Patch">
+Mekanik raid dan jumlah HP boss dapat berubah sewaktu-waktu dengan pembaruan game di masa mendatang. Simpan panduan ini sebagai penanda karena kami memperbarui tabel dan strategi kami secara berkala agar sesuai dengan patch langsung terbaru.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mengakses raid Jujutsu Legacy yang berbeda?",
+    answer: "Anda dapat menemukan NPC portal raid yang tersebar di sekitar kota awal (starter city) dan hub utama. Periksa tabel lokasi kami di panduan ini untuk mengetahui persyaratan level dan status yang tepat untuk setiap portal."
+  },
+  {
+    question: "Apa skill terbaik yang digunakan untuk raid tingkat tinggi?",
+    answer: "Skill dengan AoE masif dan penskalaan damage yang tinggi, seperti Dismantle dan Malevolent Shrine, sangat direkomendasikan. Mereka memungkinkan Anda untuk membersihkan wave padat dari musuh ber-HP tinggi dengan cepat."
+  },
+  {
+    question: "Apakah saya bisa melakukan solo pada boss endgame ber-HP 15 miliar?",
+    answer: "Ya, tetapi ini membutuhkan build yang sangat optimal. Anda harus memiliki status ofensif yang maksimal (setidaknya 150 ribu poin) dan aksesori tingkat atas seperti Brain Implant untuk menghasilkan damage yang cukup sebelum waktu habis."
+  },
+  {
+    question: "Mengapa drop raid saya tidak muncul di inventaris saya?",
+    answer: "Beberapa drop langka, seperti aksesori dan gelar, dimasukkan langsung ke dalam inventaris karakter Anda setelah menyelesaikan Wave 70. Pastikan Anda memiliki slot inventaris yang kosong sebelum memulai permainan raid."
+  }
+]} />
+
+</Section>

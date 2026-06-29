@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Estilos de Luta de Jujutsu Legacy: Taxas de Drop de 2026 e Guia de Chefes",
+  description: "Domine todos os estilos de luta de Jujutsu Legacy. Aprenda as taxas de drop, localizações de chefes e como otimizar suas builds de Força com o acessório Braços de Demônio.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fighting+Styles+Guide",
+  date: "2026-06-30",
+  author: "Equipe da Wiki de Jujutsu Legacy",
+  keywords: "jujutsu legacy, estilos de luta, taxas de drop, guia de chefes, braços de demônio, build de força"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Estilos de luta de Jujutsu legacy** ditam seu conjunto de movimentos corpo a corpo primário e escalam diretamente com seu atributo de Força.
+- **O limite de equipamento** restringe você a um estilo ativo; substituí-lo consome o item de origem permanentemente.
+- **O acessório Braços de Demônio (Demon Arms)** é o equipamento mais crucial, oferecendo um multiplicador de dano fixo de 2X.
+- **O estilo High Roller** é o drop mais raro do jogo, com uma chance de 0,1% do chefe Gambler.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais dos Estilos de Luta">
+
+Os estilos de luta servem como a base do combate a curta distância em Jujutsu Legacy. Ao contrário das técnicas amaldiçoadas que dependem de energia amaldiçoada, os estilos de luta derivam seu poder diretamente de seus atributos físicos. Para construir um personagem poderoso, entender como esses estilos funcionam, escalam e interagem com outros equipamentos é essencial.
+
+Cada jogador começa com o estilo Normal padrão. Para atualizar para estilos de luta mais avançados, você deve derrotar chefes específicos ao redor do mundo para obter itens de drop raros. Usar um desses itens equipará imediatamente o estilo associado.
+
+No entanto, o gerenciamento de inventário é crítico ao lidar com esses sistemas de combate. Você só pode ter um estilo de luta equipado por vez. Se você optar por substituir seu estilo atual por um novo, o estilo anterior será sobrescrito. Para recuperar um estilo perdido, você deve obter e usar seu item de drop associado novamente.
+
+<Callout type="warning" title="Aviso de Sobrescrita de Estilo">
+Usar um novo item de estilo de luta sobrescreverá permanentemente seu estilo atual. Certifique-se sempre de ter um item de drop reserva ou de estar totalmente comprometido com a mudança antes de consumir um novo item de estilo.
+</Callout>
+
+### Tabela Mestra de Drops e Localizações
+
+Para ajudar você a planejar suas rotas de farming em 2026, a tabela abaixo descreve todos os estilos de luta disponíveis, seus itens necessários, taxas de drop e os chefes que você precisa derrotar.
+
+| Nome do Estilo | Item Necessário | Taxa de Drop | Chefe de Origem | Localização |
+| --- | --- | --- | --- | --- |
+| Normal | Nenhum | Padrão | Nenhum | Criação de Personagem |
+| The High Roller | Gambler Orb | 0,1% | Gambler | Culling Games |
+| Strongest Style | StrongestStyle Item | 10,0% | Gojo V2 | Culling Games |
+| Imperial Curse Arts | Imperial Curse Arts | 2,0% | Divine General | Raid |
+| Raijin Strike | Thunder Spirit | 0,5% | Kashimo | Shinjuku |
+| Cursed Vessel | Dedo de Itadori | 0,3% | Yuji 120% | Shinjuku |
+
+</Section>
+
+<Section icon={Swords} title="Análise Aprofundada de Cada Estilo de Luta">
+
+Cada estilo de luta oferece um conjunto de movimentos único, potencial de combo e sinergia com builds específicas. Escolher o estilo certo depende do seu estágio de progressão e estilo de jogo preferido.
+
+### Estilo Normal
+O estilo inicial padrão. Apresenta combos básicos de socos e chutes com baixo escalonamento. Embora seja suficiente para completar as missões de tutorial do início do jogo, você deve tentar substituí-lo assim que chegar ao Culling Games.
+
+### The High Roller
+Este estilo requer a Gambler Orb, que dropa do chefe Gambler a uma taxa altamente elusiva de 0,1%. É um estilo de alto risco e alta recompensa que se concentra em padrões de ataque imprevisíveis e modificadores de acerto crítico. É o favorito dos jogadores de end-game que gostam de dano explosivo baseado em RNG.
+
+### Strongest Style
+Dropado pelo Gojo V2 com uma generosa taxa de 10%, o Strongest Style é o estilo de alto nível mais acessível do jogo. Ele imita a dominância física de Gojo, oferecendo ataques rápidos e pesados e excelente controle de grupo. Este é o estilo recomendado para a progressão no mid-game e farming eficiente de chefes.
+
+### Imperial Curse Arts
+Obtido na Raid do Divine General com uma taxa de drop de 2%, este estilo foca no espaçamento tático e contra-ataques defensivos. Ele permite que os jogadores controlem o ritmo da luta, tornando-o altamente eficaz para conteúdos de raid desafiadores e encontros em grupo.
+
+### Raijin Strike
+Dropado por Kashimo em Shinjuku a uma taxa de 0,5%, este estilo infunde seus ataques físicos com energia elétrica. Apresenta velocidade de movimento rápida, combos na velocidade da luz e pequenas mecânicas de atordoamento, tornando-o perfeito para estilos de jogo de alta mobilidade.
+
+### Cursed Vessel
+Exigindo o Dedo de Itadori (drop de 0,3% do Yuji 120% em Shinjuku), o estilo Cursed Vessel utiliza combos físicos agressivos de curto alcance. Possui alto escalonamento base e dano de impacto retardado, tornando-o a escolha principal para builds de Força pura.
+
+<CardGrid cols={3}>
+  <Card title="Foco em Farming PvE">
+    - **Strongest Style** é o ideal.
+    - Alta taxa de drop de 10%.
+    - Grandes ataques de área de efeito.
+  </Card>
+  <Card title="Foco em Alta Mobilidade">
+    - **Raijin Strike** é o ideal.
+    - Combos rápidos de relâmpago.
+    - Excelentes habilidades de aproximação.
+  </Card>
+  <Card title="Foco em DPS Agressivo">
+    - **Cursed Vessel** é o ideal.
+    - Alto escalonamento físico.
+    - Dano de impacto retardado.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Progressão">
+Se você está fazendo a transição do início do jogo, farme o Gojo V2 primeiro. A taxa de drop de 10% para o Strongest Style o torna a maneira mais rápida de substituir o estilo Normal padrão por um conjunto de movimentos competitivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Farming de Chefes e Progressão">
+
+Derrotar os chefes que dropam esses itens de estilo de luta requer preparação, nivelamento adequado e consciência tática. Shinjuku e o Culling Games abrigam alguns dos encontros mais desafiadores do jogo.
+
+### Preparação para o Farming
+Antes de tentar farmar chefes de alto nível, certifique-se de que seu personagem está no nível adequado. Tentar lutar contra Kashimo ou Yuji 120% sem defesas ou dano adequados resultará em derrotas rápidas.
+
+<Steps>
+  <Step num="1" title="Otimize os Atributos">
+    Aloque uma parte significativa de seus pontos de atributo em Força para garantir que seus ataques físicos causem dano competitivo durante os encontros com chefes.
+  </Step>
+  <Step num="2" title="Equipe Equipamento Defensivo">
+    Obtenha acessórios defensivos e escolha uma Raça ou Clã resiliente para sobreviver aos combos de alto dano dos chefes, especialmente ao farmar em Shinjuku.
+  </Step>
+  <Step num="3" title="Foque no Gojo V2 Primeiro">
+    Viaje para o Culling Games e farme o Gojo V2 para obter o Strongest Style. Isso aumentará significativamente sua velocidade de farming para estilos mais raros.
+  </Step>
+  <Step num="4" title="Forme Grupos de Raid">
+    Para a Raid do Divine General, junte-se a outros jogadores para distribuir o foco do chefe e garantir tempos de conclusão consistentes.
+  </Step>
+</Steps>
+
+### Dificuldade dos Chefes e Visão Geral do Combate
+
+A tabela a seguir detalha os níveis recomendados e os principais perigos para cada chefe associado aos drops de estilo de luta.
+
+| Nome do Chefe | Localização | Nível Recomendado | Perigo Principal |
+| --- | --- | --- | --- |
+| Gojo V2 | Culling Games | Nível 150+ | Teletransporte rápido e combos físicos intensos |
+| Gambler | Culling Games | Nível 180+ | Fases de dano explosivo imprevisíveis |
+| Divine General | Raid | Nível 220+ | Vida massiva e varreduras de área de efeito |
+| Kashimo | Shinjuku | Nível 280+ | Golpes de raio que causam atordoamento temporário |
+| Yuji 120% | Shinjuku | Nível 300+ | Ataques de investida agressivos a curta distância |
+
+<Callout type="info" title="Mecânicas de Raid">
+A Raid do Divine General requer jogo em equipe coordenado. Certifique-se de que pelo menos um membro do grupo se concentre em atrair a atenção do chefe enquanto os outros causam dano pelos flancos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizando o Dano e Sinergias de Build">
+
+Para desbloquear todo o potencial do seu estilo de luta escolhido, você deve construir seu personagem em torno de multiplicadores de dano físico. Simplesmente equipar um estilo não é suficiente para competir em conteúdos de alto nível.
+
+### O Atributo de Força
+Todos os estilos de luta escalam seu dano diretamente do seu atributo de Força. Conforme você sobe de nível, priorize investir pontos em Força para aumentar seu dano base.
+
+### Sinergia de Acessórios e Equipamentos
+Acessórios, Clãs e Raças desempenham um papel massivo no aumento do seu desempenho geral. O acessório mais importante para qualquer build física são os **Braços de Demônio (Demon Arms)**.
+
+Quando equipados, o acessório Braços de Demônio aumenta o dano de todos os estilos de luta em **2X**. Este multiplicador fixo acumula com outros bônus, tornando-o um item essencial para a otimização de end-game.
+
+| Categoria de Equip. | Escolha Específica | Modificador de Dano | Método de Aquisição |
+| --- | --- | --- | --- |
+| Acessório | Braços de Demônio | Multiplicador de 2.0X | Drop de Chefe / Evento |
+| Atributos | Força | Escalonamento Linear | Alocação ao Subir de Nível |
+| Clãs | Clãs Físicos | 1.1X - 1.25X | Rerolls de Clã |
+| Raças | Raças Melee | 1.15X | Rerolls de Raça |
+
+<Checklist
+  id="build-milestones"
+  title="Marcos da Build de End-Game:"
+  items={[
+    "Alcançar o nível máximo e otimizar os atributos de Força",
+    "Obter o acessório Braços de Demônio para o aumento de dano de 2X",
+    "Fazer reroll para um Clã ou Raça que forneça bônus de dano físico",
+    "Garantir seu estilo de luta de end-game preferido (ex: Cursed Vessel ou Raijin Strike)"
+  ]}
+/>
+
+<Callout type="success" title="Combo Otimizado">
+Combinar o acessório Braços de Demônio com um estilo de alto nível como Cursed Vessel e um Clã que aumente o dano físico permitirá que você derreta as barras de vida dos chefes em segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para ajudar a esclarecer dúvidas comuns sobre a progressão de combate e gerenciamento de estilos, revise as perguntas frequentes abaixo.
+
+<FAQ items={[
+  {
+    question: "Posso equipar vários estilos de luta de jujutsu legacy ao mesmo tempo?",
+    answer: "Não. Os jogadores só podem ter um estilo de luta equipado por vez. Usar um novo item de estilo sobrescreverá seu estilo atual."
+  },
+  {
+    question: "O que acontece com meu estilo de luta antigo se eu usar um novo item de estilo?",
+    answer: "Seu estilo de luta antigo é perdido. Para recuperá-lo, você deve adquirir e usar novamente o item de drop associado (como o Dedo de Itadori ou o Thunder Spirit)."
+  },
+  {
+    question: "Qual estilo de luta tem a maior taxa de drop em Jujutsu Legacy?",
+    answer: "O Strongest Style tem a maior taxa de drop de 10%, obtido ao derrotar o Gojo V2 no Culling Games."
+  },
+  {
+    question: "Como faço para dobrar o dano do meu estilo de luta?",
+    answer: "Você deve obter e equipar o acessório Braços de Demônio (Demon Arms), que aplica um multiplicador fixo de 2X de dano a todos os estilos de luta."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Mantenha este guia nos seus favoritos enquanto farma no Culling Games e em Shinjuku. Boa sorte ao obter os drops do seu estilo de luta desejado!
+</Callout>
+
+</Section>
