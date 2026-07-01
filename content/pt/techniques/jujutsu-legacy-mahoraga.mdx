@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu legacy mahoraga: Guia de Passos de Domesticação & Moveset",
+  description: "Domine o ritual do jujutsu legacy mahoraga. Aprenda as melhores estratégias solo, fases do chefe, mecânicas de adaptação e atributos ideais para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Mahoraga+Guide",
+  date: "2026-07-01",
+  author: "Equipe da Wiki de jujutsu legacy"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo principal**: Desbloquear o shikigami **jujutsu legacy mahoraga** dominando a técnica das Dez Sombras.
+- **Requisito de desbloqueio**: Alcançar o Nível 150 do personagem e obter o Pergaminho do Ritual de Invocação Sagrado.
+- **Mecânica de domesticação**: Derrotar o chefe solo sem deixar que a roda de adaptação complete um total de oito rotações.
+- **Melhor build**: Alocar pontos em uma build híbrida focada em alta força física e regeneração rápida de energia de maldição.
+- **Melhor estratégia**: Alternar entre três tipos distintos de dano para burlar o escudo de adaptação passiva do chefe.
+</Callout>
+
+<Section icon={Target} title="jujutsu legacy mahoraga: Requisitos & Atributos">
+
+Para obter o lendário shikigami **jujutsu legacy mahoraga**, primeiro você deve adquirir a técnica amaldiçoada das Dez Sombras. Esta técnica é obtida através do menu de personalização do jogo usando giros. Devido à sua raridade lendária, os jogadores costumam gastar uma quantidade significativa de giros para garanti-la. Depois de obter a técnica, você não poderá invocar imediatamente o general divino. Você deve evoluir os atributos do seu personagem e coletar itens raros de progressão para iniciar o ritual de domesticação.
+
+A tabela abaixo descreve os parâmetros mínimos do personagem e os itens necessários para desbloquear a luta do ritual. Tentar a luta abaixo desses limites torna a derrota do chefe altamente improvável.
+
+| Requisito | Valor Mínimo | Propósito no Ritual |
+|--- |--- |--- |
+| Nível do Personagem | Nível 150 | Desbloqueia a linha de missões de invocação |
+| Energia de Maldição | 600 Pontos | Necessário para conjurar shikigamis de alto nível |
+| Atributo de Força | 500 Pontos | Necessário para quebrar o escudo |
+| Pergaminho de Ritual | 1 Pergaminho | Consumido ao iniciar o desafio |
+| Moedas de Ouro | 50.000 Moedas | Taxa para resetar a maestria de estilo |
+
+<Callout type="info" title="Dica de Aquisição do Pergaminho">
+O Pergaminho do Ritual de Invocação Sagrado cai de chefes espíritos amaldiçoados de alto nível com uma taxa de queda de 2%. Você pode farmar esses chefes na área secundária do mapa para estocar pergaminhos antes de tentar o ritual.
+</Callout>
+
+A progressão através da técnica das Dez Sombras requer a invocação de shikigamis mais fracos para aumentar seu nível de maestria. Você deve desbloquear e domar as sombras preliminares antes que o jogo permita que você desafie o general final.
+
+<CardGrid cols={4}>
+  <Card title="Cão Divino">
+    - **Invocação de nível básico**
+    - Alto rastreamento físico
+    - Baixo custo de maldição
+  </Card>
+  <Card title="Nue">
+    - **Utilidade de nível médio**
+    - Ataques de atordoamento elétrico
+    - Excelente para combos
+  </Card>
+  <Card title="Sapo">
+    - **Unidade de controle de grupo**
+    - Puxa os alvos para mais perto
+    - Útil em fases de preparação
+  </Card>
+  <Card title="Mahoraga">
+    - **Shikigami definitivo**
+    - Roda de adaptação passiva
+    - Maior causador de dano
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Como Derrotar e Domar o Mahoraga">
+
+A luta para domar o chefe **jujutsu legacy mahoraga** é um dos encontros solo mais desafiadores do jogo. Se outro jogador ajudar você durante a luta, o processo de domesticação é invalidado e você deve começar de novo. O chefe utiliza uma mecânica de adaptação única. Cada vez que você atinge o chefe com um tipo de dano específico, a roda em sua cabeça gira. Após oito giros da roda, o chefe torna-se imune a esse tipo de dano pelo resto da luta.
+
+Para derrotar o chefe, você deve alternar seus conjuntos de movimentos constantemente. Não use repetidamente a mesma sequência de habilidades. Use golpes físicos, ataques de maldição baseados em fogo e habilidades de armas em uma sequência rotativa.
+
+| Fase | Intervalo de Vida | Habilidades Ativas do Chefe | Estratégia de Contra-ataque |
+|--- |--- |--- |--- |
+| Fase 1 | 100% a 75% | Golpes de espada básicos | Bloqueio perfeito e contra-ataque |
+| Fase 2 | 74% a 40% | Impactos no chão, giros de roda | Alterne os tipos de dano rapidamente |
+| Fase 3 | 39% a 0% | Espada da Exterminação | Mantenha distância, use habilidades de longo alcance |
+
+<Callout type="warning" title="Alerta de Adaptação">
+Se você vir a roda brilhar em dourado, pare de usar sua habilidade atual imediatamente. Essa dica visual indica que o chefe se adaptou ao seu elemento ativo, reduzindo seu dano a zero.
+</Callout>
+
+Siga estes passos precisos durante o encontro para garantir sua vitória:
+
+<Steps>
+  <Step num="1" title="Inicie o Ritual">
+    Viaje para a área do santuário em ruínas localizada no setor norte do mapa. Equipe seu Pergaminho de Ritual e interaja com o altar de pedra central para invocar o chefe.
+  </Step>
+  <Step num="2" title="Mantenha Distância na Fase Inicial">
+    Durante a primeira fase, o chefe se move lentamente. Mantenha distância e use ataques leves de longo alcance para diminuir a barra de vida dele enquanto observa seus padrões de ataque.
+  </Step>
+  <Step num="3" title="Alterne sua Produção de Dano">
+    Quando o chefe atingir 70% de vida, alterne entre combos físicos e ataques de maldição. Nunca use the mesma habilidade duas vezes seguidas para evitar que a roda de adaptação gire.
+  </Step>
+  <Step num="4" title="Execute com Dano Explosivo">
+    Assim que a vida do chefe cair abaixo de 20%, ele entrará em um estado de frenesi. Ative sua expansão de domínio suprema ou movimentos de dano explosivo para terminar a luta rapidamente.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Moveset & Mecânicas de Adaptação do Mahoraga">
+
+Uma vez domado, invocar o **jujutsu legacy mahoraga** lhe concede acesso a um arsenal de habilidades devastadoras. O shikigami atua como um parceiro de combate independente ou um estado de transformação, dependendo do caminho de maestria escolhido. A principal vantagem de usar esta invocação é a sua adaptação passiva. Ao lutar contra inimigos no PvP ou PvE, a invocação reduz automaticamente o dano recebido da habilidade mais usada pelo oponente.
+
+A tabela abaixo detalha as teclas de atalho, tempos de recarga e escalas de dano para o moveset do general invocado.
+
+| Nome do Movimento | Tecla de Atalho | Tempo de Recarga | Escala de Dano | Efeito Especial |
+|--- |--- |--- |--- |--- |
+| Golpe de Exterminação | Tecla Z | 8 Segundos | 1.5x Força | Aplica decaimento de maldição |
+| Rotação da Roda | Tecla X | 15 Segundos | N/A | Reseta os debuffs do jogador |
+| Corte Divino | Tecla C | 12 Segundos | 2.0x Maldição | Quebra a guarda do inimigo |
+| Escudo de Adaptação | Tecla V | 30 Segundos | N/A | Ganha 50% de resistência a danos |
+
+<Callout type="success" title="Sugestão de Combo PvP">
+Comece seus combos PvP com o Corte Divino para quebrar a guarda do oponente, seguido imediatamente pelo Golpe de Exterminação. Isso evita que eles escapem do alcance da sua invocação.
+</Callout>
+
+Usar a invocação drena sua energia de maldição continuamente. Para manter a invocação durante batalhas longas, equipe equipamentos que aumentem sua taxa de regeneração passiva de energia.
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão das Dez Sombras">
+
+Para otimizar totalmente sua build e maximizar o poder da invocação do **jujutsu legacy mahoraga**, você deve seguir uma rota de progressão estruturada. Concluir esses marcos garante que você tenha os equipamentos, atributos e maestrias corretos para dominar tanto as masmorras PvE quanto as arenas PvP.
+
+<Callout type="tip" title="Farm de Maestria">
+Farme os espíritos amaldiçoados de Nível 120 na área da floresta. Eles oferecem os maiores pontos de maestria por minuto, permitindo que você suba o nível da sua técnica das Dez Sombras rapidamente.
+</Callout>
+
+Use este checklist para acompanhar seu progresso em direção à build definitiva das Dez Sombras:
+
+<Checklist
+  id="mahoraga-progression"
+  title="Marcos para a Build Definitiva:"
+  items={[
+    "Obter a técnica amaldiçoada das Dez Sombras no menu do personagem",
+    "Alcançar o Nível 150 e maximizar sua reserva de Energia de Maldição",
+    "Derrotar o chefe do ritual solo para desbloquear a invocação",
+    "Equipar o acessório Fragmento Amaldiçoado para aumentar a duração da invocação",
+    "Alcançar o nível de Maestria 50 na árvore de habilidades do Mahoraga"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Revise estas perguntas comuns sobre a invocação, domesticação e utilização do general divino no jogo.
+
+<FAQ items={[
+  {
+    question: "Outros jogadores podem me ajudar durante o ritual de domesticação do jujutsu legacy mahoraga?",
+    answer: "Não. O ritual de domesticação deve ser concluído inteiramente solo. Se outro jogador causar dano ao chefe ou curar você durante a luta, o ritual falhará e você não desbloqueará a invocação."
+  },
+  {
+    question: "O que acontece se eu perder a luta do ritual?",
+    answer: "Se você morrer durante a luta, o ritual terminará e seu Pergaminho de Invocação será consumido. Você precisará obter outro pergaminho antes de tentar a luta novamente."
+  },
+  {
+    question: "Como funciona a mecânica de adaptação em partidas PvP?",
+    answer: "Quando ativa, a roda de adaptação gira sempre que você recebe dano de uma habilidade de um oponente. Após três acertos da mesma habilidade, a invocação reduz o dano dessa habilidade específica em 40%."
+  },
+  {
+    question: "Existe um limite de tempo para derrotar o chefe durante o ritual?",
+    answer: "Sim. Você deve derrotar o chefe dentro de dez minutos após o início do ritual. Se o tempo expirar, o chefe desaparecerá e o desafio será marcado como uma falha."
+  }
+]} />
+
+<Callout type="info" title="Nota de Atualização de Equilíbrio de 2026">
+Patches de equilíbrio recentes em 2026 ajustaram a taxa de adaptação no PvP. A redução de dano agora tem um limite máximo de 40%, em vez dos 50% anteriores, para manter o equilíbrio competitivo.
+</Callout>
+
+</Section>

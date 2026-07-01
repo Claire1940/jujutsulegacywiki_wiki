@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Brain, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Incursión del General Divino en Jujutsu Legacy: Guía de Estrategia y Recompensas de 2026",
+  description: "Domina la Incursión del General Divino en Jujutsu Legacy. Aprende los patrones de oleadas, cómo obtener el rasgo Usurpación Demoníaca y evoluciona a las Diez Sombras Despertadas (Meguna).",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Divine+General+Raid+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Sobrevivir a oleadas infinitas en la **incursión del general divino en jujutsu legacy** ubicada en el área de los Juegos del Sacrificio (Culling Games) para farmear rasgos raros.
+- **Recompensa Primaria**: El rasgo **Usurpación Demoníaca**, que tiene una tasa de caída (drop rate) rara del **0.2%** después de oleadas de jefes específicas.
+- **Evolución Principal**: Usa el rasgo para mejorar las Diez Sombras base (0.1% de probabilidad de obtención) a las rediseñadas **Diez Sombras Despertadas (Meguna)**.
+- **Mecánica Clave**: Las invocaciones como Mahoraga y Ajito ahora siguen la **sincronización M1**, atacando solo cuando el jugador asesta un golpe básico.
+- **Estructura de la Incursión**: El ciclo de jefes rota cada 5 oleadas entre Shibuya Sukuna, Meguna, Ajito y Mahoraga.
+</Callout>
+
+<Section icon={Map} title="Resumen y Ubicación de la Incursión">
+
+La **incursión del general divino en jujutsu legacy** representa la cumbre actual del contenido de juego tardío (endgame) para los jugadores que buscan el poder definitivo de las Diez Sombras. A diferencia de las misiones estándar, esta incursión se sitúa dentro del **área de los Juegos del Sacrificio (Culling Games)**, una zona de alto riesgo diseñada para jugadores que ya han dominado sus Técnicas Malditas. Esta incursión es única porque funciona como un modo de supervivencia sin fin donde la dificultad aumenta cada cinco oleadas, poniendo a prueba tu aguante y daño contra los jefes más icónicos de la serie.
+
+**Puntos Destacados del Video:**
+- **Demostración de Meguna**: Análisis detallado de las Diez Sombras Despertadas rediseñadas y sus mecánicas de barrera protectora.
+- **Lógica de Invocación**: Demostración de cómo Ajito y Mahoraga ahora entran en combate a través de activaciones de M1 en lugar de automatización por IA.
+- **Ubicación de la Incursión**: Guía visual para encontrar la entrada dentro de la zona de los Juegos del Sacrificio.
+- **Adquisición del Rasgo**: El momento exacto en que cae el rasgo Usurpación Demoníaca y cómo salir de la incursión de forma segura.
+
+<YouTubeEmbed videoId="T9clrjnEnPk" title="Jujutsu legacy | Guía y Demostración de *MEGUNA* (Diez Sombras Despertadas)" />
+
+La incursión se puede intentar en solitario, en dúo o en trío. Aunque jugar en solitario es posible para jugadores de nivel alto con capacidades de autocuración, se recomienda encarecidamente un trío para gestionar los agresivos patrones de M1 de los jefes posteriores. El entorno es estrecho, lo que requiere un movimiento preciso para evitar ser acorralado por los ataques de adaptación del General Divino.
+
+<Callout type="tip" title="Consejo Profesional">
+Antes de ingresar al área de los Juegos del Sacrificio, asegúrate de que tus reservas de Energía Maldita estén al máximo. La incursión no ofrece descansos frecuentes, y quedarse sin energía durante la fase de Mahoraga suele ser una sentencia de muerte.
+</Callout>
+
+| Característica de la Incursión | Descripción |
+| --- | --- |
+| **Ubicación** | Área de los Juegos del Sacrificio (Entrada Secreta) |
+| **Límite de Jugadores** | 1 a 3 jugadores |
+| **Formato de Oleadas** | Ciclo Infinito/Sin Fin |
+| **Rotación de Jefes** | Cada 5 oleadas |
+| **Jefes Clave** | Shibuya Sukuna, Meguna, Ajito, Mahoraga |
+| **Objetivo Principal** | Obtener el rasgo Usurpación Demoníaca |
+
+</Section>
+
+<Section icon={Zap} title="Progresión de Oleadas y Mecánicas de Jefes">
+
+El éxito en la **incursión del general divino en jujutsu legacy** depende de comprender la rotación específica de los enemigos. La incursión sigue un ciclo estricto donde los enemigos comunes y los jefes cambian cada cinco oleadas. Este ciclo es fundamental para los jugadores que farmean el **rasgo Usurpación Demoníaca**, ya que la probabilidad de caída está vinculada a la superación de estos hitos específicos.
+
+La progresión comienza con Shibuya Sukuna, quien se enfoca en ataques cuerpo a cuerpo de alta velocidad y ataques de área de efecto basados en fuego. Al superar la oleada 5, la incursión pasa a Meguna, quien introduce las mecánicas de invocación que tú mismo usarás más adelante. Después de Meguna viene Ajito, una invocación de aspecto bestial conocida por su velocidad y presión, y finalmente, aparece el mismísimo General Divino Mahoraga.
+
+<Callout type="warning" title="Advertencia Crítica">
+Mahoraga en esta incursión cuenta con una mecánica de adaptación. Si la pelea dura demasiado, su resistencia a tu Técnica Maldita principal aumentará, reduciendo significativamente tu daño infligido. Alterna entre ataques M1 y habilidades para mantenerlo desequilibrado.
+</Callout>
+
+| Rango de Oleadas | Encuentro con Jefe | Amenaza Principal | Estrategia |
+| --- | --- | --- | --- |
+| **1 - 5** | Shibuya Sukuna | Flecha de Fuego y Cleave | Mantener distancia / Esquivar |
+| **6 - 10** | Meguna | Invocaciones (Ajito/Mahoraga) | Concentrarse en el invocador |
+| **11 - 15** | Ajito | Ataques de Alta Movilidad | Usar aturdimientos o barreras |
+| **16 - 20** | Mahoraga | Adaptación y Cleave Pesado | Daño explosivo / Rotar habilidades |
+| **21+** | El Ciclo se Repite | Vida/Daño Incrementados | Gestión de recursos |
+
+Una vez derrotado Mahoraga en la oleada 20, el ciclo se reinicia con una versión mejorada de Shibuya Sukuna. La mayoría de los jugadores aspiran a llegar al menos a la oleada 20 para maximizar sus posibilidades de ver la notificación de caída del rasgo raro.
+
+</Section>
+
+<Section icon={Sparkles} title="Meguna: Demostración de Diez Sombras Despertadas">
+
+La razón principal por la que los jugadores farmean la **incursión del general divino en jujutsu legacy** es para desbloquear las rediseñadas **Diez Sombras Despertadas**, comúnmente conocidas como **Meguna**. Esta versión de la técnica es una mejora significativa con respecto a las Diez Sombras estándar, ofreciendo una mejor sinergia entre el usuario y sus shikigamis.
+
+En el rediseño de 2026, los desarrolladores cambiaron el comportamiento de las invocaciones para solucionar errores anteriores donde Mahoraga o Ajito se quedaban inactivos durante las incursiones. Ahora, estas invocaciones están directamente vinculadas a tus **entradas de M1 (Ataque Básico)**. Cuando asestas un golpe, ellos realizan un seguimiento inmediato con sus propios ataques, asegurando un flujo constante de daño.
+
+<CardGrid cols={3}>
+  <Card title="Barrera Baraga">
+    - **Escudo Protector**: Forma una barrera acorazada alrededor del usuario.
+    - **Factor de Curación**: Proporciona regeneración de salud pasiva durante el combate.
+    - **Utilidad Defensiva**: Se utiliza mejor al ser acorralado por los enemigos de la incursión.
+  </Card>
+  <Card title="Estampida de Buey">
+    - **Triple Carga**: Envía tres bueyes cargando hacia adelante.
+    - **Alto Retroceso**: Excelente para despejar espacio en combates basados en oleadas.
+    - **Escalado de Daño**: Escala fuertemente con las estadísticas de Energía Maldita.
+  </Card>
+  <Card title="Sinergia de Invocación">
+    - **Activación por M1**: Las invocaciones atacan solo cuando asestas un golpe básico.
+    - **Adaptación**: Las invocaciones pueden usar movimientos específicos 'CNV' para infligir daño adicional.
+    - **Consistencia**: La IA corregida garantiza que siempre ataquen al objetivo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejora Mecánica">
+La transición a la invocación basada en M1 ha convertido a Meguna en una de las técnicas más confiables para completar contenido de alto nivel en solitario. Ya no tienes que preocuparte de que tu General Divino ignore al jefe mientras tú recibes daño.
+</Callout>
+
+| Nombre del Movimiento | Tipo | Efecto |
+| --- | --- | --- |
+| **Baraga** | Defensa/Curación | Crea una cúpula protectora de curación |
+| **Carga de Buey** | Daño en Área | Envía múltiples bueyes a pisotear a los enemigos |
+| **Invocación de Ajito** | Utilidad/DPS | Ataques rápidos sincronizados con el M1 del jugador |
+| **Invocación de Mahoraga** | DPS Pesado | Ataques masivos sincronizados con el M1 del jugador |
+| **Especiales CNV** | Explosivo | Desencadena ataques específicos mientras está invocado |
+
+</Section>
+
+<Section icon={Target} title="Cómo Evolucionar: El Proceso de Usurpación Demoníaca">
+
+Adquirir la versión Despertada de las Diez Sombras es un proceso de varios pasos que requiere tanto suerte como perseverancia. La **incursión del general divino en jujutsu legacy** es el único lugar donde se puede encontrar la última pieza del rompecabezas. No necesitas necesariamente estar usando las Diez Sombras para farmear la incursión, pero debes tener la técnica base para realizar la evolución final.
+
+<Steps>
+  <Step num="1" title="Obtener las Diez Sombras Base">
+    Primero debes realizar tiradas (roll) para obtener la Técnica Maldita estándar de las Diez Sombras. Esta tiene una tasa de obtención base del **0.1%**, lo que la convierte en una de las técnicas base más raras del juego.
+  </Step>
+  <Step num="2" title="Entrar en la Incursión de los Juegos del Sacrificio">
+    Viaja al área de los Juegos del Sacrificio y localiza la entrada de la incursión. Puedes ingresar solo o con un equipo. La incursión es infinita, así que prepárate para una sesión larga.
+  </Step>
+  <Step num="3" title="Farmear Usurpación Demoníaca">
+    Lucha a través de las oleadas. Estás buscando el **rasgo Usurpación Demoníaca**, que tiene una **tasa de caída del 0.2%**. Esto suele aparecer como un aviso en tu pantalla después de derrotar una oleada de jefe.
+  </Step>
+  <Step num="4" title="Activar y Salir">
+    Una vez que caiga el rasgo, debes **activarlo de inmediato** dentro del menú de la incursión. Después de la activación, puedes salir de la incursión de forma segura a través del portal designado o completando la oleada actual.
+  </Step>
+  <Step num="5" title="Despertar Final">
+    Al salir con el rasgo activo y las Diez Sombras base equipadas, tu técnica evolucionará automáticamente a las **Diez Sombras Despertadas (Meguna)**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Rareza del Rasgo">
+Ten en cuenta que la tasa de caída del 0.2% es por ciclo de jefe. Aunque es difícil de obtener, el salto de poder de las Diez Sombras estándar a Meguna se considera el más grande en el meta actual de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación y Lista de Verificación">
+
+Antes de sumergirte en la **incursión del general divino en jujutsu legacy**, debes asegurarte de que tu personaje esté debidamente equipado. El pico de dificultad en la oleada 15 (Ajito) y la oleada 20 (Mahoraga) a menudo toma por sorpresa a los jugadores desprevenidos. Una defensa alta y la regeneración de salud son más valiosas aquí que las construcciones de puro daño (glass-cannon), ya que los jefes tienen enormes barras de vida que requieren un combate sostenido.
+
+| Objeto/Estadística | Nivel Recomendado | Razón |
+| --- | --- | --- |
+| **Energía Maldita** | 2,500+ | Requerida para mantener invocaciones y barreras |
+| **Estadística de Vida** | Máx / Cerca del Máximo | Para sobrevivir a los golpes de adaptación imbloqueables de Mahoraga |
+| **Objeto de Curación** | Herramienta Maldita de Grado Especial | Esencial para partidas en solitario entre oleadas de jefes |
+| **Compañeros de Equipo** | 2-3 Jugadores | Distribuye la agresividad (aggro) del jefe y acelera la limpieza de oleadas |
+
+<Checklist
+  id="raid-prep"
+  title="Lista de Verificación Previa a la Incursión:"
+  items={[
+    "Equipa una Técnica Maldita con alto daño en área (o las Diez Sombras base)",
+    "Abastécete de consumibles que restauren energía",
+    "Asegúrate de que tu ranura de 'Usurpación Demoníaca' esté vacía",
+    "Únete a un grupo con al menos un sanador/soporte dedicado",
+    "Establece tu punto de reaparición cerca de la entrada de los Juegos del Sacrificio"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Estrategia">
+Si tienes dificultades con la tasa de caída del 0.2%, intenta realizar la incursión durante los eventos de fin de semana de 'Doble Caída' (Double Drop). Estos eventos suelen aumentar la tasa de Usurpación Demoníaca al 0.4%, lo que reduce significativamente el tiempo de farmeo promedio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Necesito estar usando las Diez Sombras para obtener el rasgo Usurpación Demoníaca?",
+    answer: "No, puedes usar cualquier Técnica Maldita para participar en la incursión del general divino en jujutsu legacy y obtener el rasgo. Sin embargo, debes tener equipadas las Diez Sombras más adelante para usar el rasgo para la evolución de Meguna."
+  },
+  {
+    question: "¿Cuál es la tasa de caída del rasgo Usurpación Demoníaca?",
+    answer: "El rasgo tiene una tasa de caída base del 0.2% por encuentro con jefe dentro de la incursión. Es uno de los drops más raros en el área de los Juegos del Sacrificio."
+  },
+  {
+    question: "¿Por qué mis invocaciones de Mahoraga y Ajito no atacan automáticamente?",
+    answer: "En el rediseño de 2026, las invocaciones ahora siguen un sistema de sincronización M1. Solo realizarán un ataque cuando asestas un golpe básico M1 a un enemigo. Esto se implementó para solucionar problemas de ruta de la IA."
+  },
+  {
+    question: "¿Puedo hacer la Incursión del General Divino en solitario?",
+    answer: "Sí, es posible hacer la incursión en solitario, especialmente con técnicas como Infinito o la versión rediseñada de Meguna. Sin embargo, para una mayor eficiencia en el farmeo, se recomienda un trío para limpiar los ciclos de 5 oleadas más rápido."
+  }
+]} />
+
+</Section>

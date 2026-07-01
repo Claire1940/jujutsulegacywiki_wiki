@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Brain, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Divine General Raid no Jujutsu Legacy: Guia de Estratégia e Recompensas de 2026",
+  description: "Domine a Divine General Raid no Jujutsu Legacy. Aprenda os padrões de ondas, como obter a trait Demonic Usurpation e evoluir para o Ten Shadows Awakened (Meguna).",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Divine+General+Raid+Guide",
+  date: "2026-07-01",
+  author: "Equipe da Wiki de Jujutsu Legacy"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Sobreviver a ondas infinitas na **jujutsu legacy divine general raid** localizada na área do Culling Games para farmar traits raras.
+- **Recompensa Principal**: A trait **Demonic Usurpation**, que possui uma taxa de drop rara de **0,2%** após ondas específicas de chefes.
+- **Evolução Principal**: Use a trait para aprimorar o 10 Shadows base (0,1% de chance de obter) para o reformulado **10 Shadows Awakened (Meguna)**.
+- **Mecânica Chave**: Invocações como Mahoraga e Ajito agora seguem a **sincronização M1**, atacando apenas quando o jogador acerta um golpe básico.
+- **Estrutura da Raid**: O ciclo de chefes rotaciona a cada 5 ondas entre Shibuya Sukuna, Meguna, Ajito e Mahoraga.
+</Callout>
+
+<Section icon={Map} title="Visão Geral e Localização da Raid">
+
+A **jujutsu legacy divine general raid** representa o ápice atual do conteúdo de endgame para jogadores que buscam o poder supremo do Ten Shadows. Ao contrário das missões padrão, esta raid está situada dentro da **área do Culling Games**, uma zona de alto risco projetada para jogadores que já dominaram suas Técnicas Amaldiçoadas. Esta raid é única porque funciona como um modo de sobrevivência infinito onde a dificuldade escala a cada cinco ondas, testando sua sustentação e saída de dano contra os chefes mais icônicos da série.
+
+**Destaques do Vídeo:**
+- **Vitrine do Meguna**: Um olhar detalhado sobre o reformulado 10 Shadows Awakened e suas mecânicas de barreira protetora.
+- **Lógica de Invocação**: Demonstração de como Ajito e Mahoraga agora entram em combate através de gatilhos de M1, em vez de automação por IA.
+- **Localização da Raid**: Guia visual para encontrar a entrada dentro da zona do Culling Games.
+- **Aquisição de Trait**: O momento exato em que a trait Demonic Usurpation cai e como sair da raid com segurança.
+
+<YouTubeEmbed videoId="T9clrjnEnPk" title="Jujutsu legacy | *MEGUNA* (Ten Shadows Awakened) Guide & Showcase" />
+
+A raid pode ser tentada solo, em dupla ou em trio. Embora jogar solo seja possível para jogadores de alto nível com capacidades de autocura, um trio é altamente recomendado para gerenciar os padrões agressivos de M1 dos chefes posteriores. O ambiente é apertado, exigindo movimentos precisos para evitar ser encurralado pelos golpes de adaptação do Divine General.
+
+<Callout type="tip" title="Dica Pro">
+Antes de entrar na área do Culling Games, certifique-se de que suas reservas de Energia Amaldiçoada estejam no máximo. A raid não oferece pausas frequentes, e ficar sem energia durante a fase do Mahoraga costuma ser uma sentença de morte.
+</Callout>
+
+| Recurso da Raid | Descrição |
+| --- | --- |
+| **Localização** | Área do Culling Games (Entrada Secreta) |
+| **Limite de Jogadores** | 1 a 3 Jogadores |
+| **Formato de Onda** | Ciclo Infinito/Sem Fim |
+| **Rotação de Chefes** | A cada 5 Ondas |
+| **Chefes Principais** | Shibuya Sukuna, Meguna, Ajito, Mahoraga |
+| **Objetivo Principal** | Obter a Trait Demonic Usurpation |
+
+</Section>
+
+<Section icon={Zap} title="Progressão de Ondas e Mecânicas de Chefe">
+
+O sucesso na **jujutsu legacy divine general raid** depende da compreensão da rotação específica de inimigos. A raid segue um ciclo estrito onde os mobs e chefes mudam a cada cinco ondas. Este ciclo é crítico para os jogadores que farmam a **trait Demonic Usurpation**, pois a chance de drop está atrelada à conclusão desses marcos específicos.
+
+A progressão começa com Shibuya Sukuna, que foca em combate corpo a corpo de alta velocidade e ataques de área baseados em fogo. Ao limpar a onda 5, a raid transiciona para Meguna, que introduz as mecânicas de invocação que você mesmo usará mais tarde. Seguindo Meguna está Ajito, uma invocação semelhante a uma besta conhecida por sua velocidade e pressão, e finalmente, o próprio Divine General Mahoraga aparece.
+
+<Callout type="warning" title="Aviso Crítico">
+O Mahoraga nesta raid apresenta uma mecânica de adaptação. Se a luta durar muito tempo, a resistência dele à sua Técnica Amaldiçoada principal aumentará, reduzindo significativamente a sua saída de dano. Alterne entre M1s e habilidades para mantê-lo desequilibrado.
+</Callout>
+
+| Intervalo de Ondas | Encontro com Chefe | Ameaça Principal | Estratégia |
+| --- | --- | --- | --- |
+| **1 - 5** | Shibuya Sukuna | Flecha de Fogo & Clivagem | Manter distância/Esquivar |
+| **6 - 10** | Meguna | Invocações (Ajito/Mahoraga) | Focar no invocador |
+| **11 - 15** | Ajito | Golpes de Alta Mobilidade | Usar atordoamentos ou barreiras |
+| **16 - 20** | Mahoraga | Adaptação & Clivagem Pesada | Dano explosivo/Rotacionar habilidades |
+| **21+** | O Ciclo se Repete | Vida/Dano Aumentados | Gerenciamento de recursos |
+
+Assim que Mahoraga for derrotado na onda 20, o ciclo recomeça com uma versão fortalecida de Shibuya Sukuna. A maioria dos jogadores visa alcançar pelo menos a onda 20 para maximizar suas chances de ver a notificação de drop da trait rara.
+
+</Section>
+
+<Section icon={Sparkles} title="Apresentação do Meguna: Ten Shadows Awakened">
+
+O principal motivo pelo qual os jogadores grindam a **jujutsu legacy divine general raid** é para desbloquear o reformulado **Ten Shadows Awakened**, comumente chamado de **Meguna**. Esta versão da técnica é uma melhoria significativa em relação ao 10 Shadows padrão, oferecendo melhor sinergia entre o usuário e seus shikigamis.
+
+No retrabalho de 2026, os desenvolvedores alteraram o comportamento das invocações para corrigir bugs anteriores onde Mahoraga ou Ajito ficavam ociosos durante as raids. Agora, essas invocações estão diretamente vinculadas aos comandos do seu **M1 (Ataque Básico)**. Quando você acerta um golpe, eles imediatamente dão sequência com seus próprios ataques, garantindo um fluxo constante de dano.
+
+<CardGrid cols={3}>
+  <Card title="Barreira Baraga">
+    - **Escudo Protetor**: Forma uma barreira ao redor do usuário.
+    - **Fator de Cura**: Fornece regeneração de vida passiva durante o combate.
+    - **Utilidade Defensiva**: Melhor usado quando encurralado por mobs da raid.
+  </Card>
+  <Card title="Estouro do Touro">
+    - **Carga Tripla**: Envia três touros avançando em disparada.
+    - **Alto Recuo (Knockback)**: Excelente para abrir espaço em combates baseados em ondas.
+    - **Escalonamento de Dano**: Escala fortemente com os atributos de Energia Amaldiçoada.
+  </Card>
+  <Card title="Sinergia de Invocação">
+    - **Gatilho de M1**: As invocações atacam apenas quando você acerta um golpe básico.
+    - **Adaptação**: As invocações podem usar movimentos 'CNV' específicos para causar dano extra.
+    - **Consistência**: A IA corrigida garante que eles sempre ataquem o alvo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Melhoria Mecânica">
+A transição para a invocação baseada em M1 tornou o Meguna uma das técnicas mais confiáveis para solar conteúdos de alto nível. Você não precisa mais se preocupar com o seu Divine General ignorando o chefe enquanto você recebe dano.
+</Callout>
+
+| Nome do Movimento | Tipo | Efeito |
+| --- | --- | --- |
+| **Baraga** | Defesa/Cura | Cria uma cúpula de cura protetora |
+| **Ox Charge** | Dano em Área (AoE) | Envia vários touros para atropelar os inimigos |
+| **Ajito Summon** | Utilidade/DPS | Ataques rápidos sincronizados com o M1 do jogador |
+| **Mahoraga Summon** | DPS Pesado | Golpes massivos sincronizados com o M1 do jogador |
+| **CNV Specials** | Explosão de Dano (Burst) | Ataques específicos ativados enquanto invocado |
+
+</Section>
+
+<Section icon={Target} title="Como Evoluir: O Processo da Demonic Usurpation">
+
+Adquirir a versão Desperta (Awakened) do Ten Shadows é um processo de várias etapas que requer tanto sorte quanto perseverança. A **jujutsu legacy divine general raid** é o único lugar onde a peça final do quebra-cabeça pode ser encontrada. Você não precisa necessariamente estar usando o Ten Shadows para farmar a raid, mas deve possuir a técnica base para realizar a evolução final.
+
+<Steps>
+  <Step num="1" title="Obter o 10 Shadows Base">
+    Primeiro, você deve rolar para obter a Técnica Amaldiçoada padrão Ten Shadows. Ela tem uma taxa de obtenção base de **0,1%**, sendo uma das técnicas básicas mais raras do jogo.
+  </Step>
+  <Step num="2" title="Entrar na Raid do Culling Games">
+    Viaje para a área do Culling Games e localize a entrada da raid. Você pode entrar solo ou em equipe. A raid é infinita, então prepare-se para uma longa sessão.
+  </Step>
+  <Step num="3" title="Farmar pela Demonic Usurpation">
+    Batalhe através das ondas. Você está procurando pela **trait Demonic Usurpation**, que possui uma **taxa de drop de 0,2%**. Isso geralmente aparece como um aviso na sua tela após derrotar uma onda de chefe.
+  </Step>
+  <Step num="4" title="Ativar e Sair">
+    Assim que a trait dropar, você deve **ativá-la imediatamente** no menu da raid. Após a ativação, você pode sair da raid com segurança pelo portal designado ou ao concluir a onda atual.
+  </Step>
+  <Step num="5" title="Despertar Final">
+    Ao sair com a trait ativa e o 10 Shadows base equipado, sua técnica evoluirá automaticamente para o **10 Shadows Awakened (Meguna)**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Raridade da Trait">
+Note que a taxa de drop de 0,2% é por ciclo de chefe. Embora difícil de obter, o salto de poder do 10 Shadows padrão para o Meguna é considerado o maior no meta atual de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparação e Lista de Verificação">
+
+Antes de mergulhar na **jujutsu legacy divine general raid**, você precisa garantir que seu personagem esteja devidamente equipado. O pico de dificuldade na onda 15 (Ajito) e na onda 20 (Mahoraga) frequentemente pega jogadores despreparados de surpresa. Alta defesa e regeneração de vida são mais valiosas aqui do que builds focadas puramente em dano (glass-cannon), já que os chefes possuem barras de vida massivas que exigem combates prolongados.
+
+| Item/Atributo | Nível Recomendado | Motivo |
+| --- | --- | --- |
+| **Energia Amaldiçoada** | 2.500+ | Necessário para manter invocações e barreiras |
+| **Atributo de Vida** | Máx / Próximo do Máx | Para sobreviver aos golpes de adaptação imbloqueáveis do Mahoraga |
+| **Item de Cura** | Ferramenta Amaldiçoada de Grau Especial | Essencial para runs solo entre as ondas de chefes |
+| **Companheiros de Equipe** | 2-3 Jogadores | Distribui o foco (aggro) do chefe e acelera a limpeza das ondas |
+
+<Checklist
+  id="raid-prep"
+  title="Lista de Verificação Pré-Raid:"
+  items={[
+    "Equipar uma Técnica Amaldiçoada com alto dano em área (ou o 10 Shadows base)",
+    "Estocar consumíveis de restauração de energia",
+    "Certificar-se de que o seu slot de 'Demonic Usurpation' está vazio",
+    "Entrar em um grupo com pelo menos um curador/suporte dedicado",
+    "Definir seu ponto de renascimento (spawn point) perto da entrada do Culling Games"
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Estratégia">
+Se você estiver com dificuldades com a taxa de drop de 0,2%, tente realizar a raid durante os eventos de fim de semana de 'Double Drop' (Drop Duplo). Esses eventos geralmente aumentam a taxa da Demonic Usurpation para 0,4%, o que reduz significativamente o tempo médio de grind.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Preciso estar usando o Ten Shadows para obter a trait Demonic Usurpation?",
+    answer: "Não, você pode usar qualquer Técnica Amaldiçoada para participar da jujutsu legacy divine general raid e obter a trait. No entanto, você deve ter o Ten Shadows equipado mais tarde para usar a trait na evolução do Meguna."
+  },
+  {
+    question: "Qual é a taxa de drop da trait Demonic Usurpation?",
+    answer: "A trait tem uma taxa de drop base de 0,2% por encontro de chefe dentro da raid. É um dos drops mais raros na área do Culling Games."
+  },
+  {
+    question: "Por que minhas invocações do Mahoraga e do Ajito não estão atacando automaticamente?",
+    answer: "No retrabalho de 2026, as invocações agora seguem um sistema de sincronização com o M1. Elas só realizarão um ataque quando você acertar um golpe básico de M1 em um inimigo. Isso foi implementado para corrigir problemas de movimentação (pathing) da IA."
+  },
+  {
+    question: "Consigo solar a Divine General Raid?",
+    answer: "Sim, é possível solar a raid, especialmente com técnicas como Infinity ou o Meguna reformulado. No entanto, para fins de eficiência de farm, recomenda-se um trio para limpar os ciclos de 5 ondas mais rapidamente."
+  }
+]} />
+
+</Section>

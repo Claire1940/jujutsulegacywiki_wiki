@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "jujutsu legacy mahoraga: Panduan Langkah Penjinakan & Moveset",
+  description: "Kuasai ritual jujutsu legacy mahoraga. Pelajari strategi solo terbaik, fase bos, mekanisme adaptasi, dan statistik optimal untuk tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Mahoraga+Guide",
+  date: "2026-07-01",
+  author: "Tim Wiki jujutsu legacy"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Tujuan utama**: Buka shikigami **jujutsu legacy mahoraga** dengan menguasai teknik Ten Shadows.
+- **Syarat pembukaan**: Capai Level karakter 150 dan dapatkan Sacred Summoning Ritual Scroll.
+- **Mekanisme penjinakan**: Kalahkan bos sendirian tanpa membiarkan roda adaptasi menyelesaikan total delapan putaran.
+- **Build terbaik**: Alokasikan poin ke dalam build hibrida yang berfokus pada kekuatan fisik tinggi dan regenerasi energi kutukan yang cepat.
+- **Strategi utama**: Berganti di antara tiga jenis kerusakan yang berbeda untuk melewati perisai adaptasi pasif bos.
+</Callout>
+
+<Section icon={Target} title="jujutsu legacy mahoraga: Persyaratan & Statistik">
+
+Untuk mendapatkan shikigami legendaris **jujutsu legacy mahoraga**, Anda harus terlebih dahulu memperoleh teknik kutukan Ten Shadows. Teknik ini didapatkan melalui menu kustomisasi game menggunakan spin. Karena kelangkaan legendarisnya, pemain biasanya menghabiskan banyak spin untuk mengamankannya. Setelah Anda mendapatkan teknik tersebut, Anda tidak dapat langsung memanggil jenderal suci tersebut. Anda harus meningkatkan statistik karakter dan mengumpulkan item progres langka untuk memulai ritual penjinakan.
+
+Tabel di bawah ini merinci parameter karakter minimum dan item yang diperlukan untuk membuka pertarungan ritual. Mencoba pertarungan di bawah ambang batas ini membuat kekalahan bos sangat tidak mungkin terjadi.
+
+| Persyaratan | Nilai Minimum | Tujuan dalam Ritual |
+|--- |--- |--- |
+| Level Karakter | Level 150 | Membuka rangkaian misi pemanggilan |
+| Energi Kutukan | 600 Poin | Diperlukan untuk memanggil shikigami tingkat tinggi |
+| Statistik Kekuatan | 500 Poin | Diperlukan untuk menghancurkan perisai |
+| Gulungan Ritual | 1 Gulungan | Dikonsumsi saat memulai tantangan |
+| Koin Emas | 50.000 Koin | Biaya untuk meriset penguasaan gaya |
+
+<Callout type="info" title="Tip Perolehan Gulungan">
+Sacred Summoning Ritual Scroll jatuh dari bos roh kutukan tingkat tinggi dengan tingkat drop 2%. Anda dapat melakukan farming pada bos-bos ini di area peta sekunder untuk menimbun gulungan sebelum mencoba ritual.
+</Callout>
+
+Progres melalui teknik Ten Shadows memerlukan pemanggilan shikigami yang lebih lemah untuk membangun tingkat penguasaan Anda. Anda harus membuka dan menjinakkan bayangan awal sebelum game mengizinkan Anda menantang jenderal terakhir.
+
+<CardGrid cols={4}>
+  <Card title="Divine Dog">
+    - **Pemanggilan tingkat dasar**
+    - Pelacakan fisik tinggi
+    - Biaya kutukan rendah
+  </Card>
+  <Card title="Nue">
+    - **Utilitas tingkat menengah**
+    - Serangan stun listrik
+    - Sangat baik untuk kombo
+  </Card>
+  <Card title="Toad">
+    - **Unit crowd control**
+    - Menarik target lebih dekat
+    - Berguna dalam fase persiapan
+  </Card>
+  <Card title="Mahoraga">
+    - **Shikigami pamungkas**
+    - Roda adaptasi pasif
+    - Output kerusakan tertinggi
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Cara Mengalahkan dan Menjinakkan Mahoraga">
+
+Pertarungan untuk menjinakkan bos **jujutsu legacy mahoraga** adalah salah satu pertemuan solo paling menantang dalam game. Jika pemain lain membantu Anda selama pertarungan, proses penjinakan menjadi tidak sah, dan Anda harus memulai dari awal. Bos menggunakan mekanisme adaptasi yang unik. Setiap kali Anda menyerang bos dengan jenis kerusakan tertentu, roda di kepalanya akan berputar. Setelah delapan putaran roda, bos menjadi kebal terhadap jenis kerusakan tersebut selama sisa pertarungan.
+
+Untuk mengalahkan bos, Anda harus terus mengganti moveset Anda. Jangan gunakan urutan skill yang sama secara berulang. Gunakan serangan fisik, serangan kutukan berbasis api, dan skill senjata dalam urutan yang berputar.
+
+| Fase | Rentang HP | Skill Bos Aktif | Strategi Melawan |
+|--- |--- |--- |--- |
+| Fase 1 | 100% hingga 75% | Serangan pedang dasar | Blok sempurna dan lawan balik |
+| Fase 2 | 74% hingga 40% | Hantaman tanah, putaran roda | Ganti jenis kerusakan dengan cepat |
+| Fase 3 | 39% hingga 0% | Sword of Extermination | Jaga jarak, gunakan skill jarak jauh |
+
+<Callout type="warning" title="Peringatan Adaptasi">
+Jika Anda melihat roda bersinar emas, segera hentikan penggunaan skill Anda saat ini. Isyarat visual ini menunjukkan bahwa bos telah beradaptasi dengan elemen aktif Anda, sehingga mengurangi kerusakan Anda menjadi nol.
+</Callout>
+
+Ikuti langkah-langkah tepat ini selama pertemuan untuk mengamankan kemenangan Anda:
+
+<Steps>
+  <Step num="1" title="Inisiasi Ritual">
+    Pergilah ke area kuil yang hancur yang terletak di sektor utara peta. Lengkapi Gulungan Ritual Anda dan berinteraksilah dengan altar batu pusat untuk memanggil bos.
+  </Step>
+  <Step num="2" title="Kite Fase Awal">
+    Selama fase pertama, bos bergerak perlahan. Jaga jarak Anda dan gunakan serangan jarak jauh ringan untuk mencicil bar kesehatannya sambil mengamati pola serangannya.
+  </Step>
+  <Step num="3" title="Rotasi Output Kerusakan">
+    Saat bos mencapai 70% kesehatan, bergantianlah antara kombo fisik dan serangan kutukan. Jangan pernah menggunakan skill yang sama dua kali berturut-turut untuk mencegah roda adaptasi berputar.
+  </Step>
+  <Step num="4" title="Eksekusi dengan Burst Damage">
+    Setelah bos turun di bawah 20% kesehatan, ia memasuki status frenzy. Aktifkan domain expansion pamungkas Anda atau jurus burst damage tinggi untuk menyelesaikan pertarungan dengan cepat.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Mahoraga Moveset & Mekanisme Adaptasi">
+
+Setelah dijinakkan, memanggil **jujutsu legacy mahoraga** memberi Anda akses ke gudang kemampuan yang mematikan. Shikigami bertindak sebagai mitra tempur independen atau status transformasi tergantung pada jalur penguasaan yang Anda pilih. Keuntungan utama menggunakan pemanggilan ini adalah adaptasi pasifnya. Saat melawan musuh di PvP atau PvE, pemanggilan ini secara otomatis mengurangi kerusakan yang masuk dari skill musuh yang paling sering digunakan.
+
+Tabel di bawah ini merinci tombol, waktu tunggu (cooldown), dan skala kerusakan untuk moveset jenderal yang dipanggil.
+
+| Nama Jurus | Tombol | Cooldown | Skala Kerusakan | Efek Khusus |
+|--- |--- |--- |--- |--- |
+| Extermination Strike | Tombol Z | 8 Detik | 1.5x Kekuatan | Memberikan pembusukan kutukan |
+| Wheel Rotation | Tombol X | 15 Detik | N/A | Meriset debuff pemain |
+| Divine Slash | Tombol C | 12 Detik | 2.0x Kutukan | Menghancurkan guard musuh |
+| Adaptation Shield | Tombol V | 30 Detik | N/A | Mendapatkan 50% resistensi kerusakan |
+
+<Callout type="success" title="Saran Kombo PvP">
+Mulailah kombo PvP Anda dengan Divine Slash untuk menghancurkan guard lawan, segera diikuti oleh Extermination Strike. Ini mencegah mereka melarikan diri dari jangkauan pemanggilan Anda.
+</Callout>
+
+Menggunakan pemanggilan ini akan menguras energi kutukan Anda secara terus-menerus. Untuk mempertahankan pemanggilan selama pertempuran panjang, gunakan perlengkapan yang meningkatkan laju regenerasi energi pasif Anda.
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Progres Ten Shadows">
+
+Untuk mengoptimalkan build Anda sepenuhnya dan memaksimalkan kekuatan pemanggilan **jujutsu legacy mahoraga**, Anda harus mengikuti rute progres yang terstruktur. Menyelesaikan pencapaian ini memastikan Anda memiliki perlengkapan, statistik, dan penguasaan yang tepat untuk mendominasi ruang bawah tanah PvE dan arena PvP.
+
+<Callout type="tip" title="Farming Mastery">
+Lakukan farming pada roh kutukan Level 120 di area hutan. Mereka menawarkan poin penguasaan tertinggi per menit, memungkinkan Anda untuk menaikkan level teknik Ten Shadows dengan cepat.
+</Callout>
+
+Gunakan daftar periksa ini untuk melacak progres Anda menuju build Ten Shadows pamungkas:
+
+<Checklist
+  id="mahoraga-progression"
+  title="Milestone Build Utama:"
+  items={[
+    "Dapatkan teknik kutukan Ten Shadows dari menu karakter",
+    "Capai Level 150 dan maksimalkan kumpulan Energi Kutukan Anda",
+    "Kalahkan bos ritual sendirian untuk membuka pemanggilan",
+    "Gunakan aksesori Cursed Shard untuk meningkatkan durasi pemanggilan",
+    "Capai tingkat Mastery 50 pada pohon skill Mahoraga"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+Tinjau pertanyaan umum berikut mengenai pemanggilan, penjinakan, dan penggunaan jenderal suci dalam game.
+
+<FAQ items={[
+  {
+    question: "Dapatkah pemain lain membantu saya selama ritual penjinakan jujutsu legacy mahoraga?",
+    answer: "Tidak. Ritual penjinakan harus diselesaikan sepenuhnya secara solo. Jika pemain lain memberikan kerusakan pada bos atau menyembuhkan Anda selama pertarungan, ritual akan gagal, dan Anda tidak akan membuka pemanggilan."
+  },
+  {
+    question: "Apa yang terjadi jika saya kalah dalam pertarungan ritual?",
+    answer: "Jika Anda mati selama pertarungan, ritual berakhir, dan Gulungan Pemanggilan Anda akan hangus. Anda harus mendapatkan gulungan lain sebelum dapat mencoba pertarungan lagi."
+  },
+  {
+    question: "Bagaimana cara kerja mekanisme adaptasi dalam pertandingan PvP?",
+    answer: "Saat aktif, roda adaptasi akan berputar setiap kali Anda menerima kerusakan dari skill lawan. Setelah tiga serangan dari skill yang sama, pemanggilan akan mengurangi kerusakan skill spesifik tersebut sebesar 40%."
+  },
+  {
+    question: "Apakah ada batas waktu untuk mengalahkan bos selama ritual?",
+    answer: "Ya. Anda harus mengalahkan bos dalam waktu sepuluh menit setelah memulai ritual. Jika waktu habis, bos akan menghilang, dan tantangan dianggap gagal."
+  }
+]} />
+
+<Callout type="info" title="Catatan Pembaruan Keseimbangan 2026">
+Patch keseimbangan baru-baru ini pada tahun 2026 menyesuaikan tingkat adaptasi di PvP. Pengurangan kerusakan sekarang dibatasi pada 40%, bukan lagi 50% seperti sebelumnya, untuk menjaga keseimbangan kompetitif.
+</Callout>
+
+</Section>
